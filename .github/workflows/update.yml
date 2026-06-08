@@ -1,0 +1,64 @@
+name: Päivitä mm2026-data
+
+# Hakee FIFA:n virallisen datan, rakentaa data.json:n ja committaa sen TÄHÄN repoon.
+# Sivusto (erillinen repo) pollaa data.json:n rawsta ~60 s välein ilman reloadia.
+# Data päivittyy täysin riippumatta sivuston deploysta → ei CF Pages -buildeja.
+#
+# Hakustrategia (kohtelias FIFA:lle):
+#  - "live" (5 min): API-kutsu VAIN jos ottelu on parhaillaan käynnissä
+#    (kickoff…+170 min), tiukka aikaikkuna, päivittää vain muuttuneet.
+#  - "schedule" (1×/vrk): tuoreuttaa otteluohjelman + pudotuspeliparit/-ajat.
+#
+# Manuaaliset kentät (sikajengi, cup-jatkoonpääsijät, maalintekijämaalit)
+# syötetään käsin data/mm2026/results.json:iin; fetch-fifa säilyttää ne.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # live-tulokset (self-gating)
+    - cron: "0 5 * * *"     # otteluohjelman päivätuoreutus
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "fetch-fifa --mode (live / schedule / results / all)"
+        default: "all"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Europe/Helsinki
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Hae FIFA-data ja rakenna data.json
+        run: |
+          MODE=live
+          if [ "${{ github.event.schedule }}" = "0 5 * * *" ]; then MODE=schedule; fi
+          if [ -n "${{ github.event.inputs.mode }}" ]; then MODE="${{ github.event.inputs.mode }}"; fi
+          echo "fetch-fifa --mode=$MODE"
+          node tools/fetch-fifa.mjs mm2026 --mode="$MODE"
+          node build-data.mjs mm2026
+
+      - name: Committaa ja pushaa
+        run: |
+          git config user.name "mm2026-data"
+          git config user.email "noreply@github.com"
+          git add -f data/mm2026/tournament.json data/mm2026/results.json data.json
+          if ! git diff --quiet --cached; then
+            git commit -m "Päivitä ($(date -u +%FT%H:%MZ))"
+            git pull --rebase --autostash
+            git push
+          else
+            echo "Ei muutoksia."
+          fi

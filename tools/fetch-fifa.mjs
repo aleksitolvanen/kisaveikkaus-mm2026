@@ -167,7 +167,12 @@ async function main() {
     tournament.teamNames = teamNames;
 
     // Pudotuspeliottelut: template-nimet (PlaceHolder) kunnes parit tiedossa,
-    // päivittyvät oikeiksi + tuloksiksi joka haulla.
+    // päivittyvät oikeiksi + tuloksiksi joka haulla. feedA/feedB = syöttävien
+    // otteluiden numerot ("W74"-placeholderista) — kaavion puu, joka säilytetään
+    // vanhasta datasta jos FIFA ei enää tarjoa placeholderia.
+    const W = (s) => { const m = /^W(\d+)$/.exec(String(s || "")); return m ? Number(m[1]) : null; };
+    const oldByNum = {};
+    for (const e of tournament.knockout || []) oldByNum[e.matchNumber] = e;
     const knockout = [];
     for (const fm of fifa) {
       const rd = KO_ROUNDS[fm.StageName?.[0]?.Description];
@@ -175,7 +180,10 @@ async function main() {
       const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
       const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
       const played = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
+      const old = oldByNum[fm.MatchNumber];
       knockout.push({
+        feedA: W(fm.PlaceHolderA) ?? old?.feedA ?? null,
+        feedB: W(fm.PlaceHolderB) ?? old?.feedB ?? null,
         id: "KO" + fm.MatchNumber, round: rd.key, roundLabel: rd.label, order: rd.order,
         home, away, real: !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation),
         score: played ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,

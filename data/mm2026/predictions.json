@@ -82,7 +82,7 @@
         "ITA",
         "ESP",
         "ENG",
-        "SER",
+        "SRB",
         "DEN",
         "NED",
         "FRA",
@@ -200,7 +200,7 @@
         "ITA",
         "ESP",
         "ENG",
-        "SER",
+        "SRB",
         "FRA",
         "NED",
         "BEL",
@@ -327,7 +327,7 @@
         "ESP",
         "ITA",
         "CRO",
-        "SER",
+        "SRB",
         "POL",
         "TUR"
       ],
@@ -559,7 +559,7 @@
         "CRO",
         "ENG",
         "DEN",
-        "SER",
+        "SRB",
         "POL",
         "NED",
         "FRA",
@@ -804,7 +804,7 @@
         "ESP",
         "ITA",
         "CZE",
-        "ROM",
+        "ROU",
         "UKR"
       ],
       "qf": [
@@ -910,7 +910,7 @@
     "cup": {
       "r16": [
         "AUT",
-        "SER",
+        "SRB",
         "SUI",
         "ALB",
         "GER",
@@ -922,7 +922,7 @@
         "FRA",
         "NED",
         "BEL",
-        "ROM",
+        "ROU",
         "POR",
         "CZE"
       ],
@@ -1041,9 +1041,9 @@
         "UKR",
         "POR",
         "TUR",
-        "SER",
+        "SRB",
         "CZE",
-        "ROM"
+        "ROU"
       ],
       "qf": [
         "FRA",
@@ -1160,7 +1160,7 @@
         "POR",
         "CZE",
         "BEL",
-        "SER",
+        "SRB",
         "FRA",
         "TUR"
       ],
@@ -1267,7 +1267,7 @@
     "cup": {
       "r16": [
         "GER",
-        "SER",
+        "SRB",
         "HUN",
         "CRO",
         "ESP",
@@ -1509,11 +1509,11 @@
         "ITA",
         "ESP",
         "ENG",
-        "SER",
+        "SRB",
         "FRA",
         "NED",
         "BEL",
-        "ROM",
+        "ROU",
         "POR",
         "TUR",
         "DEN",
@@ -1637,7 +1637,7 @@
         "TUR",
         "CRO",
         "AUT",
-        "SER",
+        "SRB",
         "HUN"
       ],
       "qf": [
@@ -1753,10 +1753,10 @@
         "SUI",
         "BEL",
         "UKR",
-        "ROM",
+        "ROU",
         "POR",
         "CZE",
-        "SER",
+        "SRB",
         "POL"
       ],
       "qf": [
@@ -1765,7 +1765,7 @@
         "FRA",
         "ENG",
         "POR",
-        "SER",
+        "SRB",
         "ITA",
         "SUI"
       ],
@@ -1995,7 +1995,7 @@
         "CRO",
         "TUR",
         "SUI",
-        "SER"
+        "SRB"
       ],
       "qf": [
         "ESP",
@@ -2113,7 +2113,7 @@
         "TUR",
         "CRO",
         "CZE",
-        "SER",
+        "SRB",
         "AUT"
       ],
       "qf": [
@@ -2338,7 +2338,7 @@
     "cup": {
       "r16": [
         "GER",
-        "SER",
+        "SRB",
         "SUI",
         "ITA",
         "ESP",

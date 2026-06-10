@@ -34,9 +34,6 @@ const KO_ROUNDS = {
 // Oikea julkinen matsisivu: match-centre/match/{kilpailu}/{kausi}/{vaihe}/{ottelu}
 const matchUrl = (idStage, idMatch) =>
   `https://www.fifa.com/en/match-centre/match/${FIFA.idCompetition}/${FIFA.idSeason}/${idStage}/${idMatch}`;
-// FIFA:n viralliset koodit -> meidän Excel-koodit (vain erot)
-const CODE = { CUW: "CUR", CIV: "ICV", COD: "DRC" };
-const norm = (abbr) => CODE[abbr] || abbr;
 
 function curlJson(url) {
   const out = execFileSync("curl", ["-sS", "--max-time", "30", url], {
@@ -51,7 +48,7 @@ function fetchFifaMatches(fromIso = FIFA.from, toIso = FIFA.to) {
   return curlJson(url).Results || [];
 }
 
-// Avain: lohkokirjain + aakkostettu joukkuepari (meidän koodeilla)
+// Avain: lohkokirjain + aakkostettu joukkuepari (FIFA-koodeilla, kuten datakin)
 const groupLetter = (g) => (g || "").replace(/group/i, "").trim().toUpperCase();
 const pairKey = (grp, a, b) => `${grp}|${[a, b].sort().join("-")}`;
 
@@ -59,7 +56,7 @@ function indexFifa(matches) {
   const byPair = {};
   for (const m of matches) {
     const grp = groupLetter(m.GroupName?.[0]?.Description);
-    const h = norm(m.Home?.Abbreviation), a = norm(m.Away?.Abbreviation);
+    const h = m.Home?.Abbreviation, a = m.Away?.Abbreviation;
     if (!grp || !h || !a) continue; // ohita knockout/placeholderit
     byPair[pairKey(grp, h, a)] = m;
   }
@@ -74,7 +71,7 @@ function applyResults(byPair, tournament, results) {
     if (!f) continue;
     const hs = f.HomeTeamScore, as = f.AwayTeamScore;
     if (hs == null || as == null || String(f.MatchStatus) === "1") continue;
-    const fHome = norm(f.Home?.Abbreviation);
+    const fHome = f.Home?.Abbreviation;
     const [H, A] = fHome === m.home ? [hs, as] : [as, hs]; // kohdista koti/vieras koodilla
     const v = `${H}-${A}`;
     if (results.matches[m.id] !== v) { results.matches[m.id] = v; n++; }
@@ -92,8 +89,8 @@ function updateKnockout(fifa, tournament) {
     if (!KO_ROUNDS[fm.StageName?.[0]?.Description]) continue;
     const e = byId[fm.IdMatch];
     if (!e) continue;
-    const home = norm(fm.Home?.Abbreviation) || fm.PlaceHolderA || "?";
-    const away = norm(fm.Away?.Abbreviation) || fm.PlaceHolderB || "?";
+    const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
+    const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
     const played = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
     const score = played ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
     const real = !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation);
@@ -163,7 +160,7 @@ async function main() {
     const teamNames = {};
     for (const fm of fifa) {
       for (const side of [fm.Home, fm.Away]) {
-        const code = norm(side?.Abbreviation), name = side?.TeamName?.[0]?.Description;
+        const code = side?.Abbreviation, name = side?.TeamName?.[0]?.Description;
         if (code && name && tournament.teams.includes(code)) teamNames[code] = name;
       }
     }
@@ -175,8 +172,8 @@ async function main() {
     for (const fm of fifa) {
       const rd = KO_ROUNDS[fm.StageName?.[0]?.Description];
       if (!rd) continue;
-      const home = norm(fm.Home?.Abbreviation) || fm.PlaceHolderA || "?";
-      const away = norm(fm.Away?.Abbreviation) || fm.PlaceHolderB || "?";
+      const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
+      const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
       const played = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
       knockout.push({
         id: "KO" + fm.MatchNumber, round: rd.key, roundLabel: rd.label, order: rd.order,

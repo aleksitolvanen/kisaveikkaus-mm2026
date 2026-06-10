@@ -78,9 +78,9 @@
       "r16": [
         "GER",
         "HUN",
-        "SWI",
+        "SUI",
         "ITA",
-        "SPA",
+        "ESP",
         "ENG",
         "SER",
         "DEN",
@@ -94,7 +94,7 @@
         "AUT"
       ],
       "qf": [
-        "SPA",
+        "ESP",
         "GER",
         "POR",
         "FRA",
@@ -196,9 +196,9 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
+        "SUI",
         "ITA",
-        "SPA",
+        "ESP",
         "ENG",
         "SER",
         "FRA",
@@ -214,7 +214,7 @@
       ],
       "qf": [
         "GER",
-        "SPA",
+        "ESP",
         "NED",
         "FRA",
         "ENG",
@@ -315,7 +315,7 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
+        "SUI",
         "ENG",
         "DEN",
         "FRA",
@@ -324,7 +324,7 @@
         "UKR",
         "POR",
         "CZE",
-        "SPA",
+        "ESP",
         "ITA",
         "CRO",
         "SER",
@@ -335,7 +335,7 @@
         "GER",
         "FRA",
         "BEL",
-        "SPA",
+        "ESP",
         "NED",
         "ITA",
         "ENG",
@@ -433,7 +433,7 @@
     },
     "cup": {
       "r16": [
-        "SWI",
+        "SUI",
         "CRO",
         "GER",
         "SVN",
@@ -444,7 +444,7 @@
         "NED",
         "SVK",
         "TUR",
-        "SPA",
+        "ESP",
         "BEL",
         "DEN",
         "FRA",
@@ -554,7 +554,7 @@
       "r16": [
         "GER",
         "HUN",
-        "SPA",
+        "ESP",
         "ITA",
         "CRO",
         "ENG",
@@ -571,7 +571,7 @@
       ],
       "qf": [
         "GER",
-        "SPA",
+        "ESP",
         "ITA",
         "ENG",
         "FRA",
@@ -580,13 +580,13 @@
         "CZE"
       ],
       "sf": [
-        "SPA",
+        "ESP",
         "ENG",
         "TUR",
         "CZE"
       ],
       "final": [
-        "SPA",
+        "ESP",
         "ENG"
       ],
       "champion": "ENG"
@@ -680,7 +680,7 @@
         "TUR",
         "BEL",
         "BRA",
-        "ICV",
+        "CIV",
         "MEX",
         "ENG",
         "ARG",
@@ -791,7 +791,7 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
+        "SUI",
         "HUN",
         "POR",
         "TUR",
@@ -801,7 +801,7 @@
         "DEN",
         "ENG",
         "CRO",
-        "SPA",
+        "ESP",
         "ITA",
         "CZE",
         "ROM",
@@ -810,9 +810,9 @@
       "qf": [
         "ENG",
         "FRA",
-        "SPA",
+        "ESP",
         "CRO",
-        "SWI",
+        "SUI",
         "DEN",
         "NED",
         "BEL"
@@ -911,11 +911,11 @@
       "r16": [
         "AUT",
         "SER",
-        "SWI",
+        "SUI",
         "ALB",
         "GER",
         "SCO",
-        "SPA",
+        "ESP",
         "ITA",
         "ENG",
         "DEN",
@@ -928,7 +928,7 @@
       ],
       "qf": [
         "SCO",
-        "SPA",
+        "ESP",
         "ENG",
         "DEN",
         "FRA",
@@ -937,16 +937,16 @@
         "POR"
       ],
       "sf": [
-        "SPA",
+        "ESP",
         "ENG",
         "FRA",
         "NED"
       ],
       "final": [
-        "SPA",
+        "ESP",
         "ENG"
       ],
-      "champion": "SPA"
+      "champion": "ESP"
     },
     "sikajengi": null,
     "goalscorer": null
@@ -1029,8 +1029,8 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
-        "SPA",
+        "SUI",
+        "ESP",
         "ITA",
         "CRO",
         "ENG",
@@ -1048,7 +1048,7 @@
       "qf": [
         "FRA",
         "ENG",
-        "SPA",
+        "ESP",
         "POR",
         "NED",
         "ITA",
@@ -1058,7 +1058,7 @@
       "sf": [
         "FRA",
         "ENG",
-        "SPA",
+        "ESP",
         "POR"
       ],
       "final": [
@@ -1147,13 +1147,13 @@
     },
     "cup": {
       "r16": [
-        "SWI",
+        "SUI",
         "ITA",
         "GER",
         "DEN",
         "ENG",
         "CRO",
-        "SPA",
+        "ESP",
         "POL",
         "NED",
         "UKR",
@@ -1165,7 +1165,7 @@
         "TUR"
       ],
       "qf": [
-        "SPA",
+        "ESP",
         "GER",
         "POR",
         "NED",
@@ -1270,7 +1270,7 @@
         "SER",
         "HUN",
         "CRO",
-        "SPA",
+        "ESP",
         "AUT",
         "ENG",
         "CZE",
@@ -1280,13 +1280,13 @@
         "UKR",
         "BEL",
         "FRA",
-        "SWI",
+        "SUI",
         "TUR"
       ],
       "qf": [
         "GER",
         "CRO",
-        "SPA",
+        "ESP",
         "ENG",
         "POR",
         "NED",
@@ -1505,9 +1505,9 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
+        "SUI",
         "ITA",
-        "SPA",
+        "ESP",
         "ENG",
         "SER",
         "FRA",
@@ -1524,7 +1524,7 @@
       "qf": [
         "GER",
         "ITA",
-        "SPA",
+        "ESP",
         "ENG",
         "NED",
         "FRA",
@@ -1535,7 +1535,7 @@
         "GER",
         "ITA",
         "FRA",
-        "SPA"
+        "ESP"
       ],
       "final": [
         "ITA",
@@ -1624,8 +1624,8 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
-        "SPA",
+        "SUI",
+        "ESP",
         "ITA",
         "ENG",
         "DEN",
@@ -1644,7 +1644,7 @@
         "ENG",
         "FRA",
         "GER",
-        "SPA",
+        "ESP",
         "POR",
         "BEL",
         "ITA",
@@ -1744,13 +1744,13 @@
       "r16": [
         "GER",
         "HUN",
-        "SPA",
+        "ESP",
         "ITA",
         "ENG",
         "DEN",
         "FRA",
         "NED",
-        "SWI",
+        "SUI",
         "BEL",
         "UKR",
         "ROM",
@@ -1760,14 +1760,14 @@
         "POL"
       ],
       "qf": [
-        "SPA",
+        "ESP",
         "GER",
         "FRA",
         "ENG",
         "POR",
         "SER",
         "ITA",
-        "SWI"
+        "SUI"
       ],
       "sf": [
         "GER",
@@ -1866,8 +1866,8 @@
         "GER",
         "DEN",
         "ENG",
-        "SWI",
-        "SPA",
+        "SUI",
+        "ESP",
         "AUT",
         "NED",
         "UKR",
@@ -1880,7 +1880,7 @@
       ],
       "qf": [
         "GER",
-        "SPA",
+        "ESP",
         "UKR",
         "POR",
         "ENG",
@@ -1980,7 +1980,7 @@
     },
     "cup": {
       "r16": [
-        "SPA",
+        "ESP",
         "GER",
         "POR",
         "UKR",
@@ -1994,11 +1994,11 @@
         "ITA",
         "CRO",
         "TUR",
-        "SWI",
+        "SUI",
         "SER"
       ],
       "qf": [
-        "SPA",
+        "ESP",
         "DEN",
         "POR",
         "UKR",
@@ -2008,7 +2008,7 @@
         "ITA"
       ],
       "sf": [
-        "SPA",
+        "ESP",
         "POR",
         "ENG",
         "FRA"
@@ -2100,8 +2100,8 @@
     "cup": {
       "r16": [
         "GER",
-        "SWI",
-        "SPA",
+        "SUI",
+        "ESP",
         "ITA",
         "ENG",
         "DEN",
@@ -2122,7 +2122,7 @@
         "FRA",
         "POR",
         "ITA",
-        "SPA",
+        "ESP",
         "NED",
         "BEL"
       ],
@@ -2222,13 +2222,13 @@
         "FRA",
         "GER",
         "POR",
-        "SPA",
+        "ESP",
         "ITA",
         "NED",
         "BEL",
         "CRO",
         "DEN",
-        "SWI",
+        "SUI",
         "HUN",
         "UKR",
         "TUR",
@@ -2240,7 +2240,7 @@
         "FRA",
         "GER",
         "POR",
-        "SPA",
+        "ESP",
         "ITA",
         "BEL",
         "NED"
@@ -2339,9 +2339,9 @@
       "r16": [
         "GER",
         "SER",
-        "SWI",
+        "SUI",
         "ITA",
-        "SPA",
+        "ESP",
         "CZE",
         "ENG",
         "AUT",
@@ -2357,7 +2357,7 @@
       "qf": [
         "GER",
         "ITA",
-        "SPA",
+        "ESP",
         "ENG",
         "CRO",
         "NED",
@@ -2365,7 +2365,7 @@
         "FRA"
       ],
       "sf": [
-        "SPA",
+        "ESP",
         "NED",
         "FRA",
         "ENG"

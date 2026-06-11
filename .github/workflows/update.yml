@@ -2,25 +2,29 @@ name: Päivitä mm2026-data
 
 # Hakee FIFA:n virallisen datan, rakentaa data.json:n ja committaa sen TÄHÄN repoon.
 # Sivusto (erillinen repo) pollaa data.json:n rawsta ~60 s välein ilman reloadia.
-# Data päivittyy täysin riippumatta sivuston deploysta → ei CF Pages -buildeja.
 #
-# Hakustrategia (kohtelias FIFA:lle):
-#  - "live" (5 min): API-kutsu VAIN jos ottelu on parhaillaan käynnissä
-#    (kickoff…+170 min), tiukka aikaikkuna, päivittää vain muuttuneet.
-#  - "schedule" (1×/vrk): tuoreuttaa otteluohjelman + pudotuspeliparit/-ajat.
+# TÄRKEÄÄ: GitHubin schedule on best-effort — */5-cron laukesi käytännössä ~1×/h.
+# Siksi cron vain KÄYNNISTÄÄ looppaavan työn (live-loop), joka itse hakee ja
+# julkaisee ~2,5 min välein niin kauan kuin ottelu on käynnissä (tai alkamassa
+# 90 min sisällä). Looppi päättyy ikkunan sulkeuduttua tai 5 h 30 min kohdalla;
+# concurrency-jonossa odottava seuraava käynnistys jatkaa saumattomasti.
 #
 # Manuaaliset kentät (sikajengi, cup-jatkoonpääsijät, maalintekijämaalit)
-# syötetään käsin data/mm2026/results.json:iin; fetch-fifa säilyttää ne.
+# syötetään käsin data/mm2026/results.json:iin; looppi pull--rebasaa joka
+# kierroksella, joten käsin pushatut muutokset eivät jää alle.
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # live-tulokset (self-gating)
-    - cron: "0 5 * * *"     # otteluohjelman päivätuoreutus
+    # Loop-käynnistimet 2×/h matsi-ikkunoiden aikana (kickoffit UTC 16-04).
+    # Best-effort riittää: looppi kattaa kaiken kunhan yksi näistä laukeaa / ~4 h.
+    - cron: "23,53 0-4,15-23 * * *"
+    # Otteluohjelman päivätuoreutus hiljaisena tuntina (pois live-ikkunoista)
+    - cron: "17 9 * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "fetch-fifa --mode (live / schedule / results / all)"
-        default: "all"
+        description: "live-loop / live / schedule / results / all"
+        default: "live-loop"
 
 permissions:
   contents: write
@@ -41,24 +45,63 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Hae FIFA-data ja rakenna data.json
+      - name: Hae FIFA-data ja julkaise
         run: |
-          MODE=live
-          if [ "${{ github.event.schedule }}" = "0 5 * * *" ]; then MODE=schedule; fi
+          MODE=live-loop
+          if [ "${{ github.event.schedule }}" = "17 9 * * *" ]; then MODE=schedule; fi
           if [ -n "${{ github.event.inputs.mode }}" ]; then MODE="${{ github.event.inputs.mode }}"; fi
-          echo "fetch-fifa --mode=$MODE"
-          node tools/fetch-fifa.mjs mm2026 --mode="$MODE"
-          node build-data.mjs mm2026
+          echo "mode=$MODE"
 
-      - name: Committaa ja pushaa
-        run: |
           git config user.name "mm2026-data"
           git config user.email "noreply@github.com"
-          git add -f data/mm2026/tournament.json data/mm2026/results.json data.json
-          if ! git diff --quiet --cached; then
-            git commit -m "Päivitä ($(date -u +%FT%H:%MZ))"
-            git pull --rebase --autostash
-            git push
-          else
-            echo "Ei muutoksia."
+
+          publish() {
+            git add -f data/mm2026/tournament.json data/mm2026/results.json data.json
+            if ! git diff --quiet --cached; then
+              git commit -m "Päivitä ($(date -u +%FT%H:%MZ))"
+              git pull --rebase --autostash || { git rebase --abort 2>/dev/null; git reset --hard origin/main; return 1; }
+              git push || git push
+            else
+              git reset >/dev/null
+              echo "Ei muutoksia."
+            fi
+          }
+
+          if [ "$MODE" != "live-loop" ]; then
+            node tools/fetch-fifa.mjs mm2026 --mode="$MODE"
+            node build-data.mjs mm2026
+            publish
+            exit 0
           fi
+
+          # Gate: LIVE | WAIT <sek kickoffiin> | DONE
+          gate() {
+            node -e '
+              const t = require("./data/mm2026/tournament.json");
+              const W = 170*60e3, AHEAD = 90*60e3, now = Date.now();
+              const ks = [...t.matches, ...(t.knockout||[])]
+                .map(m => m.kickoff && Date.parse(m.kickoff)).filter(Boolean);
+              if (ks.some(k => now >= k && now <= k + W)) { console.log("LIVE"); process.exit(0); }
+              const fut = ks.filter(k => k > now);
+              if (!fut.length) { console.log("DONE"); process.exit(0); }
+              const next = Math.min(...fut);
+              if (next - now <= AHEAD) console.log("WAIT " + Math.ceil((next - now)/1000));
+              else console.log("DONE");'
+          }
+
+          DEADLINE=$(( SECONDS + 19800 ))   # 5 h 30 min < 6 h job-raja
+          while [ "$SECONDS" -lt "$DEADLINE" ]; do
+            # tuoreuta paikallinen tila (käsin syötetyt kentät eivät jää alle)
+            git pull --rebase --autostash || { git rebase --abort 2>/dev/null; git reset --hard origin/main; }
+
+            STATE=$(gate)
+            case "$STATE" in
+              DONE)  echo "Ei otteluita horisontissa – loppu."; break ;;
+              WAIT*) S=${STATE#WAIT }; S=$(( S < 300 ? S : 300 )); echo "Kickoffiin ${S}s – odotetaan"; sleep "$S"; continue ;;
+            esac
+
+            if node tools/fetch-fifa.mjs mm2026 --mode=live && node build-data.mjs mm2026; then
+              publish || true
+            fi
+            sleep 150   # ~2,5 min sykli — kohtelias FIFA:lle
+          done

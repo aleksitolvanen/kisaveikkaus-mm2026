@@ -63,9 +63,13 @@ function indexFifa(matches) {
   return byPair;
 }
 
-// Päivittää lohko-otteluiden tulokset results.matches:iin (vain muuttuneet). Palauttaa muutosten määrän.
+// Lohkotulokset: päättyneet (MatchStatus 0) → results.matches, käynnissä →
+// results.live (vain näyttöä varten — pisteytys lukee matches). Palauttaa
+// muutosten määrän. live rakennetaan joka ajolla puhtaalta pöydältä, jolloin
+// päättyneet/poistuneet putoavat siitä automaattisesti.
 function applyResults(byPair, tournament, results) {
   let n = 0;
+  const live = {};
   for (const m of tournament.matches) {
     const f = byPair[pairKey(m.group, m.home, m.away)];
     if (!f) continue;
@@ -74,8 +78,13 @@ function applyResults(byPair, tournament, results) {
     const fHome = f.Home?.Abbreviation;
     const [H, A] = fHome === m.home ? [hs, as] : [as, hs]; // kohdista koti/vieras koodilla
     const v = `${H}-${A}`;
-    if (results.matches[m.id] !== v) { results.matches[m.id] = v; n++; }
+    if (String(f.MatchStatus) === "0") {
+      if (results.matches[m.id] !== v) { results.matches[m.id] = v; n++; }
+    } else {
+      live[m.id] = v;
+    }
   }
+  if (JSON.stringify(results.live || {}) !== JSON.stringify(live)) { results.live = live; n++; }
   return n;
 }
 
@@ -91,11 +100,13 @@ function updateKnockout(fifa, tournament) {
     if (!e) continue;
     const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
     const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
-    const played = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
-    const score = played ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
+    const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
+    const finished = hasScore && String(fm.MatchStatus) === "0";
+    const score = finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
+    const liveScore = hasScore && !finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
     const real = !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation);
-    if (e.home !== home || e.away !== away || e.score !== score || e.real !== real) {
-      e.home = home; e.away = away; e.real = real; e.score = score; changed = true;
+    if (e.home !== home || e.away !== away || e.score !== score || e.liveScore !== liveScore || e.real !== real) {
+      e.home = home; e.away = away; e.real = real; e.score = score; e.liveScore = liveScore; changed = true;
     }
   }
   return changed;
@@ -110,7 +121,20 @@ async function runLive(tournament, tPath) {
     const k = new Date(m.kickoff).getTime();
     return now >= k && now <= k + LIVE_WINDOW_MIN * 60000;
   });
-  if (!live) { console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return; }
+  if (!live) {
+    // Siivoa mahdollinen vanhentunut live-tila (ottelu päättyi ikkunan reunalla
+    // eikä uusia API-ajoja tullut ennen ikkunan sulkeutumista).
+    try {
+      const rPath = path.join(dir, "results.json");
+      const results = JSON.parse(await readFile(rPath, "utf-8"));
+      if (results.live && Object.keys(results.live).length) {
+        results.live = {};
+        await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
+        console.log("Vanhentunut live-tila tyhjennetty.");
+      }
+    } catch {}
+    console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return;
+  }
 
   const fromIso = new Date(now - LIVE_WINDOW_MIN * 60000).toISOString();
   const toIso = new Date(now + 5 * 60000).toISOString();
@@ -119,7 +143,7 @@ async function runLive(tournament, tPath) {
   const rPath = path.join(dir, "results.json");
   let results;
   try { results = JSON.parse(await readFile(rPath, "utf-8")); }
-  catch { results = { matches: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
+  catch { results = { matches: {}, live: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
 
   const n = applyResults(indexFifa(fifa), tournament, results);
   const koChanged = updateKnockout(fifa, tournament);
@@ -179,14 +203,16 @@ async function main() {
       if (!rd) continue;
       const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
       const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
-      const played = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
+      const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
+      const finished = hasScore && String(fm.MatchStatus) === "0";
       const old = oldByNum[fm.MatchNumber];
       knockout.push({
         feedA: W(fm.PlaceHolderA) ?? old?.feedA ?? null,
         feedB: W(fm.PlaceHolderB) ?? old?.feedB ?? null,
         id: "KO" + fm.MatchNumber, round: rd.key, roundLabel: rd.label, order: rd.order,
         home, away, real: !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation),
-        score: played ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
+        score: finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
+        liveScore: hasScore && !finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
         kickoff: fm.Date, stadium: fm.Stadium?.Name?.[0]?.Description || null,
         city: fm.Stadium?.CityName?.[0]?.Description || null,
         fifaId: fm.IdMatch, matchNumber: fm.MatchNumber, url: matchUrl(fm.IdStage, fm.IdMatch),
@@ -203,7 +229,7 @@ async function main() {
     const rPath = path.join(dir, "results.json");
     let results;
     try { results = JSON.parse(await readFile(rPath, "utf-8")); }
-    catch { results = { matches: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
+    catch { results = { matches: {}, live: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
     const resWritten = applyResults(byPair, tournament, results);
     await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
     if (mode === "results") { // all-tilassa knockout päivittyy jo schedule-blokissa

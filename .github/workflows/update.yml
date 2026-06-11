@@ -113,5 +113,5 @@ jobs:
             if node tools/fetch-fifa.mjs mm2026 --mode=live && node build-data.mjs mm2026; then
               publish || true
             fi
-            sleep 150   # ~2,5 min sykli — kohtelias FIFA:lle
+            sleep 90    # ~1,5 min sykli — yhä kohtelias FIFA:lle (1 kevyt kutsu/sykli)
           done

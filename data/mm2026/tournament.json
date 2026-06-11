@@ -1092,6 +1092,8 @@
   },
   "knockout": [
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO73",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1105,11 +1107,11 @@
       "city": "Los Angeles",
       "fifaId": "400021518",
       "matchNumber": 73,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO76",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1123,11 +1125,11 @@
       "city": "Houston",
       "fifaId": "400021516",
       "matchNumber": 76,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO74",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1141,11 +1143,11 @@
       "city": "Boston",
       "fifaId": "400021513",
       "matchNumber": 74,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO75",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1159,11 +1161,11 @@
       "city": "Monterrey",
       "fifaId": "400021522",
       "matchNumber": 75,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO78",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1177,11 +1179,11 @@
       "city": "Dallas",
       "fifaId": "400021514",
       "matchNumber": 78,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021514",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021514"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO77",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1195,11 +1197,11 @@
       "city": "New Jersey",
       "fifaId": "400021523",
       "matchNumber": 77,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO79",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1213,11 +1215,11 @@
       "city": "Mexico City",
       "fifaId": "400021520",
       "matchNumber": 79,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO80",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1231,11 +1233,11 @@
       "city": "Atlanta",
       "fifaId": "400021512",
       "matchNumber": 80,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO82",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1249,11 +1251,11 @@
       "city": "Seattle",
       "fifaId": "400021525",
       "matchNumber": 82,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021525",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021525"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO81",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1267,11 +1269,11 @@
       "city": "San Francisco Bay Area",
       "fifaId": "400021524",
       "matchNumber": 81,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO84",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1285,11 +1287,11 @@
       "city": "Los Angeles",
       "fifaId": "400021519",
       "matchNumber": 84,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO83",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1303,11 +1305,11 @@
       "city": "Toronto",
       "fifaId": "400021526",
       "matchNumber": 83,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO85",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1321,11 +1323,11 @@
       "city": "Vancouver",
       "fifaId": "400021527",
       "matchNumber": 85,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO88",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1339,11 +1341,11 @@
       "city": "Dallas",
       "fifaId": "400021515",
       "matchNumber": 88,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO86",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1357,11 +1359,11 @@
       "city": "Miami",
       "fifaId": "400021521",
       "matchNumber": 86,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO87",
       "round": "r32",
       "roundLabel": "1/16-finaali",
@@ -1375,11 +1377,11 @@
       "city": "Kansas City",
       "fifaId": "400021517",
       "matchNumber": 87,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517"
     },
     {
+      "feedA": 73,
+      "feedB": 75,
       "id": "KO90",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1393,11 +1395,11 @@
       "city": "Houston",
       "fifaId": "400021530",
       "matchNumber": 90,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530",
-      "feedA": 73,
-      "feedB": 75
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530"
     },
     {
+      "feedA": 74,
+      "feedB": 77,
       "id": "KO89",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1411,11 +1413,11 @@
       "city": "Philadelphia",
       "fifaId": "400021533",
       "matchNumber": 89,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533",
-      "feedA": 74,
-      "feedB": 77
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533"
     },
     {
+      "feedA": 76,
+      "feedB": 78,
       "id": "KO91",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1429,11 +1431,11 @@
       "city": "New Jersey",
       "fifaId": "400021532",
       "matchNumber": 91,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532",
-      "feedA": 76,
-      "feedB": 78
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532"
     },
     {
+      "feedA": 79,
+      "feedB": 80,
       "id": "KO92",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1447,11 +1449,11 @@
       "city": "Mexico City",
       "fifaId": "400021531",
       "matchNumber": 92,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531",
-      "feedA": 79,
-      "feedB": 80
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531"
     },
     {
+      "feedA": 83,
+      "feedB": 84,
       "id": "KO93",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1465,11 +1467,11 @@
       "city": "Dallas",
       "fifaId": "400021529",
       "matchNumber": 93,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529",
-      "feedA": 83,
-      "feedB": 84
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
     },
     {
+      "feedA": 81,
+      "feedB": 82,
       "id": "KO94",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1483,11 +1485,11 @@
       "city": "Seattle",
       "fifaId": "400021534",
       "matchNumber": 94,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534",
-      "feedA": 81,
-      "feedB": 82
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534"
     },
     {
+      "feedA": 86,
+      "feedB": 88,
       "id": "KO95",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1501,11 +1503,11 @@
       "city": "Atlanta",
       "fifaId": "400021528",
       "matchNumber": 95,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528",
-      "feedA": 86,
-      "feedB": 88
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528"
     },
     {
+      "feedA": 85,
+      "feedB": 87,
       "id": "KO96",
       "round": "r16",
       "roundLabel": "1/8-finaali",
@@ -1519,11 +1521,11 @@
       "city": "Vancouver",
       "fifaId": "400021535",
       "matchNumber": 96,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021535",
-      "feedA": 85,
-      "feedB": 87
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021535"
     },
     {
+      "feedA": 89,
+      "feedB": 90,
       "id": "KO97",
       "round": "qf",
       "roundLabel": "Puolivälierä",
@@ -1537,11 +1539,11 @@
       "city": "Boston",
       "fifaId": "400021536",
       "matchNumber": 97,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536",
-      "feedA": 89,
-      "feedB": 90
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536"
     },
     {
+      "feedA": 93,
+      "feedB": 94,
       "id": "KO98",
       "round": "qf",
       "roundLabel": "Puolivälierä",
@@ -1555,11 +1557,11 @@
       "city": "Los Angeles",
       "fifaId": "400021538",
       "matchNumber": 98,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538",
-      "feedA": 93,
-      "feedB": 94
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538"
     },
     {
+      "feedA": 91,
+      "feedB": 92,
       "id": "KO99",
       "round": "qf",
       "roundLabel": "Puolivälierä",
@@ -1573,11 +1575,11 @@
       "city": "Miami",
       "fifaId": "400021539",
       "matchNumber": 99,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539",
-      "feedA": 91,
-      "feedB": 92
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539"
     },
     {
+      "feedA": 95,
+      "feedB": 96,
       "id": "KO100",
       "round": "qf",
       "roundLabel": "Puolivälierä",
@@ -1591,11 +1593,11 @@
       "city": "Kansas City",
       "fifaId": "400021537",
       "matchNumber": 100,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537",
-      "feedA": 95,
-      "feedB": 96
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537"
     },
     {
+      "feedA": 97,
+      "feedB": 98,
       "id": "KO101",
       "round": "sf",
       "roundLabel": "Välierä",
@@ -1609,11 +1611,11 @@
       "city": "Dallas",
       "fifaId": "400021541",
       "matchNumber": 101,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541",
-      "feedA": 97,
-      "feedB": 98
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541"
     },
     {
+      "feedA": 99,
+      "feedB": 100,
       "id": "KO102",
       "round": "sf",
       "roundLabel": "Välierä",
@@ -1627,11 +1629,11 @@
       "city": "Atlanta",
       "fifaId": "400021540",
       "matchNumber": 102,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540",
-      "feedA": 99,
-      "feedB": 100
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
     },
     {
+      "feedA": null,
+      "feedB": null,
       "id": "KO103",
       "round": "bronze",
       "roundLabel": "Pronssiottelu",
@@ -1645,11 +1647,11 @@
       "city": "Miami",
       "fifaId": "400021542",
       "matchNumber": 103,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542",
-      "feedA": null,
-      "feedB": null
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542"
     },
     {
+      "feedA": 101,
+      "feedB": 102,
       "id": "KO104",
       "round": "final",
       "roundLabel": "Finaali",
@@ -1663,9 +1665,7 @@
       "city": "New Jersey",
       "fifaId": "400021543",
       "matchNumber": 104,
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543",
-      "feedA": 101,
-      "feedB": 102
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"
     }
   ]
 }

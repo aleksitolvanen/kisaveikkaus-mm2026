@@ -74,10 +74,14 @@ function applyResults(byPair, tournament, results) {
   for (const m of tournament.matches) {
     const f = byPair[pairKey(m.group, m.home, m.away)];
     if (!f) continue;
-    const finished = String(f.MatchStatus) === "0";
-    // Siivoa ristiriitainen jäännös: jos FIFA sanoo että ottelu EI ole päättynyt
-    // mutta matches-kentässä on tulos (esim. vanhan koodin kirjaama live-tulos)
-    if (!finished && results.matches[m.id]) { delete results.matches[m.id]; n++; }
+    const st = String(f.MatchStatus);
+    const finished = st === "0";
+    // Siivoa ristiriitainen jäännös vain kun FIFA sanoo EKSPLISIITTISESTI ettei
+    // ottelu ole päättynyt (1=ei alkanut, 3=käynnissä, 12=esiottelu). Tuntematon
+    // status ei poista kirjattua tulosta (API-välähdyksen suoja).
+    if (!finished && ["1", "3", "12"].includes(st) && results.matches[m.id]) {
+      delete results.matches[m.id]; n++;
+    }
     const hs = f.HomeTeamScore, as = f.AwayTeamScore;
     if (hs == null || as == null || String(f.MatchStatus) === "1") continue;
     const fHome = f.Home?.Abbreviation;
@@ -117,8 +121,12 @@ function updateKnockout(fifa, tournament) {
   return changed;
 }
 
-// Live-tila: hakee ja päivittää vain jos ottelu on parhaillaan käynnissä (kickoff…+170 min).
-const LIVE_WINDOW_MIN = 170; // kattaa lisäajan + rankkarit
+// FIFA:n from/to hyväksyy vain tasarajat (millisekunnit -> "Invalid parameter",
+// alle tunnin tarkkuus -> null) -> päivärajat.
+const dayFloor = (t) => new Date(t).toISOString().slice(0, 10) + "T00:00:00Z";
+
+// Live-tila: hakee ja päivittää vain jos ottelu on parhaillaan käynnissä (kickoff…+200 min).
+const LIVE_WINDOW_MIN = 200; // kattaa pitkätkin lisäajat + rankkarit reilulla marginaalilla
 async function runLive(tournament, tPath) {
   const now = Date.now();
   const live = [...tournament.matches, ...(tournament.knockout || [])].some((m) => {
@@ -127,24 +135,29 @@ async function runLive(tournament, tPath) {
     return now >= k && now <= k + LIVE_WINDOW_MIN * 60000;
   });
   if (!live) {
-    // Siivoa mahdollinen vanhentunut live-tila (ottelu päättyi ikkunan reunalla
-    // eikä uusia API-ajoja tullut ennen ikkunan sulkeutumista).
+    // Ikkunan ulkopuolella: jos live-kentässä tai pudotuspeleissä on jäänteitä
+    // (ottelu päättyi ikkunan reunalla ilman uutta hakua), tee YKSI selvityshaku
+    // joka finalisoi ne FIFA:n totuudella — ei sokeaa tyhjennystä.
     try {
       const rPath = path.join(dir, "results.json");
       const results = JSON.parse(await readFile(rPath, "utf-8"));
-      if (results.live && Object.keys(results.live).length) {
-        results.live = {};
-        await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
-        console.log("Vanhentunut live-tila tyhjennetty.");
+      const koLive = (tournament.knockout || []).some((e) => e.liveScore);
+      if ((results.live && Object.keys(results.live).length) || koLive) {
+        const fifa = fetchFifaMatches(dayFloor(now - 36 * 3600000), dayFloor(now + 86400000));
+        const n = applyResults(indexFifa(fifa), tournament, results);
+        const koChanged = updateKnockout(fifa, tournament);
+        if (n) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
+        if (koChanged) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
+        console.log(`Selvityshaku ikkunan ulkopuolella: ${n} muutosta` +
+          (koChanged ? ", pudotuspelit päivitetty" : "") + ".");
+        return;
       }
     } catch {}
     console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return;
   }
 
-  // FIFA:n from/to hyväksyy vain tasarajat (millisekunnit -> "Invalid parameter",
-  // alle tunnin tarkkuus -> null). Käytetään päivärajoja: ikkunan alun päivä ->
-  // seuraava päivä, jolloin keskiyön yli menevät matsit pysyvät mukana.
-  const dayFloor = (t) => new Date(t).toISOString().slice(0, 10) + "T00:00:00Z";
+  // Päivärajatut ikkunat: ikkunan alun päivä -> seuraava päivä, jolloin
+  // keskiyön yli menevät matsit pysyvät mukana.
   const fromIso = dayFloor(now - LIVE_WINDOW_MIN * 60000);
   const toIso = dayFloor(now + 5 * 60000 + 86400000);
   const fifa = fetchFifaMatches(fromIso, toIso);

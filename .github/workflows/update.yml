@@ -48,7 +48,9 @@ jobs:
       - name: Hae FIFA-data ja julkaise
         run: |
           MODE=live-loop
-          if [ "${{ github.event.schedule }}" = "17 9 * * *" ]; then MODE=schedule; fi
+          # Päivätuoreutus ajaa all-moden: otteluohjelma + TULOSTEN täydennys
+          # (catch-all jos jokin FT jäi live-ikkunoiden väliin)
+          if [ "${{ github.event.schedule }}" = "17 9 * * *" ]; then MODE=all; fi
           if [ -n "${{ github.event.inputs.mode }}" ]; then MODE="${{ github.event.inputs.mode }}"; fi
           echo "mode=$MODE"
 
@@ -78,7 +80,7 @@ jobs:
           gate() {
             node -e '
               const t = require("./data/mm2026/tournament.json");
-              const W = 170*60e3, AHEAD = 90*60e3, now = Date.now();
+              const W = 200*60e3, AHEAD = 120*60e3, now = Date.now();
               const ks = [...t.matches, ...(t.knockout||[])]
                 .map(m => m.kickoff && Date.parse(m.kickoff)).filter(Boolean);
               if (ks.some(k => now >= k && now <= k + W)) { console.log("LIVE"); process.exit(0); }
@@ -96,7 +98,15 @@ jobs:
 
             STATE=$(gate)
             case "$STATE" in
-              DONE)  echo "Ei otteluita horisontissa – loppu."; break ;;
+              DONE)
+                # Selvityshaku ennen poistumista: finalisoi ikkunan reunalle
+                # jääneet live-tulokset (fetch-fifa hoitaa; ei API-kutsua jos
+                # jäänteitä ei ole)
+                echo "Ei otteluita horisontissa – selvityshaku ja loppu."
+                if node tools/fetch-fifa.mjs mm2026 --mode=live && node build-data.mjs mm2026; then
+                  publish || true
+                fi
+                break ;;
               WAIT*) S=${STATE#WAIT }; S=$(( S < 300 ? S : 300 )); echo "Kickoffiin ${S}s – odotetaan"; sleep "$S"; continue ;;
             esac
 

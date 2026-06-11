@@ -45,7 +45,8 @@ function curlJson(url) {
 function fetchFifaMatches(fromIso = FIFA.from, toIso = FIFA.to) {
   const url = `${FIFA.base}/calendar/matches?idCompetition=${FIFA.idCompetition}` +
     `&idSeason=${FIFA.idSeason}&from=${fromIso}&to=${toIso}&count=104&language=en`;
-  return curlJson(url).Results || [];
+  const j = curlJson(url);            // API palauttaa null jos parametrit eivät kelpaa
+  return (j && j.Results) || [];
 }
 
 // Avain: lohkokirjain + aakkostettu joukkuepari (FIFA-koodeilla, kuten datakin)
@@ -140,8 +141,12 @@ async function runLive(tournament, tPath) {
     console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return;
   }
 
-  const fromIso = new Date(now - LIVE_WINDOW_MIN * 60000).toISOString();
-  const toIso = new Date(now + 5 * 60000).toISOString();
+  // FIFA:n from/to hyväksyy vain tasarajat (millisekunnit -> "Invalid parameter",
+  // alle tunnin tarkkuus -> null). Käytetään päivärajoja: ikkunan alun päivä ->
+  // seuraava päivä, jolloin keskiyön yli menevät matsit pysyvät mukana.
+  const dayFloor = (t) => new Date(t).toISOString().slice(0, 10) + "T00:00:00Z";
+  const fromIso = dayFloor(now - LIVE_WINDOW_MIN * 60000);
+  const toIso = dayFloor(now + 5 * 60000 + 86400000);
   const fifa = fetchFifaMatches(fromIso, toIso);
 
   const rPath = path.join(dir, "results.json");

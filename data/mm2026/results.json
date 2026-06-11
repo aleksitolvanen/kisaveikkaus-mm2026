@@ -1,6 +1,14 @@
 {
-  "matches": {},
+  "matches": {
+    "A1": "1-0"
+  },
   "dirtiestTeams": [],
-  "rounds": { "r16": [], "qf": [], "sf": [], "final": [], "champion": null },
+  "rounds": {
+    "r16": [],
+    "qf": [],
+    "sf": [],
+    "final": [],
+    "champion": null
+  },
   "goals": {}
 }

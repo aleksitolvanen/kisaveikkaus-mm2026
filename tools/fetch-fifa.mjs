@@ -73,12 +73,16 @@ function applyResults(byPair, tournament, results) {
   for (const m of tournament.matches) {
     const f = byPair[pairKey(m.group, m.home, m.away)];
     if (!f) continue;
+    const finished = String(f.MatchStatus) === "0";
+    // Siivoa ristiriitainen jäännös: jos FIFA sanoo että ottelu EI ole päättynyt
+    // mutta matches-kentässä on tulos (esim. vanhan koodin kirjaama live-tulos)
+    if (!finished && results.matches[m.id]) { delete results.matches[m.id]; n++; }
     const hs = f.HomeTeamScore, as = f.AwayTeamScore;
     if (hs == null || as == null || String(f.MatchStatus) === "1") continue;
     const fHome = f.Home?.Abbreviation;
     const [H, A] = fHome === m.home ? [hs, as] : [as, hs]; // kohdista koti/vieras koodilla
     const v = `${H}-${A}`;
-    if (String(f.MatchStatus) === "0") {
+    if (finished) {
       if (results.matches[m.id] !== v) { results.matches[m.id] = v; n++; }
     } else {
       live[m.id] = v;

@@ -10,6 +10,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 const tid = process.argv.find((a, i) => i >= 2 && !a.startsWith("--")) || "mm2026";
 const mode = (process.argv.find((a) => a.startsWith("--mode=")) || "--mode=all").split("=")[1];
@@ -50,10 +51,10 @@ function fetchFifaMatches(fromIso = FIFA.from, toIso = FIFA.to) {
 }
 
 // Avain: lohkokirjain + aakkostettu joukkuepari (FIFA-koodeilla, kuten datakin)
-const groupLetter = (g) => (g || "").replace(/group/i, "").trim().toUpperCase();
-const pairKey = (grp, a, b) => `${grp}|${[a, b].sort().join("-")}`;
+export const groupLetter = (g) => (g || "").replace(/group/i, "").trim().toUpperCase();
+export const pairKey = (grp, a, b) => `${grp}|${[a, b].sort().join("-")}`;
 
-function indexFifa(matches) {
+export function indexFifa(matches) {
   const byPair = {};
   for (const m of matches) {
     const grp = groupLetter(m.GroupName?.[0]?.Description);
@@ -68,7 +69,7 @@ function indexFifa(matches) {
 // results.live (vain näyttöä varten — pisteytys lukee matches). Palauttaa
 // muutosten määrän. live rakennetaan joka ajolla puhtaalta pöydältä, jolloin
 // päättyneet/poistuneet putoavat siitä automaattisesti.
-function applyResults(byPair, tournament, results) {
+export function applyResults(byPair, tournament, results) {
   let n = 0;
   const live = {};
   for (const m of tournament.matches) {
@@ -98,7 +99,7 @@ function applyResults(byPair, tournament, results) {
 }
 
 // Päivittää olemassa olevat pudotuspeli-entryt (parit + tulokset) FIFA-datasta. Palauttaa muuttuiko.
-function updateKnockout(fifa, tournament) {
+export function updateKnockout(fifa, tournament) {
   if (!tournament.knockout) return false;
   const byId = {};
   for (const e of tournament.knockout) byId[e.fifaId] = e;
@@ -261,4 +262,8 @@ async function main() {
   }
 }
 
-main().catch((e) => { console.error("Virhe:", e.message); process.exit(1); });
+// Aja main vain suoraan käynnistettynä (testit importtaavat funktiot ilman sivuvaikutuksia)
+const invoked = process.argv[1] ? pathToFileURL(process.argv[1]).href : "";
+if (import.meta.url.toLowerCase() === invoked.toLowerCase()) {
+  main().catch((e) => { console.error("Virhe:", e.message); process.exit(1); });
+}

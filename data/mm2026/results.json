@@ -1,7 +1,8 @@
 {
   "matches": {
     "A1": "2-0",
-    "A2": "2-1"
+    "A2": "2-1",
+    "B1": "1-1"
   },
   "dirtiestTeams": [],
   "rounds": {
@@ -12,7 +13,5 @@
     "champion": null
   },
   "goals": {},
-  "live": {
-    "B1": "1-1"
-  }
+  "live": {}
 }

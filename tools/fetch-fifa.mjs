@@ -184,23 +184,38 @@ function storeTimeline(f, key, results, squadCache) {
   return n;
 }
 
-// Täytä results.timelines: käynnissä olevat (aina päivitä) + päättyneet joilta
-// puuttuu (kerran = backfill). Kattaa sekä lohko-ottelut (byPair) että
+// Haetaanko ottelun timeline uudelleen tällä syklillä?
+// - live: aina (juokseva tilanne).
+// - päättynyt: kerran kun se on VAIHTUNUT päättyneeksi (finalized-lippu vielä pois).
+//   Live-pollaus tallettaa timelinen joka syklillä, mutta applyResults siirtää
+//   ottelun liveistä matchesiin ENNEN tätä → ilman tätä lopullista hakua viimeisen
+//   live-pollauksen ja loppuvihellyksen välissä tulleet maalit/kortit jäisivät
+//   pysyvästi pois (ja nyt ne vaikuttavat maalintekijä-/sikajengipisteisiin).
+export function shouldFetchTimeline(live, finished, finalized) {
+  return !!(live || (finished && !finalized));
+}
+
+// Täytä results.timelines: käynnissä olevat (aina päivitä) + päättyneet (kerran,
+// lopullisena loppuvihellyksen jälkeen). Kattaa sekä lohko-ottelut (byPair) että
 // pudotuspelit (fifa-indeksi fifaId:llä) — maalintekijämaalit kertyvät myös
 // knockoutissa. Hakee 1 timeline-kutsun per tällainen ottelu. Palauttaa muutosmäärän.
 export function updateTimelines(byPair, fifa, tournament, results) {
   results.timelines = results.timelines || {};
   results.players = results.players || {};   // IdPlayer -> { full, last } (kokoonpanoista)
+  results.timelinesFinal = results.timelinesFinal || {};   // id -> true: päättynyt timeline haettu lopullisena
   let n = 0;
   const squadCache = {};   // idTeam -> Players[] (saman ajon sisällä, ei turhia hakuja)
+  const fetchOne = (f, id, finished) => {
+    n += storeTimeline(f, id, results, squadCache);
+    if (finished && !results.timelinesFinal[id]) { results.timelinesFinal[id] = true; n++; }
+  };
   for (const m of tournament.matches) {
     const f = byPair[pairKey(m.group, m.home, m.away)];
     if (!f || !f.IdStage || !f.IdMatch || !f.Home?.Abbreviation) continue;
     const finished = !!(results.matches || {})[m.id];
     const live = !!(results.live || {})[m.id];
-    const cached = !!results.timelines[m.id];
-    if (!(live || (finished && !cached))) continue;
-    try { n += storeTimeline(f, m.id, results, squadCache); }
+    if (!shouldFetchTimeline(live, finished, results.timelinesFinal[m.id])) continue;
+    try { fetchOne(f, m.id, finished); }
     catch { /* timeline/kokoonpano ei vielä saatavilla — yritetään seuraavalla ajolla */ }
   }
   // Pudotuspelit: tunnistus fifaId:llä (knockout-entryt eivät ole byPair-indeksissä).
@@ -211,9 +226,8 @@ export function updateTimelines(byPair, fifa, tournament, results) {
     if (!f || !f.IdStage || !f.Home?.Abbreviation) continue;
     const finished = !!e.score;
     const live = !!e.liveScore;
-    const cached = !!results.timelines[e.id];
-    if (!(live || (finished && !cached))) continue;
-    try { n += storeTimeline(f, e.id, results, squadCache); }
+    if (!shouldFetchTimeline(live, finished, results.timelinesFinal[e.id])) continue;
+    try { fetchOne(f, e.id, finished); }
     catch { /* yritetään seuraavalla ajolla */ }
   }
   return n;
@@ -269,9 +283,11 @@ export function updateDerived(tournament, results) {
   ]);
   const autoGoals = computeGoalCounts(results.timelines, finished);
   results.goals = { ...autoGoals, ...(results.goalsManual || {}) };
-  // Sikajengi: vasta kun KOKO lohkovaihe on pelattu (muuten kärki voi vielä vaihtua).
+  // Sikajengi: vasta kun KOKO lohkovaihe on pelattu JA jokaisen ottelun timeline
+  // on haettu (muuten kärki voisi ratketa puutteellisesta korttidatasta).
   const groupIds = tournament.matches.map((m) => m.id);
-  const groupComplete = tournament.matches.every((m) => (results.matches || {})[m.id]);
+  const groupComplete = tournament.matches.every((m) =>
+    (results.matches || {})[m.id] && (results.timelines || {})[m.id]);
   const cp = tournament.scoring && tournament.scoring.sikajengi && tournament.scoring.sikajengi.cardPoints;
   const manual = results.dirtiestTeamsManual;
   results.dirtiestTeams = (manual && manual.length) ? manual.slice()

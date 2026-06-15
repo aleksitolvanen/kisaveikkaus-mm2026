@@ -25,5 +25,71 @@
   "live": {
     "H1": "0-0"
   },
-  "timelines": {}
+  "timelines": {
+    "F2": {
+      "goals": [
+        {
+          "min": "7'",
+          "p": "Yasin AYARI",
+          "id": "489688",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "30'",
+          "p": "Alexander ISAK",
+          "id": "430150",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "43'",
+          "p": "Omar REKIK",
+          "id": "433367",
+          "team": "TUN",
+          "pen": false
+        },
+        {
+          "min": "59'",
+          "p": "Viktor GYOKERES",
+          "id": "483327",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "84'",
+          "p": "Mattias SVANBERG",
+          "id": "433795",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "90'+6'",
+          "p": "Yasin AYARI",
+          "id": "489688",
+          "team": "SWE",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "54'",
+          "p": "KHEDIRA",
+          "team": "TUN",
+          "type": "y"
+        }
+      ]
+    },
+    "H1": {
+      "goals": [],
+      "cards": [
+        {
+          "min": "16'",
+          "p": "SIDNY LOPES CABRAL",
+          "team": "CPV",
+          "type": "y"
+        }
+      ]
+    }
+  }
 }

@@ -588,6 +588,13 @@
           "id": "430482",
           "team": "EGY",
           "pen": false
+        },
+        {
+          "min": "66'",
+          "id": "408950",
+          "team": "EGY",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": [
@@ -710,6 +717,10 @@
     "406231": {
       "full": "Yunus AKGUN",
       "last": "YUNUS"
+    },
+    "408950": {
+      "full": "MOHAMED HANY",
+      "last": "M.HANY"
     },
     "411367": {
       "full": "Kai HAVERTZ",

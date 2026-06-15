@@ -139,7 +139,8 @@
       "matchNumber": 1,
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021443",
+      "attendance": "80824"
     },
     {
       "id": "A2",
@@ -151,7 +152,8 @@
       "matchNumber": 2,
       "stadium": "Guadalajara Stadium",
       "city": "Guadalajara",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021441",
+      "attendance": "44985"
     },
     {
       "id": "B1",
@@ -163,7 +165,8 @@
       "matchNumber": 3,
       "stadium": "Toronto Stadium",
       "city": "Toronto",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021449"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021449",
+      "attendance": "43002"
     },
     {
       "id": "D1",
@@ -175,7 +178,8 @@
       "matchNumber": 4,
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021458"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021458",
+      "attendance": "70492"
     },
     {
       "id": "B2",
@@ -187,7 +191,8 @@
       "matchNumber": 8,
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021447",
+      "attendance": "67966"
     },
     {
       "id": "C1",
@@ -199,7 +204,8 @@
       "matchNumber": 7,
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021456",
+      "attendance": "80663"
     },
     {
       "id": "C2",
@@ -211,7 +217,8 @@
       "matchNumber": 5,
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021453",
+      "attendance": "64146"
     },
     {
       "id": "D2",
@@ -223,7 +230,8 @@
       "matchNumber": 6,
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021463",
+      "attendance": "52497"
     },
     {
       "id": "E1",
@@ -235,7 +243,8 @@
       "matchNumber": 10,
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021464",
+      "attendance": "68021"
     },
     {
       "id": "F1",
@@ -247,7 +256,8 @@
       "matchNumber": 11,
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021470",
+      "attendance": "69285"
     },
     {
       "id": "E2",
@@ -259,7 +269,8 @@
       "matchNumber": 9,
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021467",
+      "attendance": "68274"
     },
     {
       "id": "F2",
@@ -271,7 +282,8 @@
       "matchNumber": 12,
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021474",
+      "attendance": "50987"
     },
     {
       "id": "H1",
@@ -283,7 +295,8 @@
       "matchNumber": 14,
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021482"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021482",
+      "attendance": "67640"
     },
     {
       "id": "G1",
@@ -295,7 +308,8 @@
       "matchNumber": 16,
       "stadium": "Seattle Stadium",
       "city": "Seattle",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478",
+      "attendance": "66775"
     },
     {
       "id": "H2",
@@ -1111,6 +1125,7 @@
       "kickoff": "2026-06-28T19:00:00Z",
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
+      "attendance": null,
       "fifaId": "400021518",
       "matchNumber": 73,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518"
@@ -1130,6 +1145,7 @@
       "kickoff": "2026-06-29T17:00:00Z",
       "stadium": "Houston Stadium",
       "city": "Houston",
+      "attendance": null,
       "fifaId": "400021516",
       "matchNumber": 76,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516"
@@ -1149,6 +1165,7 @@
       "kickoff": "2026-06-29T20:30:00Z",
       "stadium": "Boston Stadium",
       "city": "Boston",
+      "attendance": null,
       "fifaId": "400021513",
       "matchNumber": 74,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513"
@@ -1168,6 +1185,7 @@
       "kickoff": "2026-06-30T01:00:00Z",
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
+      "attendance": null,
       "fifaId": "400021522",
       "matchNumber": 75,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522"
@@ -1187,6 +1205,7 @@
       "kickoff": "2026-06-30T17:00:00Z",
       "stadium": "Dallas Stadium",
       "city": "Dallas",
+      "attendance": null,
       "fifaId": "400021514",
       "matchNumber": 78,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021514"
@@ -1206,6 +1225,7 @@
       "kickoff": "2026-06-30T21:00:00Z",
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
+      "attendance": null,
       "fifaId": "400021523",
       "matchNumber": 77,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021523"
@@ -1225,6 +1245,7 @@
       "kickoff": "2026-07-01T01:00:00Z",
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
+      "attendance": null,
       "fifaId": "400021520",
       "matchNumber": 79,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021520"
@@ -1244,6 +1265,7 @@
       "kickoff": "2026-07-01T16:00:00Z",
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
+      "attendance": null,
       "fifaId": "400021512",
       "matchNumber": 80,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512"
@@ -1263,6 +1285,7 @@
       "kickoff": "2026-07-01T20:00:00Z",
       "stadium": "Seattle Stadium",
       "city": "Seattle",
+      "attendance": null,
       "fifaId": "400021525",
       "matchNumber": 82,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021525"
@@ -1282,6 +1305,7 @@
       "kickoff": "2026-07-02T00:00:00Z",
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
+      "attendance": null,
       "fifaId": "400021524",
       "matchNumber": 81,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021524"
@@ -1301,6 +1325,7 @@
       "kickoff": "2026-07-02T19:00:00Z",
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
+      "attendance": null,
       "fifaId": "400021519",
       "matchNumber": 84,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021519"
@@ -1320,6 +1345,7 @@
       "kickoff": "2026-07-02T23:00:00Z",
       "stadium": "Toronto Stadium",
       "city": "Toronto",
+      "attendance": null,
       "fifaId": "400021526",
       "matchNumber": 83,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021526"
@@ -1339,6 +1365,7 @@
       "kickoff": "2026-07-03T03:00:00Z",
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
+      "attendance": null,
       "fifaId": "400021527",
       "matchNumber": 85,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021527"
@@ -1358,6 +1385,7 @@
       "kickoff": "2026-07-03T18:00:00Z",
       "stadium": "Dallas Stadium",
       "city": "Dallas",
+      "attendance": null,
       "fifaId": "400021515",
       "matchNumber": 88,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021515"
@@ -1377,6 +1405,7 @@
       "kickoff": "2026-07-03T22:00:00Z",
       "stadium": "Miami Stadium",
       "city": "Miami",
+      "attendance": null,
       "fifaId": "400021521",
       "matchNumber": 86,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021521"
@@ -1396,6 +1425,7 @@
       "kickoff": "2026-07-04T01:30:00Z",
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
+      "attendance": null,
       "fifaId": "400021517",
       "matchNumber": 87,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517"
@@ -1415,6 +1445,7 @@
       "kickoff": "2026-07-04T17:00:00Z",
       "stadium": "Houston Stadium",
       "city": "Houston",
+      "attendance": null,
       "fifaId": "400021530",
       "matchNumber": 90,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021530"
@@ -1434,6 +1465,7 @@
       "kickoff": "2026-07-04T21:00:00Z",
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
+      "attendance": null,
       "fifaId": "400021533",
       "matchNumber": 89,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021533"
@@ -1453,6 +1485,7 @@
       "kickoff": "2026-07-05T20:00:00Z",
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
+      "attendance": null,
       "fifaId": "400021532",
       "matchNumber": 91,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021532"
@@ -1472,6 +1505,7 @@
       "kickoff": "2026-07-06T00:00:00Z",
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
+      "attendance": null,
       "fifaId": "400021531",
       "matchNumber": 92,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021531"
@@ -1491,6 +1525,7 @@
       "kickoff": "2026-07-06T19:00:00Z",
       "stadium": "Dallas Stadium",
       "city": "Dallas",
+      "attendance": null,
       "fifaId": "400021529",
       "matchNumber": 93,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021529"
@@ -1510,6 +1545,7 @@
       "kickoff": "2026-07-07T00:00:00Z",
       "stadium": "Seattle Stadium",
       "city": "Seattle",
+      "attendance": null,
       "fifaId": "400021534",
       "matchNumber": 94,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021534"
@@ -1529,6 +1565,7 @@
       "kickoff": "2026-07-07T16:00:00Z",
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
+      "attendance": null,
       "fifaId": "400021528",
       "matchNumber": 95,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021528"
@@ -1548,6 +1585,7 @@
       "kickoff": "2026-07-07T20:00:00Z",
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
+      "attendance": null,
       "fifaId": "400021535",
       "matchNumber": 96,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289288/400021535"
@@ -1567,6 +1605,7 @@
       "kickoff": "2026-07-09T20:00:00Z",
       "stadium": "Boston Stadium",
       "city": "Boston",
+      "attendance": null,
       "fifaId": "400021536",
       "matchNumber": 97,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536"
@@ -1586,6 +1625,7 @@
       "kickoff": "2026-07-10T19:00:00Z",
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
+      "attendance": null,
       "fifaId": "400021538",
       "matchNumber": 98,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021538"
@@ -1605,6 +1645,7 @@
       "kickoff": "2026-07-11T21:00:00Z",
       "stadium": "Miami Stadium",
       "city": "Miami",
+      "attendance": null,
       "fifaId": "400021539",
       "matchNumber": 99,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021539"
@@ -1624,6 +1665,7 @@
       "kickoff": "2026-07-12T01:00:00Z",
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
+      "attendance": null,
       "fifaId": "400021537",
       "matchNumber": 100,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021537"
@@ -1643,6 +1685,7 @@
       "kickoff": "2026-07-14T19:00:00Z",
       "stadium": "Dallas Stadium",
       "city": "Dallas",
+      "attendance": null,
       "fifaId": "400021541",
       "matchNumber": 101,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021541"
@@ -1662,6 +1705,7 @@
       "kickoff": "2026-07-15T19:00:00Z",
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
+      "attendance": null,
       "fifaId": "400021540",
       "matchNumber": 102,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
@@ -1681,6 +1725,7 @@
       "kickoff": "2026-07-18T21:00:00Z",
       "stadium": "Miami Stadium",
       "city": "Miami",
+      "attendance": null,
       "fifaId": "400021542",
       "matchNumber": 103,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542"
@@ -1700,6 +1745,7 @@
       "kickoff": "2026-07-19T19:00:00Z",
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
+      "attendance": null,
       "fifaId": "400021543",
       "matchNumber": 104,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"

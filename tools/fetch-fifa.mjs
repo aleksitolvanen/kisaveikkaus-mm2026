@@ -123,8 +123,9 @@ export function updateKnockout(fifa, tournament) {
 }
 
 // --- Timeline-faktat per ottelu: maalit + kortit RAAKANA (pisteytys tehdään
-// UI:ssa/scoring.mjs:ssä, ei tässä). FIFA Event-tyypit: 0/41 = maali (41 rankkari),
-// 2 = keltainen, 3 = suora punainen, 4 = toisesta keltaisesta tullut punainen.
+// UI:ssa/scoring.mjs:ssä, ei tässä). Käytetyt FIFA Event-tyypit: 0 = maali,
+// 41 = rankkarimaali, 34 = oma maali (og:true), 2 = keltainen, 3 = suora punainen,
+// 4 = toisesta keltaisesta tullut punainen. (Koko tyyppilegenda: AGENTS.md.)
 // FIFA Period (paritont = peliosa): 3=1. puoliaika, 5=2., 7/9=jatkoaika,
 // 11=RANKKARIKISA → näiden maalit merkitään so:true (eivät maalintekijäpisteisiin).
 const SHOOTOUT_PERIOD = 11;
@@ -379,6 +380,7 @@ async function main() {
       m.matchNumber = f.MatchNumber;
       m.stadium = f.Stadium?.Name?.[0]?.Description || null;
       m.city = f.Stadium?.CityName?.[0]?.Description || null;
+      if (f.Attendance) m.attendance = f.Attendance;   // yleisömäärä (samasta kalenterihausta, ei lisäkutsua)
       m.url = matchUrl(f.IdStage, f.IdMatch);
       schedUpdated++;
     }
@@ -418,6 +420,7 @@ async function main() {
         liveScore: hasScore && !finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
         kickoff: fm.Date, stadium: fm.Stadium?.Name?.[0]?.Description || null,
         city: fm.Stadium?.CityName?.[0]?.Description || null,
+        attendance: fm.Attendance || old?.attendance || null,
         fifaId: fm.IdMatch, matchNumber: fm.MatchNumber, url: matchUrl(fm.IdStage, fm.IdMatch),
       });
     }

@@ -1034,7 +1034,12 @@
     },
     "sikajengi": {
       "points": 8,
-      "tiePoints": 4
+      "tiePoints": 4,
+      "cardPoints": {
+        "y": 1,
+        "r2": 2,
+        "r": 3
+      }
     },
     "goalscorer": {
       "perGoal": 2

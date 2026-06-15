@@ -585,7 +585,14 @@
     },
     "G1": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "13'",
+          "p": "M.ATTIA",
+          "team": "EGY",
+          "type": "y"
+        }
+      ]
     }
   }
 }

@@ -24,7 +24,7 @@
   },
   "goals": {},
   "live": {
-    "G1": "0-0"
+    "G1": "0-1"
   },
   "timelines": {
     "F2": {
@@ -584,7 +584,15 @@
       ]
     },
     "G1": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "19'",
+          "p": "E.ASHOUR",
+          "id": "430482",
+          "team": "EGY",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "13'",

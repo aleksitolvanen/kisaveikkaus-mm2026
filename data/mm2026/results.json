@@ -11,7 +11,8 @@
     "E1": "7-1",
     "F1": "2-2",
     "E2": "1-0",
-    "F2": "5-1"
+    "F2": "5-1",
+    "H1": "0-0"
   },
   "dirtiestTeams": [],
   "rounds": {
@@ -22,9 +23,7 @@
     "champion": null
   },
   "goals": {},
-  "live": {
-    "H1": "0-0"
-  },
+  "live": {},
   "timelines": {
     "F2": {
       "goals": [

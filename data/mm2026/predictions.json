@@ -116,7 +116,8 @@
       "champion": "FRA"
     },
     "sikajengi": "URU",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Hannu": {
     "matches": {
@@ -235,7 +236,8 @@
       "champion": "ENG"
     },
     "sikajengi": "HAI",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   },
   "JaakkoN": {
     "matches": {
@@ -354,7 +356,8 @@
       "champion": "ESP"
     },
     "sikajengi": "TUR",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   },
   "JermuP": {
     "matches": {
@@ -473,7 +476,8 @@
       "champion": "GER"
     },
     "sikajengi": "KSA",
-    "goalscorer": "Havertz"
+    "goalscorer": "Havertz",
+    "goalscorerId": "411367"
   },
   "JukkaM": {
     "matches": {
@@ -592,7 +596,8 @@
       "champion": "ESP"
     },
     "sikajengi": "KSA",
-    "goalscorer": "Oyarzabal"
+    "goalscorer": "Oyarzabal",
+    "goalscorerId": "430751"
   },
   "Jype": {
     "matches": {
@@ -711,7 +716,8 @@
       "champion": "ESP"
     },
     "sikajengi": "BIH",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   },
   "Kapa": {
     "matches": {
@@ -830,7 +836,8 @@
       "champion": "ESP"
     },
     "sikajengi": "PAR",
-    "goalscorer": "Julian Alvarez"
+    "goalscorer": "Julian Alvarez",
+    "goalscorerId": "416081"
   },
   "Karri": {
     "matches": {
@@ -949,7 +956,8 @@
       "champion": "FRA"
     },
     "sikajengi": "URU",
-    "goalscorer": "Yamal"
+    "goalscorer": "Yamal",
+    "goalscorerId": "484320"
   },
   "KimmoK": {
     "matches": {
@@ -1068,7 +1076,8 @@
       "champion": "ESP"
     },
     "sikajengi": "ALG",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "LEKA": {
     "matches": {
@@ -1187,7 +1196,8 @@
       "champion": "ARG"
     },
     "sikajengi": "TUR",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Lonnmark": {
     "matches": {
@@ -1306,7 +1316,8 @@
       "champion": "ESP"
     },
     "sikajengi": "QAT",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Pietari": {
     "matches": {
@@ -1425,7 +1436,8 @@
       "champion": "FRA"
     },
     "sikajengi": "URU",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   },
   "Martti": {
     "matches": {
@@ -1544,7 +1556,8 @@
       "champion": "ESP"
     },
     "sikajengi": "TUR",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   },
   "Willari": {
     "matches": {
@@ -1662,7 +1675,8 @@
       "champion": "ESP"
     },
     "sikajengi": "CRO",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Pele": {
     "matches": {
@@ -1781,7 +1795,8 @@
       "champion": "FRA"
     },
     "sikajengi": "KSA",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Saku": {
     "matches": {
@@ -1900,7 +1915,8 @@
       "champion": "FRA"
     },
     "sikajengi": "ALG",
-    "goalscorer": "Haaland"
+    "goalscorer": "Haaland",
+    "goalscorerId": "419652"
   },
   "Sampo": {
     "matches": {
@@ -2019,7 +2035,8 @@
       "champion": "ESP"
     },
     "sikajengi": "URU",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "Tarhonen": {
     "matches": {
@@ -2138,7 +2155,8 @@
       "champion": "ESP"
     },
     "sikajengi": "TUR",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "AleksiTo": {
     "matches": {
@@ -2257,7 +2275,8 @@
       "champion": "FRA"
     },
     "sikajengi": "KSA",
-    "goalscorer": "Mbappe"
+    "goalscorer": "Mbappe",
+    "goalscorerId": "389867"
   },
   "TommiT": {
     "matches": {
@@ -2376,6 +2395,7 @@
       "champion": "FRA"
     },
     "sikajengi": "KSA",
-    "goalscorer": "Kane"
+    "goalscorer": "Kane",
+    "goalscorerId": "369419"
   }
 }

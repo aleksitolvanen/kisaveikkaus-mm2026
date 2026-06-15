@@ -125,6 +125,9 @@ export function updateKnockout(fifa, tournament) {
 // --- Timeline-faktat per ottelu: maalit + kortit RAAKANA (pisteytys tehdään
 // UI:ssa/scoring.mjs:ssä, ei tässä). FIFA Event-tyypit: 0/41 = maali (41 rankkari),
 // 2 = keltainen, 3 = suora punainen, 4 = toisesta keltaisesta tullut punainen.
+// FIFA Period (paritont = peliosa): 3=1. puoliaika, 5=2., 7/9=jatkoaika,
+// 11=RANKKARIKISA → näiden maalit merkitään so:true (eivät maalintekijäpisteisiin).
+const SHOOTOUT_PERIOD = 11;
 function parseTimeline(f) {
   const url = `${FIFA.base}/timelines/${FIFA.idCompetition}/${FIFA.idSeason}/${f.IdStage}/${f.IdMatch}?language=en`;
   const tl = curlJson(url);
@@ -136,7 +139,11 @@ function parseTimeline(f) {
   // luetaan results.players[id]:stä (kokoonpanoista), ettei nimiä monisteta.
   // min = ottelutilanteen minuutti (esim. "45'+5'"), käytetään myös aikajanaan.
   const goals = ev.filter((e) => e.Type === 0 || e.Type === 41)
-    .map((e) => ({ min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 }));
+    .map((e) => {
+      const g = { min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 };
+      if (e.Period === SHOOTOUT_PERIOD) g.so = true;   // rankkarikisamaali ei ole maalintekijämaali
+      return g;
+    });
   const cards = ev.filter((e) => [2, 3, 4].includes(e.Type))
     .map((e) => ({ min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), type: e.Type === 2 ? "y" : e.Type === 4 ? "r2" : "r" }));
   return { goals, cards };
@@ -150,11 +157,38 @@ function fetchSquad(idTeam) {
   } catch { return []; }
 }
 
+// Hae yhden ottelun timeline + täydennä puuttuvat pelaajanimet kokoonpanoista.
+// Tallettaa results.timelines[key]:hin. Palauttaa muutosmäärän.
+function storeTimeline(f, key, results, squadCache) {
+  let n = 0;
+  const tl = parseTimeline(f);
+  if (JSON.stringify(results.timelines[key]) !== JSON.stringify(tl)) { results.timelines[key] = tl; n++; }
+  // Pelaajien koko nimet (id -> {full,last}) kokoonpanoista — haetaan vain
+  // puuttuville id:ille, joten live-ottelua ei haeta turhaan joka syklissä.
+  const ids = [...new Set([...tl.goals, ...tl.cards].map((e) => e.id).filter(Boolean))];
+  const missing = ids.filter((id) => !results.players[id]);
+  if (missing.length) {
+    for (const idTeam of [f.Home?.IdTeam, f.Away?.IdTeam]) {
+      if (!idTeam) continue;
+      if (!squadCache[idTeam]) squadCache[idTeam] = fetchSquad(idTeam);
+      for (const pl of squadCache[idTeam]) {
+        if (missing.includes(pl.IdPlayer) && !results.players[pl.IdPlayer]) {
+          const full = (pl.PlayerName && pl.PlayerName[0] && pl.PlayerName[0].Description) || "";
+          const last = (pl.ShortName && pl.ShortName[0] && pl.ShortName[0].Description) || full.split(/\s+/).pop() || "";
+          results.players[pl.IdPlayer] = { full, last };
+          n++;
+        }
+      }
+    }
+  }
+  return n;
+}
+
 // Täytä results.timelines: käynnissä olevat (aina päivitä) + päättyneet joilta
-// puuttuu (kerran = backfill). Hakee 1 timeline-kutsun per tällainen ottelu —
-// kevyt, koska byPair on yleensä vain ikkunan ottelut (live) tai koko turnaus
-// (all/results, jolloin valmiit jo cachessa). Palauttaa muutosmäärän.
-export function updateTimelines(byPair, tournament, results) {
+// puuttuu (kerran = backfill). Kattaa sekä lohko-ottelut (byPair) että
+// pudotuspelit (fifa-indeksi fifaId:llä) — maalintekijämaalit kertyvät myös
+// knockoutissa. Hakee 1 timeline-kutsun per tällainen ottelu. Palauttaa muutosmäärän.
+export function updateTimelines(byPair, fifa, tournament, results) {
   results.timelines = results.timelines || {};
   results.players = results.players || {};   // IdPlayer -> { full, last } (kokoonpanoista)
   let n = 0;
@@ -166,30 +200,83 @@ export function updateTimelines(byPair, tournament, results) {
     const live = !!(results.live || {})[m.id];
     const cached = !!results.timelines[m.id];
     if (!(live || (finished && !cached))) continue;
-    try {
-      const tl = parseTimeline(f);
-      if (JSON.stringify(results.timelines[m.id]) !== JSON.stringify(tl)) { results.timelines[m.id] = tl; n++; }
-      // Pelaajien koko nimet (id -> {full,last}) kokoonpanoista — haetaan vain
-      // puuttuville id:ille, joten live-ottelua ei haeta turhaan joka syklissä.
-      const ids = [...new Set([...tl.goals, ...tl.cards].map((e) => e.id).filter(Boolean))];
-      const missing = ids.filter((id) => !results.players[id]);
-      if (missing.length) {
-        for (const idTeam of [f.Home?.IdTeam, f.Away?.IdTeam]) {
-          if (!idTeam) continue;
-          if (!squadCache[idTeam]) squadCache[idTeam] = fetchSquad(idTeam);
-          for (const pl of squadCache[idTeam]) {
-            if (missing.includes(pl.IdPlayer) && !results.players[pl.IdPlayer]) {
-              const full = (pl.PlayerName && pl.PlayerName[0] && pl.PlayerName[0].Description) || "";
-              const last = (pl.ShortName && pl.ShortName[0] && pl.ShortName[0].Description) || full.split(/\s+/).pop() || "";
-              results.players[pl.IdPlayer] = { full, last };
-              n++;
-            }
-          }
-        }
-      }
-    } catch { /* timeline/kokoonpano ei vielä saatavilla — yritetään seuraavalla ajolla */ }
+    try { n += storeTimeline(f, m.id, results, squadCache); }
+    catch { /* timeline/kokoonpano ei vielä saatavilla — yritetään seuraavalla ajolla */ }
+  }
+  // Pudotuspelit: tunnistus fifaId:llä (knockout-entryt eivät ole byPair-indeksissä).
+  const byFifaId = {};
+  for (const fm of (fifa || [])) byFifaId[String(fm.IdMatch)] = fm;
+  for (const e of (tournament.knockout || [])) {
+    const f = e.fifaId && byFifaId[String(e.fifaId)];
+    if (!f || !f.IdStage || !f.Home?.Abbreviation) continue;
+    const finished = !!e.score;
+    const live = !!e.liveScore;
+    const cached = !!results.timelines[e.id];
+    if (!(live || (finished && !cached))) continue;
+    try { n += storeTimeline(f, e.id, results, squadCache); }
+    catch { /* yritetään seuraavalla ajolla */ }
   }
   return n;
+}
+
+// --- Johdetut pisteytyskohteet timeline-faktoista: maalintekijä + sikajengi.
+// Molemmissa KÄSIN-OVERRIDE: results.goalsManual (id->määrä) ja
+// results.dirtiestTeamsManual (koodit) voittavat automatiikan eikä fetch koskaan
+// ylikirjoita niitä. Pisteet päivittyvät vasta kun lopputulos on selvä:
+// maali lasketaan vasta ottelun päätyttyä, sikajengi vasta koko lohkovaiheen jälkeen.
+
+// Maalit pelaaja-id:llä, vain PÄÄTTYNEISTÄ otteluista, rankkarikisat (so) pois.
+export function computeGoalCounts(timelines, finishedIds) {
+  const by = {};
+  for (const id in (timelines || {})) {
+    if (finishedIds && !finishedIds.has(id)) continue;
+    for (const g of ((timelines[id] || {}).goals || [])) {
+      if (g.so || !g.id) continue;
+      by[g.id] = (by[g.id] || 0) + 1;
+    }
+  }
+  return by;
+}
+
+// Sikajengi: lohkovaiheen korttipistein eniten kerännyt joukkue (tasatilanteessa
+// kaikki kärkitiimit). Painot cardPoints { y, r2, r }.
+export function computeDirtiest(timelines, groupIds, cardPoints) {
+  const cp = cardPoints || { y: 1, r2: 2, r: 3 };
+  const set = new Set(groupIds);
+  const by = {};
+  for (const id in (timelines || {})) {
+    if (!set.has(id)) continue;
+    for (const c of ((timelines[id] || {}).cards || [])) {
+      if (!c.team) continue;
+      by[c.team] = (by[c.team] || 0) + (cp[c.type] || 0);
+    }
+  }
+  let max = 0;
+  for (const t in by) if (by[t] > max) max = by[t];
+  if (max <= 0) return [];
+  return Object.keys(by).filter((t) => by[t] === max).sort();
+}
+
+// Päivitä results.goals (id->maalit) ja results.dirtiestTeams automaattisesti.
+// Käsin-override: results.goalsManual / results.dirtiestTeamsManual. Palauttaa
+// 1 jos jompikumpi muuttui, muuten 0.
+export function updateDerived(tournament, results) {
+  const before = JSON.stringify([results.goals || {}, results.dirtiestTeams || []]);
+  // Maalintekijä: päättyneet lohko-ottelut + päättyneet pudotuspelit.
+  const finished = new Set([
+    ...Object.keys(results.matches || {}),
+    ...(tournament.knockout || []).filter((e) => e.score).map((e) => e.id),
+  ]);
+  const autoGoals = computeGoalCounts(results.timelines, finished);
+  results.goals = { ...autoGoals, ...(results.goalsManual || {}) };
+  // Sikajengi: vasta kun KOKO lohkovaihe on pelattu (muuten kärki voi vielä vaihtua).
+  const groupIds = tournament.matches.map((m) => m.id);
+  const groupComplete = tournament.matches.every((m) => (results.matches || {})[m.id]);
+  const cp = tournament.scoring && tournament.scoring.sikajengi && tournament.scoring.sikajengi.cardPoints;
+  const manual = results.dirtiestTeamsManual;
+  results.dirtiestTeams = (manual && manual.length) ? manual.slice()
+    : (groupComplete ? computeDirtiest(results.timelines, groupIds, cp) : []);
+  return before === JSON.stringify([results.goals, results.dirtiestTeams]) ? 0 : 1;
 }
 
 // FIFA:n from/to hyväksyy vain tasarajat (millisekunnit -> "Invalid parameter",
@@ -218,8 +305,9 @@ async function runLive(tournament, tPath) {
         const byPair = indexFifa(fifa);
         const n = applyResults(byPair, tournament, results);
         const koChanged = updateKnockout(fifa, tournament);
-        const tlN = updateTimelines(byPair, tournament, results);
-        if (n || tlN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
+        const tlN = updateTimelines(byPair, fifa, tournament, results);
+        const dN = updateDerived(tournament, results);
+        if (n || tlN || dN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
         if (koChanged) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
         console.log(`Selvityshaku ikkunan ulkopuolella: ${n} muutosta, ${tlN} timeline` +
           (koChanged ? ", pudotuspelit päivitetty" : "") + ".");
@@ -243,11 +331,12 @@ async function runLive(tournament, tPath) {
   const byPair = indexFifa(fifa);
   const n = applyResults(byPair, tournament, results);
   const koChanged = updateKnockout(fifa, tournament);
-  const tlN = updateTimelines(byPair, tournament, results);
+  const tlN = updateTimelines(byPair, fifa, tournament, results);
+  const dN = updateDerived(tournament, results);
 
-  if (n || tlN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
+  if (n || tlN || dN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
   if (koChanged) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
-  console.log(`Live (${fifa.length} ottelua ikkunassa): ${n} lohkotulosta, ${tlN} timeline päivitetty` +
+  console.log(`Live (${fifa.length} ottelua ikkunassa): ${n} lohkotulosta, ${tlN} timeline, ${dN ? "johdetut päivitetty" : "ei johdettujen muutosta"}` +
     (koChanged ? ", pudotuspelit päivitetty" : "") + ".");
 }
 
@@ -328,12 +417,13 @@ async function main() {
     try { results = JSON.parse(await readFile(rPath, "utf-8")); }
     catch { results = { matches: {}, live: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
     const resWritten = applyResults(byPair, tournament, results);
-    const tlWritten = updateTimelines(byPair, tournament, results);   // backfill: valmiit ottelut joilta timeline puuttuu
+    const tlWritten = updateTimelines(byPair, fifa, tournament, results);   // backfill: valmiit ottelut joilta timeline puuttuu
+    updateDerived(tournament, results);   // maalintekijä + sikajengi (käsin-override säilyy)
     await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
     if (mode === "results") { // all-tilassa knockout päivittyy jo schedule-blokissa
       if (updateKnockout(fifa, tournament)) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
     }
-    console.log(`Tulokset päivitetty: ${resWritten} lohkotulosta, ${tlWritten} timeline (maalit+kortit). Cup-jatkoonpääsijät syötetään käsin.`);
+    console.log(`Tulokset päivitetty: ${resWritten} lohkotulosta, ${tlWritten} timeline (maalit+kortit). Maalintekijä+sikajengi automaattisesti; cup-jatkoonpääsijät syötetään käsin.`);
   }
 }
 

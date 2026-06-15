@@ -1706,40 +1706,40 @@
     }
   ],
   "scorerMeta": {
-    "Mbappe": {
-      "id": "389867",
-      "full": "Kylian MBAPPE",
-      "team": "FRA"
-    },
-    "Kane": {
-      "id": "369419",
+    "369419": {
       "full": "Harry KANE",
-      "team": "ENG"
+      "team": "ENG",
+      "name": "Kane"
     },
-    "Havertz": {
-      "id": "411367",
+    "389867": {
+      "full": "Kylian MBAPPE",
+      "team": "FRA",
+      "name": "Mbappe"
+    },
+    "411367": {
       "full": "Kai HAVERTZ",
-      "team": "GER"
+      "team": "GER",
+      "name": "Havertz"
     },
-    "Oyarzabal": {
-      "id": "430751",
-      "full": "Mikel OYARZABAL",
-      "team": "ESP"
-    },
-    "Julian Alvarez": {
-      "id": "416081",
+    "416081": {
       "full": "Julian ALVAREZ",
-      "team": "ARG"
+      "team": "ARG",
+      "name": "Julian Alvarez"
     },
-    "Yamal": {
-      "id": "484320",
-      "full": "Lamine YAMAL",
-      "team": "ESP"
-    },
-    "Haaland": {
-      "id": "419652",
+    "419652": {
       "full": "Erling HAALAND",
-      "team": "NOR"
+      "team": "NOR",
+      "name": "Haaland"
+    },
+    "430751": {
+      "full": "Mikel OYARZABAL",
+      "team": "ESP",
+      "name": "Oyarzabal"
+    },
+    "484320": {
+      "full": "Lamine YAMAL",
+      "team": "ESP",
+      "name": "Yamal"
     }
   }
 }

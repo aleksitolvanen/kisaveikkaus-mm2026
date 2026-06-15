@@ -60,7 +60,7 @@
     "519954": 1
   },
   "live": {
-    "H2": "0-0"
+    "H2": "1-0"
   },
   "timelines": {
     "A1": {
@@ -644,7 +644,7 @@
       "goals": [
         {
           "min": "41'",
-          "id": null,
+          "id": "403312",
           "team": "KSA",
           "pen": false
         }
@@ -724,6 +724,10 @@
     "401448": {
       "full": "Denis ZAKARIA",
       "last": "ZAKARIA"
+    },
+    "403312": {
+      "full": "Abdulelah ALAMRI",
+      "last": "ALAMRI"
     },
     "403616": {
       "full": "Teboho MOKOENA",

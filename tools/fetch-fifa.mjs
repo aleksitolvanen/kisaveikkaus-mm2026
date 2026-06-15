@@ -138,9 +138,10 @@ function parseTimeline(f) {
   // Vain faktat: minuutti + pelaaja-id + joukkue. Nimi EI talletu tähän — se
   // luetaan results.players[id]:stä (kokoonpanoista), ettei nimiä monisteta.
   // min = ottelutilanteen minuutti (esim. "45'+5'"), käytetään myös aikajanaan.
-  const goals = ev.filter((e) => e.Type === 0 || e.Type === 41)
+  const goals = ev.filter((e) => e.Type === 0 || e.Type === 41 || e.Type === 34)
     .map((e) => {
       const g = { min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 };
+      if (e.Type === 34) g.og = true;                  // oma maali: näytetään aikajanalla, EI maalintekijäpisteisiin
       if (e.Period === SHOOTOUT_PERIOD) g.so = true;   // rankkarikisamaali ei ole maalintekijämaali
       return g;
     });
@@ -245,7 +246,7 @@ export function computeGoalCounts(timelines, finishedIds) {
   for (const id in (timelines || {})) {
     if (finishedIds && !finishedIds.has(id)) continue;
     for (const g of ((timelines[id] || {}).goals || [])) {
-      if (g.so || !g.id) continue;
+      if (g.so || g.og || !g.id) continue;   // rankkarikisa- ja omat maalit eivät ole maalintekijämaaleja
       by[g.id] = (by[g.id] || 0) + 1;
     }
   }

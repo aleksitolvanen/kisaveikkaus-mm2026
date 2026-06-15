@@ -196,6 +196,13 @@
     "D1": {
       "goals": [
         {
+          "min": "7'",
+          "id": "476348",
+          "team": "PAR",
+          "pen": false,
+          "og": true
+        },
+        {
           "min": "31'",
           "id": "466624",
           "team": "USA",
@@ -266,6 +273,13 @@
           "id": "393480",
           "team": "SUI",
           "pen": true
+        },
+        {
+          "min": "90'+4'",
+          "id": "493221",
+          "team": "SUI",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": [
@@ -854,6 +868,10 @@
       "full": "Folarin BALOGUN",
       "last": "BALOGUN"
     },
+    "476348": {
+      "full": "Damian BOBADILLA",
+      "last": "BOBADILLA"
+    },
     "477832": {
       "full": "SIDNY LOPES CABRAL",
       "last": "LOPES CABRAL"
@@ -910,6 +928,10 @@
       "full": "Felix NMECHA",
       "last": "NMECHA"
     },
+    "493221": {
+      "full": "Miro MUHEIM",
+      "last": "MUHEIM"
+    },
     "494989": {
       "full": "Livano COMENENCIA",
       "last": "COMENENCIA"
@@ -934,6 +956,17 @@
   "timelinesFinal": {
     "F2": true,
     "H1": true,
-    "G1": true
+    "G1": true,
+    "A1": true,
+    "A2": true,
+    "B1": true,
+    "D1": true,
+    "B2": true,
+    "C1": true,
+    "C2": true,
+    "D2": true,
+    "E1": true,
+    "F1": true,
+    "E2": true
   }
 }

@@ -649,7 +649,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "44'",
+          "id": "403312",
+          "team": "KSA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

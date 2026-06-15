@@ -641,7 +641,14 @@
       ]
     },
     "H2": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "41'",
+          "id": null,
+          "team": "KSA",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

@@ -60,7 +60,7 @@
     "519954": 1
   },
   "live": {
-    "H2": "1-0"
+    "H2": "1-1"
   },
   "timelines": {
     "A1": {
@@ -647,6 +647,12 @@
           "id": "403312",
           "team": "KSA",
           "pen": false
+        },
+        {
+          "min": "80'",
+          "id": "419100",
+          "team": "URU",
+          "pen": false
         }
       ],
       "cards": [
@@ -775,6 +781,10 @@
     "419068": {
       "full": "Giovanni REYNA",
       "last": "REYNA"
+    },
+    "419100": {
+      "full": "Maxi ARAUJO",
+      "last": "Maxi ARAUJO"
     },
     "419459": {
       "full": "MAHMOUD ABUNADA",

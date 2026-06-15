@@ -132,14 +132,22 @@ function parseTimeline(f) {
   const home = { id: String(f.Home?.IdTeam), code: f.Home?.Abbreviation };
   const away = { id: String(f.Away?.IdTeam), code: f.Away?.Abbreviation };
   const codeOf = (id) => String(id) === home.id ? home.code : String(id) === away.id ? away.code : null;
-  const nameOf = (e) => String(((e.EventDescription || [])[0] || {}).Description || "").split(" (")[0].trim();
-  // min = ottelutilanteen minuutti (esim. "45'+5'") — talletetaan jotta saman
-  // cachen voi käyttää myös Ottelut-sivun aikajanaan.
+  // Vain faktat: minuutti + pelaaja-id + joukkue. Nimi EI talletu tähän — se
+  // luetaan results.players[id]:stä (kokoonpanoista), ettei nimiä monisteta.
+  // min = ottelutilanteen minuutti (esim. "45'+5'"), käytetään myös aikajanaan.
   const goals = ev.filter((e) => e.Type === 0 || e.Type === 41)
-    .map((e) => ({ min: e.MatchMinute || null, p: nameOf(e), id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 }));
+    .map((e) => ({ min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 }));
   const cards = ev.filter((e) => [2, 3, 4].includes(e.Type))
-    .map((e) => ({ min: e.MatchMinute || null, p: nameOf(e), team: codeOf(e.IdTeam), type: e.Type === 2 ? "y" : e.Type === 4 ? "r2" : "r" }));
+    .map((e) => ({ min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), type: e.Type === 2 ? "y" : e.Type === 4 ? "r2" : "r" }));
   return { goals, cards };
+}
+
+// Joukkueen kokoonpano: palauttaa Players[] (IdPlayer, PlayerName=koko nimi, ShortName=sukunimi).
+function fetchSquad(idTeam) {
+  try {
+    const j = curlJson(`${FIFA.base}/teams/${idTeam}/squad?idCompetition=${FIFA.idCompetition}&idSeason=${FIFA.idSeason}&language=en`);
+    return j.Players || [];
+  } catch { return []; }
 }
 
 // Täytä results.timelines: käynnissä olevat (aina päivitä) + päättyneet joilta
@@ -148,7 +156,9 @@ function parseTimeline(f) {
 // (all/results, jolloin valmiit jo cachessa). Palauttaa muutosmäärän.
 export function updateTimelines(byPair, tournament, results) {
   results.timelines = results.timelines || {};
+  results.players = results.players || {};   // IdPlayer -> { full, last } (kokoonpanoista)
   let n = 0;
+  const squadCache = {};   // idTeam -> Players[] (saman ajon sisällä, ei turhia hakuja)
   for (const m of tournament.matches) {
     const f = byPair[pairKey(m.group, m.home, m.away)];
     if (!f || !f.IdStage || !f.IdMatch || !f.Home?.Abbreviation) continue;
@@ -159,7 +169,25 @@ export function updateTimelines(byPair, tournament, results) {
     try {
       const tl = parseTimeline(f);
       if (JSON.stringify(results.timelines[m.id]) !== JSON.stringify(tl)) { results.timelines[m.id] = tl; n++; }
-    } catch { /* timeline ei vielä saatavilla — yritetään seuraavalla ajolla */ }
+      // Pelaajien koko nimet (id -> {full,last}) kokoonpanoista — haetaan vain
+      // puuttuville id:ille, joten live-ottelua ei haeta turhaan joka syklissä.
+      const ids = [...new Set([...tl.goals, ...tl.cards].map((e) => e.id).filter(Boolean))];
+      const missing = ids.filter((id) => !results.players[id]);
+      if (missing.length) {
+        for (const idTeam of [f.Home?.IdTeam, f.Away?.IdTeam]) {
+          if (!idTeam) continue;
+          if (!squadCache[idTeam]) squadCache[idTeam] = fetchSquad(idTeam);
+          for (const pl of squadCache[idTeam]) {
+            if (missing.includes(pl.IdPlayer) && !results.players[pl.IdPlayer]) {
+              const full = (pl.PlayerName && pl.PlayerName[0] && pl.PlayerName[0].Description) || "";
+              const last = (pl.ShortName && pl.ShortName[0] && pl.ShortName[0].Description) || full.split(/\s+/).pop() || "";
+              results.players[pl.IdPlayer] = { full, last };
+              n++;
+            }
+          }
+        }
+      }
+    } catch { /* timeline/kokoonpano ei vielä saatavilla — yritetään seuraavalla ajolla */ }
   }
   return n;
 }

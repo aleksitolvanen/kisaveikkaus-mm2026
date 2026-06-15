@@ -27,89 +27,16 @@
     "G1": "0-1"
   },
   "timelines": {
-    "F2": {
-      "goals": [
-        {
-          "min": "7'",
-          "p": "Yasin AYARI",
-          "id": "489688",
-          "team": "SWE",
-          "pen": false
-        },
-        {
-          "min": "30'",
-          "p": "Alexander ISAK",
-          "id": "430150",
-          "team": "SWE",
-          "pen": false
-        },
-        {
-          "min": "43'",
-          "p": "Omar REKIK",
-          "id": "433367",
-          "team": "TUN",
-          "pen": false
-        },
-        {
-          "min": "59'",
-          "p": "Viktor GYOKERES",
-          "id": "483327",
-          "team": "SWE",
-          "pen": false
-        },
-        {
-          "min": "84'",
-          "p": "Mattias SVANBERG",
-          "id": "433795",
-          "team": "SWE",
-          "pen": false
-        },
-        {
-          "min": "90'+6'",
-          "p": "Yasin AYARI",
-          "id": "489688",
-          "team": "SWE",
-          "pen": false
-        }
-      ],
-      "cards": [
-        {
-          "min": "54'",
-          "p": "KHEDIRA",
-          "team": "TUN",
-          "type": "y"
-        }
-      ]
-    },
-    "H1": {
-      "goals": [],
-      "cards": [
-        {
-          "min": "16'",
-          "p": "SIDNY LOPES CABRAL",
-          "team": "CPV",
-          "type": "y"
-        },
-        {
-          "min": "90'+3'",
-          "p": "PEDRI",
-          "team": "ESP",
-          "type": "y"
-        }
-      ]
-    },
     "A1": {
       "goals": [
         {
           "min": "9'",
-          "p": "Julian QUINONES",
           "id": "429157",
           "team": "MEX",
           "pen": false
         },
         {
           "min": "67'",
-          "p": "RAÚL",
           "id": "356731",
           "team": "MEX",
           "pen": false
@@ -118,37 +45,37 @@
       "cards": [
         {
           "min": "17'",
-          "p": "MOKOENA",
+          "id": "403616",
           "team": "RSA",
           "type": "y"
         },
         {
           "min": "23'",
-          "p": "Brian GUTIERREZ",
+          "id": "464533",
           "team": "MEX",
           "type": "y"
         },
         {
           "min": "49'",
-          "p": "SITHOLE",
+          "id": "390475",
           "team": "RSA",
           "type": "r"
         },
         {
           "min": "74'",
-          "p": "Nkosinathi SIBISI",
+          "id": "463221",
           "team": "RSA",
           "type": "y"
         },
         {
           "min": "84'",
-          "p": "ZWANE",
+          "id": "395984",
           "team": "RSA",
           "type": "r"
         },
         {
           "min": "90'+2'",
-          "p": "Cesar MONTES",
+          "id": "395516",
           "team": "MEX",
           "type": "r"
         }
@@ -158,21 +85,18 @@
       "goals": [
         {
           "min": "59'",
-          "p": "Ladislav KREJCI",
           "id": "441170",
           "team": "CZE",
           "pen": false
         },
         {
           "min": "67'",
-          "p": "HWANG Inbeom",
           "id": "395084",
           "team": "KOR",
           "pen": false
         },
         {
           "min": "80'",
-          "p": "H G OH",
           "id": "448586",
           "team": "KOR",
           "pen": false
@@ -181,7 +105,7 @@
       "cards": [
         {
           "min": "90'+6'",
-          "p": "LEE Gihyuk",
+          "id": "492315",
           "team": "KOR",
           "type": "y"
         }
@@ -191,14 +115,12 @@
       "goals": [
         {
           "min": "21'",
-          "p": "Jovo LUKIC",
           "id": "519954",
           "team": "BIH",
           "pen": false
         },
         {
           "min": "78'",
-          "p": "Cyle LARIN",
           "id": "390670",
           "team": "CAN",
           "pen": false
@@ -207,31 +129,31 @@
       "cards": [
         {
           "min": "11'",
-          "p": "Alistair JOHNSTON",
+          "id": "441252",
           "team": "CAN",
           "type": "y"
         },
         {
           "min": "44'",
-          "p": "Ermedin DEMIROVIC",
+          "id": "436743",
           "team": "BIH",
           "type": "y"
         },
         {
           "min": "45'+1'",
-          "p": "Jovo LUKIC",
+          "id": "519954",
           "team": "BIH",
           "type": "y"
         },
         {
           "min": "53'",
-          "p": "Luc DE FOUGEROLLES",
+          "id": "480322",
           "team": "CAN",
           "type": "y"
         },
         {
           "min": "90'+3'",
-          "p": "Nikola KATIC",
+          "id": "489520",
           "team": "BIH",
           "type": "y"
         }
@@ -241,28 +163,24 @@
       "goals": [
         {
           "min": "31'",
-          "p": "Folarin BALOGUN",
           "id": "466624",
           "team": "USA",
           "pen": false
         },
         {
           "min": "45'+5'",
-          "p": "Folarin BALOGUN",
           "id": "466624",
           "team": "USA",
           "pen": false
         },
         {
           "min": "73'",
-          "p": "MAURICIO",
           "id": "495046",
           "team": "PAR",
           "pen": false
         },
         {
           "min": "90'+8'",
-          "p": "REYNA",
           "id": "419068",
           "team": "USA",
           "pen": false
@@ -271,37 +189,37 @@
       "cards": [
         {
           "min": "9'",
-          "p": "Juan Jose CACERES",
+          "id": "479601",
           "team": "PAR",
           "type": "y"
         },
         {
           "min": "53'",
-          "p": "Miguel ALMIRON",
+          "id": "369761",
           "team": "PAR",
           "type": "y"
         },
         {
           "min": "59'",
-          "p": "Tyler ADAMS",
+          "id": "390238",
           "team": "USA",
           "type": "y"
         },
         {
           "min": "79'",
-          "p": "Diego GOMEZ",
+          "id": "463128",
           "team": "PAR",
           "type": "y"
         },
         {
           "min": "88'",
-          "p": "Alex ARCE",
+          "id": "485802",
           "team": "PAR",
           "type": "y"
         },
         {
           "min": "90'+3'",
-          "p": "Junior ALONSO",
+          "id": "369749",
           "team": "PAR",
           "type": "y"
         }
@@ -311,7 +229,6 @@
       "goals": [
         {
           "min": "17'",
-          "p": "EMBOLO",
           "id": "393480",
           "team": "SUI",
           "pen": true
@@ -320,19 +237,19 @@
       "cards": [
         {
           "min": "13'",
-          "p": "MAHMOUD ABUNADA",
+          "id": "419459",
           "team": "QAT",
           "type": "y"
         },
         {
           "min": "23'",
-          "p": "JASSEM GABER",
+          "id": "419473",
           "team": "QAT",
           "type": "y"
         },
         {
           "min": "42'",
-          "p": "ZAKARIA",
+          "id": "401448",
           "team": "SUI",
           "type": "y"
         }
@@ -342,14 +259,12 @@
       "goals": [
         {
           "min": "21'",
-          "p": "SAIBARI",
           "id": "448598",
           "team": "MAR",
           "pen": false
         },
         {
           "min": "32'",
-          "p": "VINI JR.",
           "id": "405742",
           "team": "BRA",
           "pen": false
@@ -358,13 +273,13 @@
       "cards": [
         {
           "min": "37'",
-          "p": "CASEMIRO",
+          "id": "308386",
           "team": "BRA",
           "type": "y"
         },
         {
           "min": "43'",
-          "p": "ROGER IBANEZ",
+          "id": "430594",
           "team": "BRA",
           "type": "y"
         }
@@ -374,7 +289,6 @@
       "goals": [
         {
           "min": "28'",
-          "p": "John McGINN",
           "id": "401334",
           "team": "SCO",
           "pen": false
@@ -383,25 +297,25 @@
       "cards": [
         {
           "min": "39'",
-          "p": "Jean-Ricner BELLEGARDE",
+          "id": "430697",
           "team": "HAI",
           "type": "y"
         },
         {
           "min": "46'",
-          "p": "Aaron HICKEY",
+          "id": "442428",
           "team": "SCO",
           "type": "y"
         },
         {
           "min": "90'+1'",
-          "p": "Findlay CURTIS",
+          "id": "520217",
           "team": "SCO",
           "type": "y"
         },
         {
           "min": "90'+5'",
-          "p": "Kenny McLEAN",
+          "id": "484051",
           "team": "SCO",
           "type": "y"
         }
@@ -411,14 +325,12 @@
       "goals": [
         {
           "min": "27'",
-          "p": "Nestory IRANKUNDA",
           "id": "486306",
           "team": "AUS",
           "pen": false
         },
         {
           "min": "75'",
-          "p": "Connor METCALFE",
           "id": "430452",
           "team": "AUS",
           "pen": false
@@ -427,7 +339,7 @@
       "cards": [
         {
           "min": "86'",
-          "p": "YUNUS",
+          "id": "406231",
           "team": "TUR",
           "type": "y"
         }
@@ -437,56 +349,48 @@
       "goals": [
         {
           "min": "6'",
-          "p": "NMECHA",
           "id": "492363",
           "team": "GER",
           "pen": false
         },
         {
           "min": "21'",
-          "p": "Livano COMENENCIA",
           "id": "494989",
           "team": "CUW",
           "pen": false
         },
         {
           "min": "38'",
-          "p": "SCHLOTTERBECK",
           "id": "430667",
           "team": "GER",
           "pen": false
         },
         {
           "min": "45'+5'",
-          "p": "HAVERTZ",
           "id": "411367",
           "team": "GER",
           "pen": true
         },
         {
           "min": "47'",
-          "p": "MUSIALA",
           "id": "429642",
           "team": "GER",
           "pen": false
         },
         {
           "min": "68'",
-          "p": "Nathaniel BROWN",
           "id": "511015",
           "team": "GER",
           "pen": false
         },
         {
           "min": "78'",
-          "p": "Deniz UNDAV",
           "id": "484851",
           "team": "GER",
           "pen": false
         },
         {
           "min": "88'",
-          "p": "HAVERTZ",
           "id": "411367",
           "team": "GER",
           "pen": false
@@ -498,28 +402,24 @@
       "goals": [
         {
           "min": "50'",
-          "p": "Virgil VAN DIJK",
           "id": "397786",
           "team": "NED",
           "pen": false
         },
         {
           "min": "57'",
-          "p": "NAKAMURA",
           "id": "405522",
           "team": "JPN",
           "pen": false
         },
         {
           "min": "64'",
-          "p": "Crysencio SUMMERVILLE",
           "id": "489518",
           "team": "NED",
           "pen": false
         },
         {
           "min": "88'",
-          "p": "KAMADA",
           "id": "448557",
           "team": "JPN",
           "pen": false
@@ -528,19 +428,19 @@
       "cards": [
         {
           "min": "61'",
-          "p": "Crysencio SUMMERVILLE",
+          "id": "489518",
           "team": "NED",
           "type": "y"
         },
         {
           "min": "83'",
-          "p": "Memphis DEPAY",
+          "id": "336098",
           "team": "NED",
           "type": "y"
         },
         {
           "min": "90'+1'",
-          "p": "VAN DE VEN",
+          "id": "448140",
           "team": "NED",
           "type": "y"
         }
@@ -550,7 +450,6 @@
       "goals": [
         {
           "min": "90'",
-          "p": "Amad DIALLO",
           "id": "430822",
           "team": "CIV",
           "pen": false
@@ -559,26 +458,91 @@
       "cards": [
         {
           "min": "28'",
-          "p": "Seko FOFANA",
+          "id": "405175",
           "team": "CIV",
           "type": "y"
         },
         {
           "min": "38'",
-          "p": "KESSIE",
+          "id": "371609",
           "team": "CIV",
           "type": "y"
         },
         {
           "min": "40'",
-          "p": "Guela DOUE",
+          "id": "486317",
           "team": "CIV",
           "type": "y"
         },
         {
           "min": "73'",
-          "p": "Jackson POROZO",
+          "id": "419003",
           "team": "ECU",
+          "type": "y"
+        }
+      ]
+    },
+    "F2": {
+      "goals": [
+        {
+          "min": "7'",
+          "id": "489688",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "30'",
+          "id": "430150",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "43'",
+          "id": "433367",
+          "team": "TUN",
+          "pen": false
+        },
+        {
+          "min": "59'",
+          "id": "483327",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "84'",
+          "id": "433795",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "90'+6'",
+          "id": "489688",
+          "team": "SWE",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "54'",
+          "id": "336459",
+          "team": "TUN",
+          "type": "y"
+        }
+      ]
+    },
+    "H1": {
+      "goals": [],
+      "cards": [
+        {
+          "min": "16'",
+          "id": "477832",
+          "team": "CPV",
+          "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "423646",
+          "team": "ESP",
           "type": "y"
         }
       ]
@@ -587,7 +551,6 @@
       "goals": [
         {
           "min": "19'",
-          "p": "E.ASHOUR",
           "id": "430482",
           "team": "EGY",
           "pen": false
@@ -596,17 +559,307 @@
       "cards": [
         {
           "min": "13'",
-          "p": "M.ATTIA",
+          "id": "461788",
           "team": "EGY",
           "type": "y"
         },
         {
           "min": "14'",
-          "p": "CASTAGNE",
+          "id": "411443",
           "team": "BEL",
           "type": "y"
         }
       ]
+    }
+  },
+  "players": {
+    "308386": {
+      "full": "CASEMIRO",
+      "last": "CASEMIRO"
+    },
+    "336098": {
+      "full": "Memphis DEPAY",
+      "last": "MEMPHIS"
+    },
+    "336459": {
+      "full": "Rani Khedira",
+      "last": "KHEDIRA"
+    },
+    "356731": {
+      "full": "Raul JIMENEZ",
+      "last": "RAÚL"
+    },
+    "369749": {
+      "full": "Junior ALONSO",
+      "last": "ALONSO"
+    },
+    "369761": {
+      "full": "Miguel ALMIRON",
+      "last": "ALMIRÓN"
+    },
+    "371609": {
+      "full": "Franck KESSIE",
+      "last": "KESSIE"
+    },
+    "390238": {
+      "full": "Tyler ADAMS",
+      "last": "Tyler ADAMS"
+    },
+    "390475": {
+      "full": "Sphephelo SITHOLE",
+      "last": "SITHOLE"
+    },
+    "390670": {
+      "full": "Cyle LARIN",
+      "last": "LARIN"
+    },
+    "393480": {
+      "full": "Breel EMBOLO",
+      "last": "EMBOLO"
+    },
+    "395084": {
+      "full": "HWANG Inbeom",
+      "last": "INBEOM"
+    },
+    "395516": {
+      "full": "Cesar MONTES",
+      "last": "Cesar MONTES"
+    },
+    "395984": {
+      "full": "Themba ZWANE",
+      "last": "ZWANE"
+    },
+    "397786": {
+      "full": "Virgil VAN DIJK",
+      "last": "VIRGIL"
+    },
+    "401334": {
+      "full": "John McGinn",
+      "last": "MCGINN"
+    },
+    "401448": {
+      "full": "Denis ZAKARIA",
+      "last": "ZAKARIA"
+    },
+    "403616": {
+      "full": "Teboho MOKOENA",
+      "last": "MOKOENA"
+    },
+    "405175": {
+      "full": "Seko Fofana",
+      "last": "FOFANA"
+    },
+    "405522": {
+      "full": "Keito Nakamura",
+      "last": "NAKAMURA"
+    },
+    "405742": {
+      "full": "VINICIUS JUNIOR",
+      "last": "VINI JR."
+    },
+    "406231": {
+      "full": "Yunus AKGUN",
+      "last": "YUNUS"
+    },
+    "411367": {
+      "full": "Kai HAVERTZ",
+      "last": "HAVERTZ"
+    },
+    "411443": {
+      "full": "Timothy CASTAGNE",
+      "last": "CASTAGNE"
+    },
+    "419003": {
+      "full": "Jackson POROZO",
+      "last": "POROZO"
+    },
+    "419068": {
+      "full": "Giovanni REYNA",
+      "last": "REYNA"
+    },
+    "419459": {
+      "full": "MAHMOUD ABUNADA",
+      "last": "MAHMOUD ABUNADA"
+    },
+    "419473": {
+      "full": "JASSEM GABER",
+      "last": "JASSEM"
+    },
+    "423646": {
+      "full": "PEDRI",
+      "last": "PEDRI"
+    },
+    "429157": {
+      "full": "Julian QUINONES",
+      "last": "Julian QUINONES"
+    },
+    "429642": {
+      "full": "Jamal MUSIALA",
+      "last": "MUSIALA"
+    },
+    "430150": {
+      "full": "Alexander Isak",
+      "last": "ISAK"
+    },
+    "430452": {
+      "full": "Connor METCALFE",
+      "last": "Connor METCALFE"
+    },
+    "430482": {
+      "full": "EMAM ASHOUR",
+      "last": "E.ASHOUR"
+    },
+    "430594": {
+      "full": "ROGER IBANEZ",
+      "last": "ROGER IBANEZ"
+    },
+    "430667": {
+      "full": "Nico SCHLOTTERBECK",
+      "last": "SCHLOTTERBECK"
+    },
+    "430697": {
+      "full": "Jean-Ricner Bellegarde",
+      "last": "BELLEGARDE"
+    },
+    "430822": {
+      "full": "Amad DIALLO",
+      "last": "Amad DIALLO"
+    },
+    "433367": {
+      "full": "Omar Rekik",
+      "last": "REKIK"
+    },
+    "433795": {
+      "full": "Mattias SVANBERG",
+      "last": "SVANBERG"
+    },
+    "436743": {
+      "full": "Ermedin DEMIROVIC",
+      "last": "DEMIROVIĆ"
+    },
+    "441170": {
+      "full": "Ladislav KREJCI",
+      "last": "KREJČÍ"
+    },
+    "441252": {
+      "full": "Alistair JOHNSTON",
+      "last": "JOHNSTON"
+    },
+    "442428": {
+      "full": "Aaron HICKEY",
+      "last": "HICKEY"
+    },
+    "448140": {
+      "full": "Micky VAN DE VEN",
+      "last": "VAN DE VEN"
+    },
+    "448557": {
+      "full": "Daichi KAMADA",
+      "last": "KAMADA"
+    },
+    "448586": {
+      "full": "OH Hyeongyu",
+      "last": "H G OH"
+    },
+    "448598": {
+      "full": "Ismael SAIBARI",
+      "last": "SAIBARI"
+    },
+    "461788": {
+      "full": "MARAWAN ATTIA",
+      "last": "M.ATTIA"
+    },
+    "463128": {
+      "full": "Diego GOMEZ",
+      "last": "D. GÓMEZ"
+    },
+    "463221": {
+      "full": "Nkosinathi SIBISI",
+      "last": "SIBISI"
+    },
+    "464533": {
+      "full": "Brian GUTIERREZ",
+      "last": "B. GUTIÉRREZ"
+    },
+    "466624": {
+      "full": "Folarin BALOGUN",
+      "last": "BALOGUN"
+    },
+    "477832": {
+      "full": "SIDNY LOPES CABRAL",
+      "last": "LOPES CABRAL"
+    },
+    "479601": {
+      "full": "Juan Jose CACERES",
+      "last": "CÁCERES"
+    },
+    "480322": {
+      "full": "Luc DE FOUGEROLLES",
+      "last": "DE FOUGEROLLES"
+    },
+    "483327": {
+      "full": "Viktor GYOKERES",
+      "last": "GYÖKERES"
+    },
+    "484051": {
+      "full": "Kenny McLEAN",
+      "last": "MCLEAN"
+    },
+    "484851": {
+      "full": "Deniz UNDAV",
+      "last": "UNDAV"
+    },
+    "485802": {
+      "full": "Alex ARCE",
+      "last": "ARCE"
+    },
+    "486306": {
+      "full": "Nestory IRANKUNDA",
+      "last": "IRANKUNDA"
+    },
+    "486317": {
+      "full": "Guela DOUE",
+      "last": "G. DOUE"
+    },
+    "489518": {
+      "full": "Crysencio SUMMERVILLE",
+      "last": "SUMMERVILLE"
+    },
+    "489520": {
+      "full": "Nikola KATIC",
+      "last": "KATIĆ"
+    },
+    "489688": {
+      "full": "Yasin AYARI",
+      "last": "AYARI"
+    },
+    "492315": {
+      "full": "LEE Gihyuk",
+      "last": "GIHYUK"
+    },
+    "492363": {
+      "full": "Felix NMECHA",
+      "last": "NMECHA"
+    },
+    "494989": {
+      "full": "Livano COMENENCIA",
+      "last": "COMENENCIA"
+    },
+    "495046": {
+      "full": "MAURICIO",
+      "last": "MAURICIO"
+    },
+    "511015": {
+      "full": "Nathaniel BROWN",
+      "last": "BROWN"
+    },
+    "519954": {
+      "full": "Jovo LUKIC",
+      "last": "LUKIĆ"
+    },
+    "520217": {
+      "full": "Findlay CURTIS",
+      "last": "CURTIS"
     }
   }
 }

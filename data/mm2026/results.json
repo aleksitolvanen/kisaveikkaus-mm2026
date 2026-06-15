@@ -23,7 +23,9 @@
     "champion": null
   },
   "goals": {},
-  "live": {},
+  "live": {
+    "G1": "0-0"
+  },
   "timelines": {
     "F2": {
       "goals": [
@@ -580,6 +582,10 @@
           "type": "y"
         }
       ]
+    },
+    "G1": {
+      "goals": [],
+      "cards": []
     }
   }
 }

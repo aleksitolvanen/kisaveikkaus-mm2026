@@ -22,5 +22,523 @@
     "champion": null
   },
   "goals": {},
-  "live": {}
+  "live": {
+    "H1": "0-0"
+  },
+  "timelines": {
+    "A1": {
+      "goals": [
+        {
+          "min": "9'",
+          "p": "Julian QUINONES",
+          "team": "MEX",
+          "pen": false
+        },
+        {
+          "min": "67'",
+          "p": "RAÚL",
+          "team": "MEX",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "17'",
+          "p": "MOKOENA",
+          "team": "RSA",
+          "type": "y"
+        },
+        {
+          "min": "23'",
+          "p": "Brian GUTIERREZ",
+          "team": "MEX",
+          "type": "y"
+        },
+        {
+          "min": "49'",
+          "p": "SITHOLE",
+          "team": "RSA",
+          "type": "r"
+        },
+        {
+          "min": "74'",
+          "p": "Nkosinathi SIBISI",
+          "team": "RSA",
+          "type": "y"
+        },
+        {
+          "min": "84'",
+          "p": "ZWANE",
+          "team": "RSA",
+          "type": "r"
+        },
+        {
+          "min": "90'+2'",
+          "p": "Cesar MONTES",
+          "team": "MEX",
+          "type": "r"
+        }
+      ]
+    },
+    "A2": {
+      "goals": [
+        {
+          "min": "59'",
+          "p": "Ladislav KREJCI",
+          "team": "CZE",
+          "pen": false
+        },
+        {
+          "min": "67'",
+          "p": "HWANG Inbeom",
+          "team": "KOR",
+          "pen": false
+        },
+        {
+          "min": "80'",
+          "p": "H G OH",
+          "team": "KOR",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "90'+6'",
+          "p": "LEE Gihyuk",
+          "team": "KOR",
+          "type": "y"
+        }
+      ]
+    },
+    "B1": {
+      "goals": [
+        {
+          "min": "21'",
+          "p": "Jovo LUKIC",
+          "team": "BIH",
+          "pen": false
+        },
+        {
+          "min": "78'",
+          "p": "Cyle LARIN",
+          "team": "CAN",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "11'",
+          "p": "Alistair JOHNSTON",
+          "team": "CAN",
+          "type": "y"
+        },
+        {
+          "min": "44'",
+          "p": "Ermedin DEMIROVIC",
+          "team": "BIH",
+          "type": "y"
+        },
+        {
+          "min": "45'+1'",
+          "p": "Jovo LUKIC",
+          "team": "BIH",
+          "type": "y"
+        },
+        {
+          "min": "53'",
+          "p": "Luc DE FOUGEROLLES",
+          "team": "CAN",
+          "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "p": "Nikola KATIC",
+          "team": "BIH",
+          "type": "y"
+        }
+      ]
+    },
+    "D1": {
+      "goals": [
+        {
+          "min": "31'",
+          "p": "Folarin BALOGUN",
+          "team": "USA",
+          "pen": false
+        },
+        {
+          "min": "45'+5'",
+          "p": "Folarin BALOGUN",
+          "team": "USA",
+          "pen": false
+        },
+        {
+          "min": "73'",
+          "p": "MAURICIO",
+          "team": "PAR",
+          "pen": false
+        },
+        {
+          "min": "90'+8'",
+          "p": "REYNA",
+          "team": "USA",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "9'",
+          "p": "Juan Jose CACERES",
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "53'",
+          "p": "Miguel ALMIRON",
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "59'",
+          "p": "Tyler ADAMS",
+          "team": "USA",
+          "type": "y"
+        },
+        {
+          "min": "79'",
+          "p": "Diego GOMEZ",
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "88'",
+          "p": "Alex ARCE",
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "p": "Junior ALONSO",
+          "team": "PAR",
+          "type": "y"
+        }
+      ]
+    },
+    "B2": {
+      "goals": [
+        {
+          "min": "17'",
+          "p": "EMBOLO",
+          "team": "SUI",
+          "pen": true
+        }
+      ],
+      "cards": [
+        {
+          "min": "13'",
+          "p": "MAHMOUD ABUNADA",
+          "team": "QAT",
+          "type": "y"
+        },
+        {
+          "min": "23'",
+          "p": "JASSEM GABER",
+          "team": "QAT",
+          "type": "y"
+        },
+        {
+          "min": "42'",
+          "p": "ZAKARIA",
+          "team": "SUI",
+          "type": "y"
+        }
+      ]
+    },
+    "C1": {
+      "goals": [
+        {
+          "min": "21'",
+          "p": "SAIBARI",
+          "team": "MAR",
+          "pen": false
+        },
+        {
+          "min": "32'",
+          "p": "VINI JR.",
+          "team": "BRA",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "37'",
+          "p": "CASEMIRO",
+          "team": "BRA",
+          "type": "y"
+        },
+        {
+          "min": "43'",
+          "p": "ROGER IBANEZ",
+          "team": "BRA",
+          "type": "y"
+        }
+      ]
+    },
+    "C2": {
+      "goals": [
+        {
+          "min": "28'",
+          "p": "John McGINN",
+          "team": "SCO",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "39'",
+          "p": "Jean-Ricner BELLEGARDE",
+          "team": "HAI",
+          "type": "y"
+        },
+        {
+          "min": "46'",
+          "p": "Aaron HICKEY",
+          "team": "SCO",
+          "type": "y"
+        },
+        {
+          "min": "90'+1'",
+          "p": "Findlay CURTIS",
+          "team": "SCO",
+          "type": "y"
+        },
+        {
+          "min": "90'+5'",
+          "p": "Kenny McLEAN",
+          "team": "SCO",
+          "type": "y"
+        }
+      ]
+    },
+    "D2": {
+      "goals": [
+        {
+          "min": "27'",
+          "p": "Nestory IRANKUNDA",
+          "team": "AUS",
+          "pen": false
+        },
+        {
+          "min": "75'",
+          "p": "Connor METCALFE",
+          "team": "AUS",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "86'",
+          "p": "YUNUS",
+          "team": "TUR",
+          "type": "y"
+        }
+      ]
+    },
+    "E1": {
+      "goals": [
+        {
+          "min": "6'",
+          "p": "NMECHA",
+          "team": "GER",
+          "pen": false
+        },
+        {
+          "min": "21'",
+          "p": "Livano COMENENCIA",
+          "team": "CUW",
+          "pen": false
+        },
+        {
+          "min": "38'",
+          "p": "SCHLOTTERBECK",
+          "team": "GER",
+          "pen": false
+        },
+        {
+          "min": "45'+5'",
+          "p": "HAVERTZ",
+          "team": "GER",
+          "pen": true
+        },
+        {
+          "min": "47'",
+          "p": "MUSIALA",
+          "team": "GER",
+          "pen": false
+        },
+        {
+          "min": "68'",
+          "p": "Nathaniel BROWN",
+          "team": "GER",
+          "pen": false
+        },
+        {
+          "min": "78'",
+          "p": "Deniz UNDAV",
+          "team": "GER",
+          "pen": false
+        },
+        {
+          "min": "88'",
+          "p": "HAVERTZ",
+          "team": "GER",
+          "pen": false
+        }
+      ],
+      "cards": []
+    },
+    "F1": {
+      "goals": [
+        {
+          "min": "50'",
+          "p": "Virgil VAN DIJK",
+          "team": "NED",
+          "pen": false
+        },
+        {
+          "min": "57'",
+          "p": "NAKAMURA",
+          "team": "JPN",
+          "pen": false
+        },
+        {
+          "min": "64'",
+          "p": "Crysencio SUMMERVILLE",
+          "team": "NED",
+          "pen": false
+        },
+        {
+          "min": "88'",
+          "p": "KAMADA",
+          "team": "JPN",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "61'",
+          "p": "Crysencio SUMMERVILLE",
+          "team": "NED",
+          "type": "y"
+        },
+        {
+          "min": "83'",
+          "p": "Memphis DEPAY",
+          "team": "NED",
+          "type": "y"
+        },
+        {
+          "min": "90'+1'",
+          "p": "VAN DE VEN",
+          "team": "NED",
+          "type": "y"
+        }
+      ]
+    },
+    "E2": {
+      "goals": [
+        {
+          "min": "90'",
+          "p": "Amad DIALLO",
+          "team": "CIV",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "28'",
+          "p": "Seko FOFANA",
+          "team": "CIV",
+          "type": "y"
+        },
+        {
+          "min": "38'",
+          "p": "KESSIE",
+          "team": "CIV",
+          "type": "y"
+        },
+        {
+          "min": "40'",
+          "p": "Guela DOUE",
+          "team": "CIV",
+          "type": "y"
+        },
+        {
+          "min": "73'",
+          "p": "Jackson POROZO",
+          "team": "ECU",
+          "type": "y"
+        }
+      ]
+    },
+    "F2": {
+      "goals": [
+        {
+          "min": "7'",
+          "p": "Yasin AYARI",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "30'",
+          "p": "Alexander ISAK",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "43'",
+          "p": "Omar REKIK",
+          "team": "TUN",
+          "pen": false
+        },
+        {
+          "min": "59'",
+          "p": "Viktor GYOKERES",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "84'",
+          "p": "Mattias SVANBERG",
+          "team": "SWE",
+          "pen": false
+        },
+        {
+          "min": "90'+6'",
+          "p": "Yasin AYARI",
+          "team": "SWE",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "54'",
+          "p": "KHEDIRA",
+          "team": "TUN",
+          "type": "y"
+        }
+      ]
+    },
+    "H1": {
+      "goals": [],
+      "cards": [
+        {
+          "min": "16'",
+          "p": "SIDNY LOPES CABRAL",
+          "team": "CPV",
+          "type": "y"
+        }
+      ]
+    }
+  }
 }

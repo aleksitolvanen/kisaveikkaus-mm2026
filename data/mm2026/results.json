@@ -608,6 +608,12 @@
           "id": "430477",
           "team": "EGY",
           "type": "y"
+        },
+        {
+          "min": "75'",
+          "id": "448373",
+          "team": "BEL",
+          "type": "y"
         }
       ]
     }
@@ -800,6 +806,10 @@
     "448140": {
       "full": "Micky VAN DE VEN",
       "last": "VAN DE VEN"
+    },
+    "448373": {
+      "full": "Maxim DE CUYPER",
+      "last": "DE CUYPER"
     },
     "448557": {
       "full": "Daichi KAMADA",

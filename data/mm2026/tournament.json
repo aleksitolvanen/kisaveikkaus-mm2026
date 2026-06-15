@@ -1704,5 +1704,42 @@
       "matchNumber": 104,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289292/400021543"
     }
-  ]
+  ],
+  "scorerMeta": {
+    "Mbappe": {
+      "id": "389867",
+      "full": "Kylian MBAPPE",
+      "team": "FRA"
+    },
+    "Kane": {
+      "id": "369419",
+      "full": "Harry KANE",
+      "team": "ENG"
+    },
+    "Havertz": {
+      "id": "411367",
+      "full": "Kai HAVERTZ",
+      "team": "GER"
+    },
+    "Oyarzabal": {
+      "id": "430751",
+      "full": "Mikel OYARZABAL",
+      "team": "ESP"
+    },
+    "Julian Alvarez": {
+      "id": "416081",
+      "full": "Julian ALVAREZ",
+      "team": "ARG"
+    },
+    "Yamal": {
+      "id": "484320",
+      "full": "Lamine YAMAL",
+      "team": "ESP"
+    },
+    "Haaland": {
+      "id": "419652",
+      "full": "Erling HAALAND",
+      "team": "NOR"
+    }
+  }
 }

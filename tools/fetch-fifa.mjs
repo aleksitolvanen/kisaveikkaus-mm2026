@@ -136,7 +136,7 @@ function parseTimeline(f) {
   // min = ottelutilanteen minuutti (esim. "45'+5'") — talletetaan jotta saman
   // cachen voi käyttää myös Ottelut-sivun aikajanaan.
   const goals = ev.filter((e) => e.Type === 0 || e.Type === 41)
-    .map((e) => ({ min: e.MatchMinute || null, p: nameOf(e), team: codeOf(e.IdTeam), pen: e.Type === 41 }));
+    .map((e) => ({ min: e.MatchMinute || null, p: nameOf(e), id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 }));
   const cards = ev.filter((e) => [2, 3, 4].includes(e.Type))
     .map((e) => ({ min: e.MatchMinute || null, p: nameOf(e), team: codeOf(e.IdTeam), type: e.Type === 2 ? "y" : e.Type === 4 ? "r2" : "r" }));
   return { goals, cards };

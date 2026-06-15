@@ -568,6 +568,12 @@
           "id": "411443",
           "team": "BEL",
           "type": "y"
+        },
+        {
+          "min": "34'",
+          "id": "430477",
+          "team": "EGY",
+          "type": "y"
         }
       ]
     }
@@ -704,6 +710,10 @@
     "430452": {
       "full": "Connor METCALFE",
       "last": "Connor METCALFE"
+    },
+    "430477": {
+      "full": "AHMED FATOUH",
+      "last": "A. FATOUH"
     },
     "430482": {
       "full": "EMAM ASHOUR",

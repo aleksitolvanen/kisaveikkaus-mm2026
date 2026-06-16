@@ -321,7 +321,8 @@
       "matchNumber": 13,
       "stadium": "Miami Stadium",
       "city": "Miami",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021486"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021486",
+      "attendance": "62764"
     },
     {
       "id": "G2",
@@ -333,7 +334,8 @@
       "matchNumber": 15,
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021476"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021476",
+      "attendance": "70108"
     },
     {
       "id": "I1",

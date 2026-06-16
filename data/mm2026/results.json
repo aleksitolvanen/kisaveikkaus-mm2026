@@ -67,7 +67,7 @@
     "519954": 1
   },
   "live": {
-    "I1": "2-0"
+    "I1": "2-1"
   },
   "timelines": {
     "A1": {
@@ -720,6 +720,12 @@
           "id": "484860",
           "team": "FRA",
           "pen": false
+        },
+        {
+          "min": "90'+5'",
+          "id": "496358",
+          "team": "SEN",
+          "pen": false
         }
       ],
       "cards": []
@@ -1057,6 +1063,10 @@
     "495046": {
       "full": "MAURICIO",
       "last": "MAURICIO"
+    },
+    "496358": {
+      "full": "Ibrahim MBAYE",
+      "last": "MBAYE"
     },
     "511015": {
       "full": "Nathaniel BROWN",

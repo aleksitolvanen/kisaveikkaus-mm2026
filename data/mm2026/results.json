@@ -71,7 +71,7 @@
     "519954": 1
   },
   "live": {
-    "I2": "1-2"
+    "I2": "1-3"
   },
   "timelines": {
     "A1": {
@@ -762,7 +762,7 @@
         },
         {
           "min": "76'",
-          "id": null,
+          "id": "419672",
           "team": "NOR",
           "pen": false
         }
@@ -922,6 +922,10 @@
     "419652": {
       "full": "Erling HAALAND",
       "last": "HAALAND"
+    },
+    "419672": {
+      "full": "Leo OSTIGARD",
+      "last": "ØSTIGÅRD"
     },
     "423646": {
       "full": "PEDRI",

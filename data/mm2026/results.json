@@ -671,7 +671,7 @@
       "goals": [
         {
           "min": "7'",
-          "id": null,
+          "id": "405454",
           "team": "NZL",
           "pen": false
         }
@@ -763,6 +763,10 @@
     "405175": {
       "full": "Seko Fofana",
       "last": "FOFANA"
+    },
+    "405454": {
+      "full": "Elijah JUST",
+      "last": "JUST"
     },
     "405522": {
       "full": "Keito Nakamura",

@@ -67,7 +67,7 @@
     "519954": 1
   },
   "live": {
-    "I1": "0-0"
+    "I1": "1-0"
   },
   "timelines": {
     "A1": {
@@ -708,7 +708,14 @@
       ]
     },
     "I1": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "66'",
+          "id": "389867",
+          "team": "FRA",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -752,6 +759,10 @@
     "384797": {
       "full": "Ramin REZAEIAN",
       "last": "RAMIN"
+    },
+    "389867": {
+      "full": "Kylian MBAPPE",
+      "last": "MBAPPÉ"
     },
     "390238": {
       "full": "Tyler ADAMS",

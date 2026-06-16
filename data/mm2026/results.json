@@ -71,7 +71,7 @@
     "519954": 1
   },
   "live": {
-    "I2": "0-1"
+    "I2": "1-1"
   },
   "timelines": {
     "A1": {
@@ -747,6 +747,12 @@
           "id": "419652",
           "team": "NOR",
           "pen": false
+        },
+        {
+          "min": "39'",
+          "id": "395186",
+          "team": "IRQ",
+          "pen": false
         }
       ],
       "cards": []
@@ -816,6 +822,10 @@
     "395084": {
       "full": "HWANG Inbeom",
       "last": "INBEOM"
+    },
+    "395186": {
+      "full": "AYMEN HUSSEIN",
+      "last": "Hussain"
     },
     "395516": {
       "full": "Cesar MONTES",

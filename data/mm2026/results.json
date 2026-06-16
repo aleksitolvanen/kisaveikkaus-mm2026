@@ -741,7 +741,14 @@
       "cards": []
     },
     "I2": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "29'",
+          "id": null,
+          "team": "NOR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

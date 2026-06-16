@@ -63,7 +63,7 @@
     "519954": 1
   },
   "live": {
-    "G2": "0-1"
+    "G2": "1-1"
   },
   "timelines": {
     "A1": {
@@ -674,6 +674,12 @@
           "id": "405454",
           "team": "NZL",
           "pen": false
+        },
+        {
+          "min": "32'",
+          "id": "384797",
+          "team": "IRN",
+          "pen": false
         }
       ],
       "cards": []
@@ -711,6 +717,10 @@
     "371609": {
       "full": "Franck KESSIE",
       "last": "KESSIE"
+    },
+    "384797": {
+      "full": "Ramin REZAEIAN",
+      "last": "RAMIN"
     },
     "390238": {
       "full": "Tyler ADAMS",

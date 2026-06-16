@@ -71,7 +71,7 @@
     "519954": 1
   },
   "live": {
-    "I2": "0-0"
+    "I2": "0-1"
   },
   "timelines": {
     "A1": {
@@ -744,7 +744,7 @@
       "goals": [
         {
           "min": "29'",
-          "id": null,
+          "id": "419652",
           "team": "NOR",
           "pen": false
         }
@@ -896,6 +896,10 @@
     "419473": {
       "full": "JASSEM GABER",
       "last": "JASSEM"
+    },
+    "419652": {
+      "full": "Erling HAALAND",
+      "last": "HAALAND"
     },
     "423646": {
       "full": "PEDRI",

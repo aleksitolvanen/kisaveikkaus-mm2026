@@ -714,6 +714,12 @@
           "id": "389867",
           "team": "FRA",
           "pen": false
+        },
+        {
+          "min": "82'",
+          "id": "484860",
+          "team": "FRA",
+          "pen": false
         }
       ],
       "cards": []
@@ -1003,6 +1009,10 @@
     "484851": {
       "full": "Deniz UNDAV",
       "last": "UNDAV"
+    },
+    "484860": {
+      "full": "Bradley BARCOLA",
+      "last": "BARCOLA"
     },
     "485802": {
       "full": "Alex ARCE",

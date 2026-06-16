@@ -767,7 +767,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "86'",
+          "id": "434025",
+          "team": "IRQ",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -978,6 +985,10 @@
     "433795": {
       "full": "Mattias SVANBERG",
       "last": "SVANBERG"
+    },
+    "434025": {
+      "full": "ZAID TAHSEEN",
+      "last": "ZAID T."
     },
     "436743": {
       "full": "Ermedin DEMIROVIC",

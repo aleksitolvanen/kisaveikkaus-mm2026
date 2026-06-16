@@ -694,10 +694,21 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "89'",
+          "id": "288961",
+          "team": "IRN",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
+    "288961": {
+      "full": "Ehsan HAJISAFI",
+      "last": "Ehsan HAJISAFI"
+    },
     "308386": {
       "full": "CASEMIRO",
       "last": "CASEMIRO"

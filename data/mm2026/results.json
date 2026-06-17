@@ -880,6 +880,12 @@
           "id": "356532",
           "team": "COD",
           "type": "y"
+        },
+        {
+          "min": "88'",
+          "id": "395212",
+          "team": "POR",
+          "type": "y"
         }
       ]
     }
@@ -972,6 +978,10 @@
     "395205": {
       "full": "BERNARDO SILVA",
       "last": "BERNARDO"
+    },
+    "395212": {
+      "full": "NELSON SEMEDO",
+      "last": "Semedo"
     },
     "395516": {
       "full": "Cesar MONTES",

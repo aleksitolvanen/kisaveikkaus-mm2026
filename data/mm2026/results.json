@@ -77,7 +77,7 @@
     "519954": 1
   },
   "live": {
-    "J2": "0-0"
+    "J2": "1-0"
   },
   "timelines": {
     "A1": {
@@ -813,7 +813,14 @@
       "cards": []
     },
     "J2": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "20'",
+          "id": "463283",
+          "team": "AUT",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -1089,6 +1096,10 @@
     "463221": {
       "full": "Nkosinathi SIBISI",
       "last": "SIBISI"
+    },
+    "463283": {
+      "full": "Romano SCHMID",
+      "last": "SCHMID"
     },
     "464533": {
       "full": "Brian GUTIERREZ",

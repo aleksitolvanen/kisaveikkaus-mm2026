@@ -863,7 +863,7 @@
         },
         {
           "min": "45'+5'",
-          "id": null,
+          "id": "441316",
           "team": "COD",
           "pen": false
         }
@@ -1140,6 +1140,10 @@
     "441252": {
       "full": "Alistair JOHNSTON",
       "last": "JOHNSTON"
+    },
+    "441316": {
+      "full": "Yoane WISSA",
+      "last": "Yoane WISSA"
     },
     "442428": {
       "full": "Aaron HICKEY",

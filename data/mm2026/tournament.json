@@ -347,7 +347,8 @@
       "matchNumber": 17,
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021490"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021490",
+      "attendance": "80545"
     },
     {
       "id": "I2",
@@ -359,7 +360,8 @@
       "matchNumber": 18,
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021488"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021488",
+      "attendance": "63106"
     },
     {
       "id": "J1",
@@ -371,7 +373,8 @@
       "matchNumber": 19,
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021496"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021496",
+      "attendance": "69045"
     },
     {
       "id": "J2",
@@ -383,7 +386,8 @@
       "matchNumber": 20,
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021498",
+      "attendance": "68527"
     },
     {
       "id": "K1",

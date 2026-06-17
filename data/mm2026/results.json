@@ -862,7 +862,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "13'",
+          "id": "395205",
+          "team": "POR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -945,6 +952,10 @@
     "395186": {
       "full": "AYMEN HUSSEIN",
       "last": "Hussain"
+    },
+    "395205": {
+      "full": "BERNARDO SILVA",
+      "last": "BERNARDO"
     },
     "395516": {
       "full": "Cesar MONTES",

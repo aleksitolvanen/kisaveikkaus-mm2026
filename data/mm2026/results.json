@@ -84,7 +84,7 @@
     "519954": 1
   },
   "live": {
-    "L1": "1-0"
+    "L1": "1-1"
   },
   "timelines": {
     "A1": {
@@ -905,6 +905,12 @@
           "id": "369419",
           "team": "ENG",
           "pen": true
+        },
+        {
+          "min": "36'",
+          "id": "482774",
+          "team": "CRO",
+          "pen": false
         }
       ],
       "cards": []
@@ -1246,6 +1252,10 @@
     "480322": {
       "full": "Luc DE FOUGEROLLES",
       "last": "DE FOUGEROLLES"
+    },
+    "482774": {
+      "full": "Martin BATURINA",
+      "last": "BATURINA"
     },
     "483327": {
       "full": "Viktor GYOKERES",

@@ -77,7 +77,7 @@
     "519954": 1
   },
   "live": {
-    "J2": "1-1"
+    "J2": "2-1"
   },
   "timelines": {
     "A1": {
@@ -825,9 +825,23 @@
           "id": "431212",
           "team": "JOR",
           "pen": false
+        },
+        {
+          "min": "77'",
+          "id": "431225",
+          "team": "JOR",
+          "pen": false,
+          "og": true
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "77'",
+          "id": "358241",
+          "team": "AUT",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -862,6 +876,10 @@
     "358112": {
       "full": "Romelu LUKAKU",
       "last": "R. LUKAKU"
+    },
+    "358241": {
+      "full": "Marcel SABITZER",
+      "last": "SABITZER"
     },
     "369749": {
       "full": "Junior ALONSO",
@@ -1046,6 +1064,10 @@
     "431212": {
       "full": "ALI OLWAN",
       "last": "OLWAN"
+    },
+    "431225": {
+      "full": "YAZAN ALARAB",
+      "last": "ALARAB"
     },
     "433367": {
       "full": "Omar Rekik",

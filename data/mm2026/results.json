@@ -75,7 +75,7 @@
     "519954": 1
   },
   "live": {
-    "J1": "0-0"
+    "J1": "1-0"
   },
   "timelines": {
     "A1": {
@@ -788,11 +788,22 @@
       ]
     },
     "J1": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "17'",
+          "id": "229397",
+          "team": "ARG",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
   "players": {
+    "229397": {
+      "full": "Lionel MESSI",
+      "last": "MESSI"
+    },
     "288961": {
       "full": "Ehsan HAJISAFI",
       "last": "Ehsan HAJISAFI"

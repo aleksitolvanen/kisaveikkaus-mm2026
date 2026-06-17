@@ -947,7 +947,14 @@
     },
     "L2": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "16'",
+          "id": "506279",
+          "team": "GHA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1374,6 +1381,10 @@
     "496358": {
       "full": "Ibrahim MBAYE",
       "last": "MBAYE"
+    },
+    "506279": {
+      "full": "Caleb YIRENKYI",
+      "last": "YIRENKYI"
     },
     "511015": {
       "full": "Nathaniel BROWN",

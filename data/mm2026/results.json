@@ -77,7 +77,7 @@
     "519954": 1
   },
   "live": {
-    "J2": "2-1"
+    "J2": "3-1"
   },
   "timelines": {
     "A1": {
@@ -832,6 +832,12 @@
           "team": "JOR",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "90'+12'",
+          "id": "299200",
+          "team": "AUT",
+          "pen": true
         }
       ],
       "cards": [

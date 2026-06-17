@@ -84,7 +84,7 @@
     "519954": 1
   },
   "live": {
-    "L1": "3-2"
+    "L1": "4-2"
   },
   "timelines": {
     "A1": {
@@ -929,6 +929,12 @@
           "id": "448202",
           "team": "ENG",
           "pen": false
+        },
+        {
+          "min": "85'",
+          "id": "401470",
+          "team": "ENG",
+          "pen": false
         }
       ],
       "cards": []
@@ -1054,6 +1060,10 @@
     "401448": {
       "full": "Denis ZAKARIA",
       "last": "ZAKARIA"
+    },
+    "401470": {
+      "full": "Marcus RASHFORD",
+      "last": "RASHFORD"
     },
     "403312": {
       "full": "Abdulelah ALAMRI",

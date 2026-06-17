@@ -84,7 +84,7 @@
     "519954": 1
   },
   "live": {
-    "L1": "2-1"
+    "L1": "2-2"
   },
   "timelines": {
     "A1": {
@@ -917,6 +917,12 @@
           "id": "369419",
           "team": "ENG",
           "pen": false
+        },
+        {
+          "min": "45'+5'",
+          "id": "389754",
+          "team": "CRO",
+          "pen": false
         }
       ],
       "cards": []
@@ -982,6 +988,10 @@
     "384797": {
       "full": "Ramin REZAEIAN",
       "last": "RAMIN"
+    },
+    "389754": {
+      "full": "Petar Musa",
+      "last": "MUSA"
     },
     "389867": {
       "full": "Kylian MBAPPE",

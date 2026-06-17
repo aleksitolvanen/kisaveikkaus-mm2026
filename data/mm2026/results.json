@@ -77,7 +77,7 @@
     "519954": 1
   },
   "live": {
-    "J2": "1-1"
+    "J2": "2-1"
   },
   "timelines": {
     "A1": {
@@ -825,6 +825,12 @@
           "id": "431212",
           "team": "JOR",
           "pen": false
+        },
+        {
+          "min": "67'",
+          "id": "299200",
+          "team": "AUT",
+          "pen": false
         }
       ],
       "cards": []
@@ -838,6 +844,10 @@
     "288961": {
       "full": "Ehsan HAJISAFI",
       "last": "Ehsan HAJISAFI"
+    },
+    "299200": {
+      "full": "Marko ARNAUTOVIC",
+      "last": "ARNAUTOVIC"
     },
     "308386": {
       "full": "CASEMIRO",

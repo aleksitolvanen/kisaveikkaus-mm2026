@@ -84,7 +84,7 @@
     "519954": 1
   },
   "live": {
-    "L1": "2-2"
+    "L1": "3-2"
   },
   "timelines": {
     "A1": {
@@ -926,7 +926,7 @@
         },
         {
           "min": "47'",
-          "id": null,
+          "id": "448202",
           "team": "ENG",
           "pen": false
         }
@@ -1214,6 +1214,10 @@
     "448140": {
       "full": "Micky VAN DE VEN",
       "last": "VAN DE VEN"
+    },
+    "448202": {
+      "full": "Jude BELLINGHAM",
+      "last": "BELLINGHAM"
     },
     "448373": {
       "full": "Maxim DE CUYPER",

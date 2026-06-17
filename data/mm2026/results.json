@@ -886,6 +886,12 @@
           "id": "395212",
           "team": "POR",
           "type": "y"
+        },
+        {
+          "min": "90'+2'",
+          "id": "492358",
+          "team": "POR",
+          "type": "y"
         }
       ]
     }
@@ -1270,6 +1276,10 @@
     "492315": {
       "full": "LEE Gihyuk",
       "last": "GIHYUK"
+    },
+    "492358": {
+      "full": "TOMAS ARAUJO",
+      "last": "TOMÁS A."
     },
     "492363": {
       "full": "Felix NMECHA",

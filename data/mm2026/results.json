@@ -84,7 +84,7 @@
     "519954": 1
   },
   "live": {
-    "L1": "0-0"
+    "L1": "1-0"
   },
   "timelines": {
     "A1": {
@@ -899,7 +899,14 @@
       ]
     },
     "L1": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "12'",
+          "id": "369419",
+          "team": "ENG",
+          "pen": true
+        }
+      ],
       "cards": []
     }
   },
@@ -943,6 +950,10 @@
     "358241": {
       "full": "Marcel SABITZER",
       "last": "SABITZER"
+    },
+    "369419": {
+      "full": "Harry KANE",
+      "last": "KANE"
     },
     "369749": {
       "full": "Junior ALONSO",

@@ -868,6 +868,12 @@
           "id": "395205",
           "team": "POR",
           "type": "y"
+        },
+        {
+          "min": "32'",
+          "id": "356532",
+          "team": "COD",
+          "type": "y"
         }
       ]
     }
@@ -896,6 +902,10 @@
     "336459": {
       "full": "Rani Khedira",
       "last": "KHEDIRA"
+    },
+    "356532": {
+      "full": "Chancel MBEMBA",
+      "last": "MBEMBA"
     },
     "356731": {
       "full": "Raul JIMENEZ",

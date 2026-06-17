@@ -71,7 +71,7 @@
     "519954": 1
   },
   "live": {
-    "I2": "1-3"
+    "I2": "1-4"
   },
   "timelines": {
     "A1": {
@@ -765,6 +765,12 @@
           "id": "419672",
           "team": "NOR",
           "pen": false
+        },
+        {
+          "min": "90'+7'",
+          "id": "419681",
+          "team": "NOR",
+          "pen": false
         }
       ],
       "cards": [
@@ -933,6 +939,10 @@
     "419672": {
       "full": "Leo OSTIGARD",
       "last": "ØSTIGÅRD"
+    },
+    "419681": {
+      "full": "Kristian Thorstvedt",
+      "last": "THORSTVEDT"
     },
     "423646": {
       "full": "PEDRI",

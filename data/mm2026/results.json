@@ -985,6 +985,12 @@
           "id": "394500",
           "team": "COL",
           "type": "y"
+        },
+        {
+          "min": "34'",
+          "id": "464924",
+          "team": "UZB",
+          "type": "y"
         }
       ]
     }
@@ -1329,6 +1335,10 @@
     "464533": {
       "full": "Brian GUTIERREZ",
       "last": "B. GUTIÉRREZ"
+    },
+    "464924": {
+      "full": "Abdukodir KHUSANOV",
+      "last": "KHUSANOV"
     },
     "466624": {
       "full": "Folarin BALOGUN",

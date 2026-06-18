@@ -100,7 +100,7 @@
     "519954": 1
   },
   "live": {
-    "B4": "1-0"
+    "B4": "2-0"
   },
   "timelines": {
     "A1": {
@@ -1073,7 +1073,7 @@
         },
         {
           "min": "84'",
-          "id": null,
+          "id": "448131",
           "team": "SUI",
           "pen": false
         }
@@ -1422,6 +1422,10 @@
     "442428": {
       "full": "Aaron HICKEY",
       "last": "HICKEY"
+    },
+    "448131": {
+      "full": "Ruben VARGAS",
+      "last": "VARGAS"
     },
     "448140": {
       "full": "Micky VAN DE VEN",

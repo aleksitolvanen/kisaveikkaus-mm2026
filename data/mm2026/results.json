@@ -990,6 +990,12 @@
           "id": "464933",
           "team": "UZB",
           "pen": false
+        },
+        {
+          "min": "65'",
+          "id": "428886",
+          "team": "COL",
+          "pen": false
         }
       ],
       "cards": [
@@ -1216,6 +1222,10 @@
     "423646": {
       "full": "PEDRI",
       "last": "PEDRI"
+    },
+    "428886": {
+      "full": "Luis DIAZ",
+      "last": "LUIS DIAZ"
     },
     "429157": {
       "full": "Julian QUINONES",

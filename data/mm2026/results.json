@@ -1161,6 +1161,12 @@
           "id": "419441",
           "team": "QAT",
           "type": "r"
+        },
+        {
+          "min": "51'",
+          "id": "386348",
+          "team": "QAT",
+          "type": "y"
         }
       ]
     }
@@ -1237,6 +1243,10 @@
     "384797": {
       "full": "Ramin REZAEIAN",
       "last": "RAMIN"
+    },
+    "386348": {
+      "full": "ASSIM MADIBO",
+      "last": "A. MADIBO"
     },
     "389754": {
       "full": "Petar Musa",

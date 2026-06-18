@@ -105,7 +105,7 @@
     "522846": 1
   },
   "live": {
-    "B3": "3-0"
+    "B3": "3-1"
   },
   "timelines": {
     "A1": {
@@ -1176,8 +1176,8 @@
         },
         {
           "min": "62'",
-          "id": "466687",
-          "team": "CAN",
+          "id": "433394",
+          "team": "QAT",
           "type": "y"
         }
       ]
@@ -1479,6 +1479,10 @@
     "433367": {
       "full": "Omar Rekik",
       "last": "REKIK"
+    },
+    "433394": {
+      "full": "AHMED FATHY",
+      "last": "A. FATHY"
     },
     "433668": {
       "full": "Michal SADILEK",

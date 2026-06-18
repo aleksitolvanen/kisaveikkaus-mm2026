@@ -966,6 +966,12 @@
           "id": "441242",
           "team": "PAN",
           "type": "y"
+        },
+        {
+          "min": "90'+10'",
+          "id": "418729",
+          "team": "PAN",
+          "type": "y"
         }
       ]
     }
@@ -1134,6 +1140,10 @@
     "411443": {
       "full": "Timothy CASTAGNE",
       "last": "CASTAGNE"
+    },
+    "418729": {
+      "full": "Carlos HARVEY",
+      "last": "HARVEY"
     },
     "419003": {
       "full": "Jackson POROZO",

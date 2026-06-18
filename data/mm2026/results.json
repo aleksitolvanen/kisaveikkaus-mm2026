@@ -92,7 +92,7 @@
     "519954": 1
   },
   "live": {
-    "K2": "1-2"
+    "K2": "1-3"
   },
   "timelines": {
     "A1": {
@@ -996,6 +996,12 @@
           "id": "428886",
           "team": "COL",
           "pen": false
+        },
+        {
+          "min": "90'+9'",
+          "id": "405755",
+          "team": "COL",
+          "pen": false
         }
       ],
       "cards": [
@@ -1166,6 +1172,10 @@
     "405742": {
       "full": "VINICIUS JUNIOR",
       "last": "VINI JR."
+    },
+    "405755": {
+      "full": "Jaminton CAMPAZ",
+      "last": "Jaminton CAMPAZ"
     },
     "406231": {
       "full": "Yunus AKGUN",

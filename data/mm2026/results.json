@@ -105,7 +105,7 @@
     "522846": 1
   },
   "live": {
-    "B3": "1-0"
+    "B3": "2-0"
   },
   "timelines": {
     "A1": {
@@ -1135,6 +1135,12 @@
           "id": "390670",
           "team": "CAN",
           "pen": false
+        },
+        {
+          "min": "29'",
+          "id": "441257",
+          "team": "CAN",
+          "pen": false
         }
       ],
       "cards": [
@@ -1463,6 +1469,10 @@
     "441252": {
       "full": "Alistair JOHNSTON",
       "last": "JOHNSTON"
+    },
+    "441257": {
+      "full": "Jonathan DAVID",
+      "last": "J. DAVID"
     },
     "441316": {
       "full": "Yoane WISSA",

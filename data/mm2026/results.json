@@ -1129,7 +1129,14 @@
       ]
     },
     "B3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "16'",
+          "id": null,
+          "team": "CAN",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "9'",

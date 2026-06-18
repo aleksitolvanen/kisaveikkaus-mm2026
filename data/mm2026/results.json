@@ -96,7 +96,9 @@
     "511015": 1,
     "519954": 1
   },
-  "live": {},
+  "live": {
+    "A4": "1-0"
+  },
   "timelines": {
     "A1": {
       "goals": [
@@ -1021,6 +1023,24 @@
           "type": "y"
         }
       ]
+    },
+    "A4": {
+      "goals": [
+        {
+          "min": "6'",
+          "id": "433668",
+          "team": "CZE",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "33'",
+          "id": "403616",
+          "team": "RSA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1295,6 +1315,10 @@
     "433367": {
       "full": "Omar Rekik",
       "last": "REKIK"
+    },
+    "433668": {
+      "full": "Michal SADILEK",
+      "last": "SADÍLEK"
     },
     "433795": {
       "full": "Mattias SVANBERG",

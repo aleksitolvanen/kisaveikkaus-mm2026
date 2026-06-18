@@ -92,7 +92,7 @@
     "519954": 1
   },
   "live": {
-    "K2": "0-1"
+    "K2": "1-1"
   },
   "timelines": {
     "A1": {
@@ -984,6 +984,12 @@
           "id": "431200",
           "team": "COL",
           "pen": false
+        },
+        {
+          "min": "60'",
+          "id": "464933",
+          "team": "UZB",
+          "pen": false
         }
       ],
       "cards": [
@@ -1350,6 +1356,10 @@
     "464924": {
       "full": "Abdukodir KHUSANOV",
       "last": "KHUSANOV"
+    },
+    "464933": {
+      "full": "Abbosbek FAYZULLAEV",
+      "last": "FAYZULLAEV"
     },
     "466624": {
       "full": "Folarin BALOGUN",

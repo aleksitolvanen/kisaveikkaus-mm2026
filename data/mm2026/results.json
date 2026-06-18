@@ -1067,7 +1067,7 @@
       "goals": [
         {
           "min": "74'",
-          "id": null,
+          "id": "502727",
           "team": "SUI",
           "pen": false
         }
@@ -1570,6 +1570,10 @@
     "496358": {
       "full": "Ibrahim MBAYE",
       "last": "MBAYE"
+    },
+    "502727": {
+      "full": "Johan MANZAMBI",
+      "last": "MANZAMBI"
     },
     "506279": {
       "full": "Caleb YIRENKYI",

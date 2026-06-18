@@ -953,6 +953,12 @@
           "id": "506279",
           "team": "GHA",
           "type": "y"
+        },
+        {
+          "min": "72'",
+          "id": "441242",
+          "team": "PAN",
+          "type": "y"
         }
       ]
     }
@@ -1225,6 +1231,10 @@
     "441170": {
       "full": "Ladislav KREJCI",
       "last": "KREJČÍ"
+    },
+    "441242": {
+      "full": "Cesar BLACKMAN",
+      "last": "BLACKMAN"
     },
     "441252": {
       "full": "Alistair JOHNSTON",

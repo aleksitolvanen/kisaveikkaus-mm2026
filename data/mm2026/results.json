@@ -1077,6 +1077,12 @@
           "id": "300409",
           "team": "BIH",
           "type": "y"
+        },
+        {
+          "min": "65'",
+          "id": "398509",
+          "team": "SUI",
+          "type": "y"
         }
       ]
     }
@@ -1201,6 +1207,10 @@
     "397786": {
       "full": "Virgil VAN DIJK",
       "last": "VIRGIL"
+    },
+    "398509": {
+      "full": "Nico ELVEDI",
+      "last": "ELVEDI"
     },
     "401334": {
       "full": "John McGinn",

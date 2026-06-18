@@ -1065,7 +1065,14 @@
     },
     "B4": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "59'",
+          "id": "482976",
+          "team": "BIH",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1456,6 +1463,10 @@
     "482774": {
       "full": "Martin BATURINA",
       "last": "BATURINA"
+    },
+    "482976": {
+      "full": "Amar DEDIC",
+      "last": "DEDIĆ"
     },
     "483327": {
       "full": "Viktor GYOKERES",

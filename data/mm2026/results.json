@@ -1039,6 +1039,12 @@
           "id": "403616",
           "team": "RSA",
           "type": "y"
+        },
+        {
+          "min": "40'",
+          "id": "494248",
+          "team": "RSA",
+          "type": "y"
         }
       ]
     }
@@ -1491,6 +1497,10 @@
     "493221": {
       "full": "Miro MUHEIM",
       "last": "MUHEIM"
+    },
+    "494248": {
+      "full": "Thalente MBATHA",
+      "last": "MBATHA"
     },
     "494989": {
       "full": "Livano COMENENCIA",

@@ -1071,6 +1071,12 @@
           "id": "482976",
           "team": "BIH",
           "type": "y"
+        },
+        {
+          "min": "61'",
+          "id": "300409",
+          "team": "BIH",
+          "type": "y"
         }
       ]
     }
@@ -1087,6 +1093,10 @@
     "299200": {
       "full": "Marko ARNAUTOVIC",
       "last": "ARNAUTOVIC"
+    },
+    "300409": {
+      "full": "Edin DZEKO",
+      "last": "DŽEKO"
     },
     "308386": {
       "full": "CASEMIRO",

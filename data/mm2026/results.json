@@ -979,7 +979,14 @@
     },
     "K2": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "7'",
+          "id": "394500",
+          "team": "COL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1066,6 +1073,10 @@
     "393480": {
       "full": "Breel EMBOLO",
       "last": "EMBOLO"
+    },
+    "394500": {
+      "full": "Johan MOJICA",
+      "last": "J. MOJICA"
     },
     "395084": {
       "full": "HWANG Inbeom",

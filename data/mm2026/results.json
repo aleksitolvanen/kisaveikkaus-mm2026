@@ -980,8 +980,8 @@
     "K2": {
       "goals": [
         {
-          "min": "41'",
-          "id": null,
+          "min": "40'",
+          "id": "431200",
           "team": "COL",
           "pen": false
         }
@@ -1250,6 +1250,10 @@
     "430822": {
       "full": "Amad DIALLO",
       "last": "Amad DIALLO"
+    },
+    "431200": {
+      "full": "Daniel MUNOZ",
+      "last": "D. MUÑOZ"
     },
     "431212": {
       "full": "ALI OLWAN",

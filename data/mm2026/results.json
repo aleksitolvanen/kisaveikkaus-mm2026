@@ -105,7 +105,7 @@
     "522846": 1
   },
   "live": {
-    "B3": "4-0"
+    "B3": "5-0"
   },
   "timelines": {
     "A1": {
@@ -1153,6 +1153,12 @@
           "id": "423941",
           "team": "CAN",
           "pen": false
+        },
+        {
+          "min": "75'",
+          "id": "448411",
+          "team": "CAN",
+          "pen": false
         }
       ],
       "cards": [
@@ -1543,6 +1549,10 @@
     "448373": {
       "full": "Maxim DE CUYPER",
       "last": "DE CUYPER"
+    },
+    "448411": {
+      "full": "Jacob SHAFFELBURG",
+      "last": "SHAFFELBURG"
     },
     "448497": {
       "full": "Mohammad MOHEBBI",

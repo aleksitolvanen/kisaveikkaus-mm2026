@@ -1156,9 +1156,10 @@
         },
         {
           "min": "75'",
-          "id": "448411",
-          "team": "CAN",
-          "pen": false
+          "id": "498458",
+          "team": "QAT",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": [
@@ -1713,6 +1714,10 @@
     "496358": {
       "full": "Ibrahim MBAYE",
       "last": "MBAYE"
+    },
+    "498458": {
+      "full": "MOHAMED MANAI",
+      "last": "MANAI"
     },
     "502727": {
       "full": "Johan MANZAMBI",

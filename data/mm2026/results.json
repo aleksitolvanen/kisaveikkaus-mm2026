@@ -100,7 +100,7 @@
     "519954": 1
   },
   "live": {
-    "B4": "3-0"
+    "B4": "3-1"
   },
   "timelines": {
     "A1": {
@@ -1082,6 +1082,12 @@
           "id": "502727",
           "team": "SUI",
           "pen": false
+        },
+        {
+          "min": "90'+3'",
+          "id": "522846",
+          "team": "BIH",
+          "pen": false
         }
       ],
       "cards": [
@@ -1616,6 +1622,10 @@
     "520217": {
       "full": "Findlay CURTIS",
       "last": "CURTIS"
+    },
+    "522846": {
+      "full": "Ermin MAHMIC",
+      "last": "MAHMIĆ"
     }
   },
   "timelinesFinal": {

@@ -105,7 +105,7 @@
     "522846": 1
   },
   "live": {
-    "B3": "3-1"
+    "B3": "4-0"
   },
   "timelines": {
     "A1": {
@@ -1149,9 +1149,9 @@
           "pen": false
         },
         {
-          "min": "64'",
-          "id": "486614",
-          "team": "QAT",
+          "min": "66'",
+          "id": "423941",
+          "team": "CAN",
           "pen": false
         }
       ],
@@ -1419,6 +1419,10 @@
     "423646": {
       "full": "PEDRI",
       "last": "PEDRI"
+    },
+    "423941": {
+      "full": "Nathan SALIBA",
+      "last": "SALIBA"
     },
     "428886": {
       "full": "Luis DIAZ",

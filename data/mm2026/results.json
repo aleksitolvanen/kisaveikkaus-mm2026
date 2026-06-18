@@ -1090,6 +1090,12 @@
           "id": "398509",
           "team": "SUI",
           "type": "y"
+        },
+        {
+          "min": "80'",
+          "id": "484022",
+          "team": "BIH",
+          "type": "r"
         }
       ]
     }
@@ -1498,6 +1504,10 @@
     "483327": {
       "full": "Viktor GYOKERES",
       "last": "GYÖKERES"
+    },
+    "484022": {
+      "full": "Tarik MUHAREMOVIC",
+      "last": "MUHAREMOVIĆ"
     },
     "484051": {
       "full": "Kenny McLEAN",

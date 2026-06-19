@@ -1252,6 +1252,12 @@
           "id": "448014",
           "team": "AUS",
           "type": "y"
+        },
+        {
+          "min": "56'",
+          "id": "441251",
+          "team": "USA",
+          "type": "y"
         }
       ]
     }
@@ -1604,6 +1610,10 @@
     "441242": {
       "full": "Cesar BLACKMAN",
       "last": "BLACKMAN"
+    },
+    "441251": {
+      "full": "Antonee ROBINSON",
+      "last": "A. ROBINSON"
     },
     "441252": {
       "full": "Alistair JOHNSTON",

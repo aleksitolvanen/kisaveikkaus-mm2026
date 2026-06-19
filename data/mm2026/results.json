@@ -1200,7 +1200,14 @@
     },
     "A3": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "4'",
+          "id": "418490",
+          "team": "KOR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1395,6 +1402,10 @@
     "411443": {
       "full": "Timothy CASTAGNE",
       "last": "CASTAGNE"
+    },
+    "418490": {
+      "full": "LEE Kangin",
+      "last": "LEE KANG IN"
     },
     "418729": {
       "full": "Carlos HARVEY",

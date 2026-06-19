@@ -1296,7 +1296,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "22'",
+          "id": "403083",
+          "team": "MAR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1455,6 +1462,10 @@
     "402817": {
       "full": "PAIK Seungho",
       "last": "SEUNGHO"
+    },
+    "403083": {
+      "full": "Issa Diop",
+      "last": "ISSA"
     },
     "403312": {
       "full": "Abdulelah ALAMRI",

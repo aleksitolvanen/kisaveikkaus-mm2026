@@ -1234,7 +1234,14 @@
           "og": true
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "16'",
+          "id": "423522",
+          "team": "AUS",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1481,6 +1488,10 @@
     "419681": {
       "full": "Kristian Thorstvedt",
       "last": "THORSTVEDT"
+    },
+    "423522": {
+      "full": "Jordan BOS",
+      "last": "BOS"
     },
     "423646": {
       "full": "PEDRI",

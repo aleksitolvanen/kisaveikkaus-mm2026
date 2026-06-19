@@ -1213,6 +1213,12 @@
           "id": "418490",
           "team": "KOR",
           "type": "y"
+        },
+        {
+          "min": "58'",
+          "id": "402817",
+          "team": "KOR",
+          "type": "y"
         }
       ]
     }
@@ -1365,6 +1371,10 @@
     "401470": {
       "full": "Marcus RASHFORD",
       "last": "RASHFORD"
+    },
+    "402817": {
+      "full": "PAIK Seungho",
+      "last": "SEUNGHO"
     },
     "403312": {
       "full": "Abdulelah ALAMRI",

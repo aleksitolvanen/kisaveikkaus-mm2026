@@ -108,7 +108,7 @@
     "522846": 1
   },
   "live": {
-    "A3": "0-0"
+    "A3": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1199,7 +1199,14 @@
       ]
     },
     "A3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "50'",
+          "id": "430763",
+          "team": "MEX",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "4'",
@@ -1494,6 +1501,10 @@
     "430697": {
       "full": "Jean-Ricner Bellegarde",
       "last": "BELLEGARDE"
+    },
+    "430763": {
+      "full": "Luis ROMO",
+      "last": "Luis ROMO"
     },
     "430822": {
       "full": "Amad DIALLO",

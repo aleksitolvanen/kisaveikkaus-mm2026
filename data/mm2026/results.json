@@ -1302,6 +1302,12 @@
           "id": "403083",
           "team": "MAR",
           "type": "y"
+        },
+        {
+          "min": "65'",
+          "id": "401339",
+          "team": "SCO",
+          "type": "y"
         }
       ]
     }
@@ -1450,6 +1456,10 @@
     "401334": {
       "full": "John McGinn",
       "last": "MCGINN"
+    },
+    "401339": {
+      "full": "Andy ROBERTSON",
+      "last": "ROBERTSON"
     },
     "401448": {
       "full": "Denis ZAKARIA",

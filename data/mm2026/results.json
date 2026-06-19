@@ -1240,6 +1240,12 @@
           "id": "423522",
           "team": "AUS",
           "type": "y"
+        },
+        {
+          "min": "32'",
+          "id": "448014",
+          "team": "AUS",
+          "type": "y"
         }
       ]
     }
@@ -1608,6 +1614,10 @@
     "442428": {
       "full": "Aaron HICKEY",
       "last": "HICKEY"
+    },
+    "448014": {
+      "full": "Alessandro CIRCATI",
+      "last": "CIRCATI"
     },
     "448131": {
       "full": "Ruben VARGAS",

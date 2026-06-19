@@ -1258,6 +1258,18 @@
           "id": "441251",
           "team": "USA",
           "type": "y"
+        },
+        {
+          "min": "89'",
+          "id": "466624",
+          "team": "USA",
+          "type": "y"
+        },
+        {
+          "min": "89'",
+          "id": "430450",
+          "team": "AUS",
+          "type": "y"
         }
       ]
     }
@@ -1534,6 +1546,10 @@
     "430150": {
       "full": "Alexander Isak",
       "last": "ISAK"
+    },
+    "430450": {
+      "full": "Jacob ITALIANO",
+      "last": "ITALIANO"
     },
     "430452": {
       "full": "Connor METCALFE",

@@ -1276,6 +1276,12 @@
           "id": "430442",
           "team": "AUS",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "419062",
+          "team": "USA",
+          "type": "y"
         }
       ]
     }
@@ -1492,6 +1498,10 @@
     "419003": {
       "full": "Jackson POROZO",
       "last": "POROZO"
+    },
+    "419062": {
+      "full": "Chris RICHARDS",
+      "last": "RICHARDS"
     },
     "419068": {
       "full": "Giovanni REYNA",

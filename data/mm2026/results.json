@@ -1270,6 +1270,12 @@
           "id": "430450",
           "team": "AUS",
           "type": "y"
+        },
+        {
+          "min": "89'",
+          "id": "430442",
+          "team": "AUS",
+          "type": "y"
         }
       ]
     }
@@ -1546,6 +1552,10 @@
     "430150": {
       "full": "Alexander Isak",
       "last": "ISAK"
+    },
+    "430442": {
+      "full": "Harry SOUTTAR",
+      "last": "SOUTTAR"
     },
     "430450": {
       "full": "Jacob ITALIANO",

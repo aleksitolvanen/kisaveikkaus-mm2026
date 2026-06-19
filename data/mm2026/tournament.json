@@ -451,7 +451,8 @@
       "matchNumber": 25,
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021440"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021440",
+      "attendance": "67442"
     },
     {
       "id": "B4",
@@ -463,7 +464,8 @@
       "matchNumber": 26,
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021446"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021446",
+      "attendance": "70026"
     },
     {
       "id": "B3",
@@ -475,7 +477,8 @@
       "matchNumber": 27,
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021450"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021450",
+      "attendance": "52497"
     },
     {
       "id": "A3",
@@ -487,7 +490,8 @@
       "matchNumber": 28,
       "stadium": "Guadalajara Stadium",
       "city": "Guadalajara",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021442"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021442",
+      "attendance": "45522"
     },
     {
       "id": "D3",
@@ -1247,7 +1251,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1A",
+      "home": "MEX",
       "away": "3CEFHI",
       "real": false,
       "score": null,

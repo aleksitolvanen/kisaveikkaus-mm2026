@@ -110,7 +110,7 @@
     "522846": 1
   },
   "live": {
-    "D3": "0-0"
+    "D3": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1225,7 +1225,15 @@
       ]
     },
     "D3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "11'",
+          "id": "382312",
+          "team": "AUS",
+          "pen": false,
+          "og": true
+        }
+      ],
       "cards": []
     }
   },
@@ -1297,6 +1305,10 @@
     "371958": {
       "full": "Derek CORNELIUS",
       "last": "CORNELIUS"
+    },
+    "382312": {
+      "full": "Cameron BURGESS",
+      "last": "BURGESS"
     },
     "384797": {
       "full": "Ramin REZAEIAN",

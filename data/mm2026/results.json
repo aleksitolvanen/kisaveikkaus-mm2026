@@ -110,7 +110,7 @@
     "522846": 1
   },
   "live": {
-    "D3": "1-0"
+    "D3": "2-0"
   },
   "timelines": {
     "A1": {
@@ -1232,6 +1232,12 @@
           "team": "AUS",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "43'",
+          "id": "464542",
+          "team": "USA",
+          "pen": false
         }
       ],
       "cards": [
@@ -1674,6 +1680,10 @@
     "464533": {
       "full": "Brian GUTIERREZ",
       "last": "B. GUTIÉRREZ"
+    },
+    "464542": {
+      "full": "Alex FREEMAN",
+      "last": "FREEMAN"
     },
     "464924": {
       "full": "Abdukodir KHUSANOV",

@@ -1345,6 +1345,12 @@
           "id": "397775",
           "team": "HAI",
           "type": "y"
+        },
+        {
+          "min": "45'+4'",
+          "id": "431693",
+          "team": "HAI",
+          "type": "y"
         }
       ]
     }
@@ -1697,6 +1703,10 @@
     "431225": {
       "full": "YAZAN ALARAB",
       "last": "ALARAB"
+    },
+    "431693": {
+      "full": "Frantzdy Pierrot",
+      "last": "PIERROT"
     },
     "433367": {
       "full": "Omar Rekik",

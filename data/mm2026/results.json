@@ -1433,7 +1433,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "53'",
+          "id": "483276",
+          "team": "SWE",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1964,6 +1971,10 @@
     "482976": {
       "full": "Amar DEDIC",
       "last": "DEDIĆ"
+    },
+    "483276": {
+      "full": "Gabriel GUDMUNDSSON",
+      "last": "GUDMUNDSSON"
     },
     "483327": {
       "full": "Viktor GYOKERES",

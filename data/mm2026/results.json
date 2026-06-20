@@ -115,7 +115,7 @@
     "522846": 1
   },
   "live": {
-    "D4": "0-0"
+    "D4": "0-1"
   },
   "timelines": {
     "A1": {
@@ -1369,7 +1369,14 @@
       ]
     },
     "D4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "2'",
+          "id": "424422",
+          "team": "PAR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -1653,6 +1660,10 @@
     "423941": {
       "full": "Nathan SALIBA",
       "last": "SALIBA"
+    },
+    "424422": {
+      "full": "Matias GALARZA",
+      "last": "GALARZA"
     },
     "428886": {
       "full": "Luis DIAZ",

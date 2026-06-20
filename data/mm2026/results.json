@@ -1383,6 +1383,12 @@
           "id": "424422",
           "team": "PAR",
           "type": "y"
+        },
+        {
+          "min": "37'",
+          "id": null,
+          "team": "PAR",
+          "type": "y"
         }
       ]
     }

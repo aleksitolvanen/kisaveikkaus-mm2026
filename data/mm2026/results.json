@@ -1351,6 +1351,12 @@
           "id": "431693",
           "team": "HAI",
           "type": "y"
+        },
+        {
+          "min": "65'",
+          "id": "367981",
+          "team": "BRA",
+          "type": "y"
         }
       ]
     }
@@ -1407,6 +1413,10 @@
     "358241": {
       "full": "Marcel SABITZER",
       "last": "SABITZER"
+    },
+    "367981": {
+      "full": "DOUGLAS SANTOS",
+      "last": "DOUGLAS S."
     },
     "369419": {
       "full": "Harry KANE",

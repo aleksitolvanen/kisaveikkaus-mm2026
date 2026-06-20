@@ -1377,7 +1377,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "4'",
+          "id": "424422",
+          "team": "PAR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

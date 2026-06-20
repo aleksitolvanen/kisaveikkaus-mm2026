@@ -1357,6 +1357,12 @@
           "id": "367981",
           "team": "BRA",
           "type": "y"
+        },
+        {
+          "min": "72'",
+          "id": "466838",
+          "team": "HAI",
+          "type": "y"
         }
       ]
     }
@@ -1849,6 +1855,10 @@
     "466687": {
       "full": "Ali AHMED",
       "last": "AHMED"
+    },
+    "466838": {
+      "full": "Danley JEAN JACQUES",
+      "last": "JEAN-JACQUES"
     },
     "476348": {
       "full": "Damian BOBADILLA",

@@ -117,7 +117,7 @@
     "522846": 1
   },
   "live": {
-    "F3": "0-0"
+    "F3": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1413,7 +1413,14 @@
       ]
     },
     "F3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "5'",
+          "id": "424051",
+          "team": "NED",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -1697,6 +1704,10 @@
     "423941": {
       "full": "Nathan SALIBA",
       "last": "SALIBA"
+    },
+    "424051": {
+      "full": "Brian BROBBEY",
+      "last": "BROBBEY"
     },
     "424422": {
       "full": "Matias GALARZA",

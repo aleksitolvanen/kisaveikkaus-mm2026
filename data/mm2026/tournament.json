@@ -503,7 +503,8 @@
       "matchNumber": 32,
       "stadium": "Seattle Stadium",
       "city": "Seattle",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021462",
+      "attendance": "66925"
     },
     {
       "id": "C3",
@@ -515,7 +516,8 @@
       "matchNumber": 30,
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021454"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021454",
+      "attendance": "64146"
     },
     {
       "id": "C4",
@@ -527,7 +529,8 @@
       "matchNumber": 29,
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021457"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021457",
+      "attendance": "68324"
     },
     {
       "id": "D4",
@@ -539,7 +542,8 @@
       "matchNumber": 31,
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021460"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021460",
+      "attendance": "68827"
     },
     {
       "id": "F3",
@@ -1311,7 +1315,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1D",
+      "home": "USA",
       "away": "3BEFIJ",
       "real": false,
       "score": null,

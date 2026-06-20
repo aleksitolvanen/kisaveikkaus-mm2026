@@ -1401,6 +1401,12 @@
           "id": null,
           "team": "TUR",
           "type": "y"
+        },
+        {
+          "min": "71'",
+          "id": "484065",
+          "team": "TUR",
+          "type": "y"
         }
       ]
     }
@@ -1937,6 +1943,10 @@
     "484051": {
       "full": "Kenny McLEAN",
       "last": "MCLEAN"
+    },
+    "484065": {
+      "full": "Eren ELMALI",
+      "last": "EREN ELMALI"
     },
     "484141": {
       "full": "JOAO NEVES",

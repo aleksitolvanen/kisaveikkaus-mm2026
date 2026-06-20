@@ -1480,6 +1480,12 @@
       "goals": [
         {
           "min": "30'",
+          "id": "371609",
+          "team": "CIV",
+          "pen": false
+        },
+        {
+          "min": "30'",
           "id": "429642",
           "team": "GER",
           "pen": false

@@ -113,7 +113,7 @@
     "522846": 1
   },
   "live": {
-    "C4": "0-0"
+    "C4": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1319,7 +1319,14 @@
       ]
     },
     "C4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "23'",
+          "id": "430609",
+          "team": "BRA",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "4'",
@@ -1646,6 +1653,10 @@
     "430594": {
       "full": "ROGER IBANEZ",
       "last": "ROGER IBANEZ"
+    },
+    "430609": {
+      "full": "MATHEUS CUNHA",
+      "last": "CUNHA"
     },
     "430667": {
       "full": "Nico SCHLOTTERBECK",

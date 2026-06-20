@@ -1457,6 +1457,12 @@
           "id": "489688",
           "team": "SWE",
           "type": "y"
+        },
+        {
+          "min": "80'",
+          "id": "489689",
+          "team": "SWE",
+          "type": "y"
         }
       ]
     }
@@ -2053,6 +2059,10 @@
     "489688": {
       "full": "Yasin AYARI",
       "last": "AYARI"
+    },
+    "489689": {
+      "full": "Lucas BERGVALL",
+      "last": "BERGVALL"
     },
     "492315": {
       "full": "LEE Gihyuk",

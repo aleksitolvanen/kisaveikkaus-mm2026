@@ -117,7 +117,7 @@
     "522846": 1
   },
   "live": {
-    "F3": "2-0"
+    "F3": "3-0"
   },
   "timelines": {
     "A1": {
@@ -1425,6 +1425,12 @@
           "id": "424051",
           "team": "NED",
           "pen": false
+        },
+        {
+          "min": "47'",
+          "id": "448152",
+          "team": "NED",
+          "pen": false
         }
       ],
       "cards": []
@@ -1858,6 +1864,10 @@
     "448140": {
       "full": "Micky VAN DE VEN",
       "last": "VAN DE VEN"
+    },
+    "448152": {
+      "full": "Cody GAKPO",
+      "last": "GAKPO"
     },
     "448202": {
       "full": "Jude BELLINGHAM",

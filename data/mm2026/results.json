@@ -117,7 +117,7 @@
     "522846": 1
   },
   "live": {
-    "F3": "4-0"
+    "F3": "4-1"
   },
   "timelines": {
     "A1": {
@@ -1437,6 +1437,12 @@
           "id": "448152",
           "team": "NED",
           "pen": false
+        },
+        {
+          "min": "59'",
+          "id": "441137",
+          "team": "SWE",
+          "pen": false
         }
       ],
       "cards": [
@@ -1837,6 +1843,10 @@
     "436743": {
       "full": "Ermedin DEMIROVIC",
       "last": "DEMIROVIĆ"
+    },
+    "441137": {
+      "full": "Anthony ELANGA",
+      "last": "ELANGA"
     },
     "441170": {
       "full": "Ladislav KREJCI",

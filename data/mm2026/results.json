@@ -124,7 +124,7 @@
     "522846": 1
   },
   "live": {
-    "F4": "0-1"
+    "F4": "0-2"
   },
   "timelines": {
     "A1": {
@@ -1553,7 +1553,7 @@
         },
         {
           "min": "31'",
-          "id": null,
+          "id": "430413",
           "team": "JPN",
           "pen": false
         }
@@ -1869,6 +1869,10 @@
     "430150": {
       "full": "Alexander Isak",
       "last": "ISAK"
+    },
+    "430413": {
+      "full": "Ayase UEDA",
+      "last": "AYASE"
     },
     "430442": {
       "full": "Harry SOUTTAR",

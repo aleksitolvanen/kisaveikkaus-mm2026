@@ -124,7 +124,7 @@
     "522846": 1
   },
   "live": {
-    "F4": "0-2"
+    "F4": "0-3"
   },
   "timelines": {
     "A1": {
@@ -1556,6 +1556,12 @@
           "id": "430413",
           "team": "JPN",
           "pen": false
+        },
+        {
+          "min": "69'",
+          "id": "395321",
+          "team": "JPN",
+          "pen": false
         }
       ],
       "cards": []
@@ -1693,6 +1699,10 @@
     "395212": {
       "full": "NELSON SEMEDO",
       "last": "Semedo"
+    },
+    "395321": {
+      "full": "Junya ITO",
+      "last": "ITO"
     },
     "395516": {
       "full": "Cesar MONTES",

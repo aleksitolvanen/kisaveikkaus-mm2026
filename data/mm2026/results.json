@@ -1623,7 +1623,14 @@
     },
     "G3": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "3'",
+          "id": "358112",
+          "team": "BEL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

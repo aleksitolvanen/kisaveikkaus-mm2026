@@ -1533,6 +1533,12 @@
           "id": "431698",
           "team": "CUW",
           "type": "y"
+        },
+        {
+          "min": "90'+1'",
+          "id": "466372",
+          "team": "CUW",
+          "type": "y"
         }
       ]
     }
@@ -2049,6 +2055,10 @@
     "466340": {
       "full": "Leandro BACUNA",
       "last": "L. BACUNA"
+    },
+    "466372": {
+      "full": "Gervane KASTANEER",
+      "last": "KASTANEER"
     },
     "466624": {
       "full": "Folarin BALOGUN",

@@ -130,7 +130,7 @@
     "522846": 1
   },
   "live": {
-    "G3": "0-0"
+    "G3": "0-1"
   },
   "timelines": {
     "A1": {
@@ -1625,7 +1625,7 @@
       "goals": [
         {
           "min": "25'",
-          "id": null,
+          "id": "388475",
           "team": "IRN",
           "pen": false
         }
@@ -1732,6 +1732,10 @@
     "386348": {
       "full": "ASSIM MADIBO",
       "last": "A. MADIBO"
+    },
+    "388475": {
+      "full": "Mehdi TAREMI",
+      "last": "TAREMI"
     },
     "389754": {
       "full": "Petar Musa",

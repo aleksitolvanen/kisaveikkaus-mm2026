@@ -127,7 +127,7 @@
     "522846": 1
   },
   "live": {
-    "H3": "1-0"
+    "H3": "2-0"
   },
   "timelines": {
     "A1": {
@@ -1582,6 +1582,12 @@
           "id": "484320",
           "team": "ESP",
           "pen": false
+        },
+        {
+          "min": "21'",
+          "id": "430751",
+          "team": "ESP",
+          "pen": false
         }
       ],
       "cards": []
@@ -1939,6 +1945,10 @@
     "430697": {
       "full": "Jean-Ricner Bellegarde",
       "last": "BELLEGARDE"
+    },
+    "430751": {
+      "full": "Mikel OYARZABAL",
+      "last": "OYARZABAL"
     },
     "430763": {
       "full": "Luis ROMO",

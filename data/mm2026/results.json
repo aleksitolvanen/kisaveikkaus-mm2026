@@ -1622,7 +1622,14 @@
       ]
     },
     "G3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "25'",
+          "id": null,
+          "team": "IRN",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "3'",

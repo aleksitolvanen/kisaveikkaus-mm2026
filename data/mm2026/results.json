@@ -1527,6 +1527,12 @@
           "id": "494989",
           "team": "CUW",
           "type": "y"
+        },
+        {
+          "min": "75'",
+          "id": "431698",
+          "team": "CUW",
+          "type": "y"
         }
       ]
     }
@@ -1899,6 +1905,10 @@
     "431693": {
       "full": "Frantzdy Pierrot",
       "last": "PIERROT"
+    },
+    "431698": {
+      "full": "Jurien GAARI",
+      "last": "GAARI"
     },
     "433367": {
       "full": "Omar Rekik",

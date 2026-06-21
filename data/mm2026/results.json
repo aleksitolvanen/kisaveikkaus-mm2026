@@ -1647,7 +1647,14 @@
     },
     "H4": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "5'",
+          "id": "477832",
+          "team": "CPV",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

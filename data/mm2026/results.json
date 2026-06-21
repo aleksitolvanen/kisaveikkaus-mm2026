@@ -127,7 +127,7 @@
     "522846": 1
   },
   "live": {
-    "H3": "3-0"
+    "H3": "4-0"
   },
   "timelines": {
     "A1": {
@@ -1594,6 +1594,13 @@
           "id": "430751",
           "team": "ESP",
           "pen": false
+        },
+        {
+          "min": "49'",
+          "id": "403335",
+          "team": "KSA",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": [
@@ -1794,6 +1801,10 @@
     "403312": {
       "full": "Abdulelah ALAMRI",
       "last": "ALAMRI"
+    },
+    "403335": {
+      "full": "HASSAN ALTAMBAKTI",
+      "last": "ALTAMBAKTI"
     },
     "403616": {
       "full": "Teboho MOKOENA",

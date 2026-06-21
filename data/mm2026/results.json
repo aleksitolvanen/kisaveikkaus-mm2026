@@ -1596,7 +1596,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "30'",
+          "id": "339745",
+          "team": "KSA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1635,6 +1642,10 @@
     "337389": {
       "full": "Anthony RALSTON",
       "last": "RALSTON"
+    },
+    "339745": {
+      "full": "SALEM ALDAWSARI",
+      "last": "SALEM"
     },
     "356532": {
       "full": "Chancel MBEMBA",

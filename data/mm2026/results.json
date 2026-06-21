@@ -127,7 +127,7 @@
     "522846": 1
   },
   "live": {
-    "H3": "0-0"
+    "H3": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1576,7 +1576,14 @@
       "cards": []
     },
     "H3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "10'",
+          "id": "484320",
+          "team": "ESP",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2164,6 +2171,10 @@
     "484141": {
       "full": "JOAO NEVES",
       "last": "JOÃO NEVES"
+    },
+    "484320": {
+      "full": "Lamine YAMAL",
+      "last": "LAMINE YAMAL"
     },
     "484851": {
       "full": "Deniz UNDAV",

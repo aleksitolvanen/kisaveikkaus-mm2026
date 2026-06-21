@@ -131,7 +131,7 @@
     "522846": 1
   },
   "live": {
-    "H4": "0-0"
+    "H4": "0-1"
   },
   "timelines": {
     "A1": {
@@ -1646,7 +1646,14 @@
       ]
     },
     "H4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "21'",
+          "id": "477852",
+          "team": "CPV",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "5'",
@@ -2239,6 +2246,10 @@
     "477832": {
       "full": "SIDNY LOPES CABRAL",
       "last": "LOPES CABRAL"
+    },
+    "477852": {
+      "full": "KEVIN PINA",
+      "last": "KEVIN L."
     },
     "479601": {
       "full": "Juan Jose CACERES",

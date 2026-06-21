@@ -1658,6 +1658,12 @@
           "id": "419100",
           "team": "URU",
           "pen": false
+        },
+        {
+          "min": "45'+6'",
+          "id": "402876",
+          "team": "URU",
+          "pen": false
         }
       ],
       "cards": [
@@ -1868,6 +1874,10 @@
     "402817": {
       "full": "PAIK Seungho",
       "last": "SEUNGHO"
+    },
+    "402876": {
+      "full": "Agustin CANOBBIO",
+      "last": "A. CANOBBIO"
     },
     "403083": {
       "full": "Issa Diop",

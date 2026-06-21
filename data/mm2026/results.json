@@ -1653,6 +1653,12 @@
           "id": "477832",
           "team": "CPV",
           "type": "y"
+        },
+        {
+          "min": "20'",
+          "id": "386538",
+          "team": "URU",
+          "type": "y"
         }
       ]
     }
@@ -1753,6 +1759,10 @@
     "386348": {
       "full": "ASSIM MADIBO",
       "last": "A. MADIBO"
+    },
+    "386538": {
+      "full": "Rodrigo BENTANCUR",
+      "last": "R. BENTANCUR"
     },
     "388475": {
       "full": "Mehdi TAREMI",

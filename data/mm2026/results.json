@@ -1503,7 +1503,14 @@
     },
     "E4": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "38'",
+          "id": "419005",
+          "team": "ECU",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -1738,6 +1745,10 @@
     "419003": {
       "full": "Jackson POROZO",
       "last": "POROZO"
+    },
+    "419005": {
+      "full": "Jordy ALCIVAR",
+      "last": "ALCIVAR"
     },
     "419062": {
       "full": "Chris RICHARDS",

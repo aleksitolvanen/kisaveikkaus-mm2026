@@ -1678,6 +1678,12 @@
           "id": "386538",
           "team": "URU",
           "type": "y"
+        },
+        {
+          "min": "58'",
+          "id": "402893",
+          "team": "URU",
+          "type": "y"
         }
       ]
     }
@@ -1878,6 +1884,10 @@
     "402876": {
       "full": "Agustin CANOBBIO",
       "last": "A. CANOBBIO"
+    },
+    "402893": {
+      "full": "Mathias OLIVERA",
+      "last": "M. OLIVERA"
     },
     "403083": {
       "full": "Issa Diop",

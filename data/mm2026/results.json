@@ -1609,6 +1609,12 @@
           "id": "339745",
           "team": "KSA",
           "type": "y"
+        },
+        {
+          "min": "60'",
+          "id": "407993",
+          "team": "KSA",
+          "type": "y"
         }
       ]
     }
@@ -1833,6 +1839,10 @@
     "406231": {
       "full": "Yunus AKGUN",
       "last": "YUNUS"
+    },
+    "407993": {
+      "full": "MOHAMED KANNO",
+      "last": "KANNO"
     },
     "408950": {
       "full": "MOHAMED HANY",

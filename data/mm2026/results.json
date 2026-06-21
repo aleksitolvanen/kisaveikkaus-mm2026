@@ -1635,6 +1635,12 @@
           "id": "371736",
           "team": "IRN",
           "type": "y"
+        },
+        {
+          "min": "66'",
+          "id": "514166",
+          "team": "BEL",
+          "type": "r"
         }
       ]
     }
@@ -2343,6 +2349,10 @@
     "511015": {
       "full": "Nathaniel BROWN",
       "last": "BROWN"
+    },
+    "514166": {
+      "full": "Nathan NGOY",
+      "last": "NGOY"
     },
     "519954": {
       "full": "Jovo LUKIC",

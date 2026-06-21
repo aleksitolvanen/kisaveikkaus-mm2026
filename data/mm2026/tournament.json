@@ -555,7 +555,8 @@
       "matchNumber": 35,
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021472",
+      "attendance": "68777"
     },
     {
       "id": "E3",
@@ -567,7 +568,8 @@
       "matchNumber": 33,
       "stadium": "Toronto Stadium",
       "city": "Toronto",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021469"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021469",
+      "attendance": "43036"
     },
     {
       "id": "E4",
@@ -579,7 +581,8 @@
       "matchNumber": 34,
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021465"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021465",
+      "attendance": "68598"
     },
     {
       "id": "F4",
@@ -591,7 +594,8 @@
       "matchNumber": 36,
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021475",
+      "attendance": "51243"
     },
     {
       "id": "H3",
@@ -1175,7 +1179,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1E",
+      "home": "GER",
       "away": "3ABCDF",
       "real": false,
       "score": null,

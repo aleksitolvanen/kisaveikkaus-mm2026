@@ -131,7 +131,7 @@
     "522846": 1
   },
   "live": {
-    "H4": "2-1"
+    "H4": "2-2"
   },
   "timelines": {
     "A1": {
@@ -1664,6 +1664,12 @@
           "id": "402876",
           "team": "URU",
           "pen": false
+        },
+        {
+          "min": "61'",
+          "id": "477849",
+          "team": "CPV",
+          "pen": false
         }
       ],
       "cards": [
@@ -2272,6 +2278,10 @@
     "477832": {
       "full": "SIDNY LOPES CABRAL",
       "last": "LOPES CABRAL"
+    },
+    "477849": {
+      "full": "HELIO VARELA",
+      "last": "HÉLIO"
     },
     "477852": {
       "full": "KEVIN PINA",

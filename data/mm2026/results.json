@@ -1515,6 +1515,12 @@
           "id": "466340",
           "team": "CUW",
           "type": "y"
+        },
+        {
+          "min": "53'",
+          "id": "466317",
+          "team": "CUW",
+          "type": "y"
         }
       ]
     }
@@ -2019,6 +2025,10 @@
     "464933": {
       "full": "Abbosbek FAYZULLAEV",
       "last": "FAYZULLAEV"
+    },
+    "466317": {
+      "full": "Juninho BACUNA",
+      "last": "J. BACUNA"
     },
     "466340": {
       "full": "Leandro BACUNA",

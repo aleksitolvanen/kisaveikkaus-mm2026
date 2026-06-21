@@ -1509,6 +1509,12 @@
           "id": "419005",
           "team": "ECU",
           "type": "y"
+        },
+        {
+          "min": "39'",
+          "id": "466340",
+          "team": "CUW",
+          "type": "y"
         }
       ]
     }
@@ -2013,6 +2019,10 @@
     "464933": {
       "full": "Abbosbek FAYZULLAEV",
       "last": "FAYZULLAEV"
+    },
+    "466340": {
+      "full": "Leandro BACUNA",
+      "last": "L. BACUNA"
     },
     "466624": {
       "full": "Folarin BALOGUN",

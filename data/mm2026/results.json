@@ -135,7 +135,7 @@
     "522846": 1
   },
   "live": {
-    "G4": "1-0"
+    "G4": "1-1"
   },
   "timelines": {
     "A1": {
@@ -1710,6 +1710,12 @@
           "id": "463580",
           "team": "NZL",
           "pen": false
+        },
+        {
+          "min": "58'",
+          "id": "483161",
+          "team": "EGY",
+          "pen": false
         }
       ],
       "cards": [
@@ -2362,6 +2368,10 @@
     "482976": {
       "full": "Amar DEDIC",
       "last": "DEDIĆ"
+    },
+    "483161": {
+      "full": "MOSTAFA ZICO",
+      "last": "ZICO"
     },
     "483276": {
       "full": "Gabriel GUDMUNDSSON",

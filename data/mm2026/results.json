@@ -135,7 +135,7 @@
     "522846": 1
   },
   "live": {
-    "G4": "1-2"
+    "G4": "1-3"
   },
   "timelines": {
     "A1": {
@@ -1722,6 +1722,12 @@
           "id": "344654",
           "team": "EGY",
           "pen": false
+        },
+        {
+          "min": "82'",
+          "id": "363863",
+          "team": "EGY",
+          "pen": false
         }
       ],
       "cards": [
@@ -1806,6 +1812,10 @@
     "358241": {
       "full": "Marcel SABITZER",
       "last": "SABITZER"
+    },
+    "363863": {
+      "full": "TREZEGUET",
+      "last": "M. TREZEGUET"
     },
     "367981": {
       "full": "DOUGLAS SANTOS",

@@ -135,7 +135,7 @@
     "522846": 1
   },
   "live": {
-    "G4": "1-1"
+    "G4": "1-2"
   },
   "timelines": {
     "A1": {
@@ -1716,6 +1716,12 @@
           "id": "483161",
           "team": "EGY",
           "pen": false
+        },
+        {
+          "min": "67'",
+          "id": "344654",
+          "team": "EGY",
+          "pen": false
         }
       ],
       "cards": [
@@ -1780,6 +1786,10 @@
     "339745": {
       "full": "SALEM ALDAWSARI",
       "last": "SALEM"
+    },
+    "344654": {
+      "full": "MOHAMED SALAH",
+      "last": "M. SALAH"
     },
     "356532": {
       "full": "Chancel MBEMBA",

@@ -1724,6 +1724,12 @@
           "id": "390209",
           "team": "NZL",
           "type": "y"
+        },
+        {
+          "min": "34'",
+          "id": "390196",
+          "team": "NZL",
+          "type": "y"
         }
       ]
     }
@@ -1840,6 +1846,10 @@
     "389867": {
       "full": "Kylian MBAPPE",
       "last": "MBAPPÉ"
+    },
+    "390196": {
+      "full": "Callum McCOWATT",
+      "last": "MCCOWATT"
     },
     "390209": {
       "full": "Sarpreet SINGH",

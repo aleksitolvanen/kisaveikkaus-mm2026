@@ -1801,7 +1801,14 @@
     },
     "I3": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "6'",
+          "id": "433074",
+          "team": "IRQ",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2256,6 +2263,10 @@
     "431698": {
       "full": "Jurien GAARI",
       "last": "GAARI"
+    },
+    "433074": {
+      "full": "AMIR ALAMMARI",
+      "last": "AL-AMMARI"
     },
     "433367": {
       "full": "Omar Rekik",

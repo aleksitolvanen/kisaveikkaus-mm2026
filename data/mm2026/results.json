@@ -1690,6 +1690,12 @@
           "id": "402893",
           "team": "URU",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "409241",
+          "team": "CPV",
+          "type": "y"
         }
       ]
     }
@@ -1946,6 +1952,10 @@
     "408950": {
       "full": "MOHAMED HANY",
       "last": "M.HANY"
+    },
+    "409241": {
+      "full": "DINEY BORGES",
+      "last": "BORGES"
     },
     "411367": {
       "full": "Kai HAVERTZ",

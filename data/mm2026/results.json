@@ -1783,6 +1783,12 @@
           "id": "418963",
           "team": "ARG",
           "type": "y"
+        },
+        {
+          "min": "90'+2'",
+          "id": "332847",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -1811,6 +1817,10 @@
     "311558": {
       "full": "Granit XHAKA",
       "last": "XHAKA"
+    },
+    "332847": {
+      "full": "Leandro PAREDES",
+      "last": "PAREDES"
     },
     "336098": {
       "full": "Memphis DEPAY",

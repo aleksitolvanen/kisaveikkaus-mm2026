@@ -1771,6 +1771,18 @@
           "id": "441067",
           "team": "AUT",
           "type": "y"
+        },
+        {
+          "min": "76'",
+          "id": "385259",
+          "team": "AUT",
+          "type": "y"
+        },
+        {
+          "min": "76'",
+          "id": "418963",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -1875,6 +1887,10 @@
     "384797": {
       "full": "Ramin REZAEIAN",
       "last": "RAMIN"
+    },
+    "385259": {
+      "full": "Konrad LAIMER",
+      "last": "LAIMER"
     },
     "386348": {
       "full": "ASSIM MADIBO",
@@ -2063,6 +2079,10 @@
     "418729": {
       "full": "Carlos HARVEY",
       "last": "HARVEY"
+    },
+    "418963": {
+      "full": "Facundo MEDINA",
+      "last": "MEDINA"
     },
     "419003": {
       "full": "Jackson POROZO",

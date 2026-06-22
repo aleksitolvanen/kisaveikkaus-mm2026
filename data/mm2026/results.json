@@ -135,7 +135,7 @@
     "522846": 1
   },
   "live": {
-    "G4": "0-0"
+    "G4": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1704,7 +1704,14 @@
       ]
     },
     "G4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "15'",
+          "id": "463580",
+          "team": "NZL",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2248,6 +2255,10 @@
     "463283": {
       "full": "Romano SCHMID",
       "last": "SCHMID"
+    },
+    "463580": {
+      "full": "Finn SURMAN",
+      "last": "SURMAN"
     },
     "464533": {
       "full": "Brian GUTIERREZ",

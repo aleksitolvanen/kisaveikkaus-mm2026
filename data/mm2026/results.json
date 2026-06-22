@@ -1712,7 +1712,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "17'",
+          "id": "433469",
+          "team": "EGY",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2147,6 +2154,10 @@
     "433394": {
       "full": "AHMED FATHY",
       "last": "A. FATHY"
+    },
+    "433469": {
+      "full": "MOHANAD LASHIN",
+      "last": "M. LASHIN"
     },
     "433668": {
       "full": "Michal SADILEK",

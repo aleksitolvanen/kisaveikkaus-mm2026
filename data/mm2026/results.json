@@ -1765,7 +1765,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "40'",
+          "id": "441067",
+          "team": "AUT",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2236,6 +2243,10 @@
     "436743": {
       "full": "Ermedin DEMIROVIC",
       "last": "DEMIROVIĆ"
+    },
+    "441067": {
+      "full": "Stefan POSCH",
+      "last": "POSCH"
     },
     "441137": {
       "full": "Anthony ELANGA",

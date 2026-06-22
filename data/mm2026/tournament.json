@@ -607,7 +607,8 @@
       "matchNumber": 38,
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021483",
+      "attendance": "68239"
     },
     {
       "id": "G3",
@@ -619,7 +620,8 @@
       "matchNumber": 39,
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021477"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021477",
+      "attendance": "70317"
     },
     {
       "id": "H4",
@@ -631,7 +633,8 @@
       "matchNumber": 37,
       "stadium": "Miami Stadium",
       "city": "Miami",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021487"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021487",
+      "attendance": "64003"
     },
     {
       "id": "G4",
@@ -643,7 +646,8 @@
       "matchNumber": 40,
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021480"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021480",
+      "attendance": "52497"
     },
     {
       "id": "J3",

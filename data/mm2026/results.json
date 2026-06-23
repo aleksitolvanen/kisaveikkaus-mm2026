@@ -142,7 +142,7 @@
   },
   "live": {
     "I3": "3-0",
-    "I4": "0-0"
+    "I4": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1834,7 +1834,7 @@
       "goals": [
         {
           "min": "43'",
-          "id": null,
+          "id": "494625",
           "team": "NOR",
           "pen": false
         }
@@ -2594,6 +2594,10 @@
     "494248": {
       "full": "Thalente MBATHA",
       "last": "MBATHA"
+    },
+    "494625": {
+      "full": "Marcus HOLMGREN PEDERSEN",
+      "last": "HOLMGREN"
     },
     "494989": {
       "full": "Livano COMENENCIA",

@@ -150,7 +150,7 @@
     "522846": 1
   },
   "live": {
-    "K3": "4-0"
+    "K3": "5-0"
   },
   "timelines": {
     "A1": {
@@ -1935,6 +1935,12 @@
           "team": "UZB",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "87'",
+          "id": "418550",
+          "team": "POR",
+          "pen": false
         }
       ],
       "cards": [
@@ -2265,6 +2271,10 @@
     "418490": {
       "full": "LEE Kangin",
       "last": "LEE KANG IN"
+    },
+    "418550": {
+      "full": "RAFAEL LEAO",
+      "last": "RAFA LEÃO"
     },
     "418729": {
       "full": "Carlos HARVEY",

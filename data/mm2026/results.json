@@ -150,7 +150,7 @@
     "522846": 1
   },
   "live": {
-    "K3": "0-0"
+    "K3": "1-0"
   },
   "timelines": {
     "A1": {
@@ -1910,11 +1910,22 @@
       ]
     },
     "K3": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "6'",
+          "id": "201200",
+          "team": "POR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
   "players": {
+    "201200": {
+      "full": "CRISTIANO RONALDO",
+      "last": "RONALDO"
+    },
     "229397": {
       "full": "Lionel MESSI",
       "last": "MESSI"

@@ -150,7 +150,7 @@
     "522846": 1
   },
   "live": {
-    "K3": "1-0"
+    "K3": "2-0"
   },
   "timelines": {
     "A1": {
@@ -1916,6 +1916,12 @@
           "id": "201200",
           "team": "POR",
           "pen": false
+        },
+        {
+          "min": "17'",
+          "id": "433195",
+          "team": "POR",
+          "pen": false
         }
       ],
       "cards": [
@@ -2404,6 +2410,10 @@
     "433074": {
       "full": "AMIR ALAMMARI",
       "last": "AL-AMMARI"
+    },
+    "433195": {
+      "full": "NUNO MENDES",
+      "last": "N. MENDES"
     },
     "433367": {
       "full": "Omar Rekik",

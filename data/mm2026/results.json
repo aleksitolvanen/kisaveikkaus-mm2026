@@ -1918,7 +1918,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "14'",
+          "id": "371345",
+          "team": "UZB",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2009,6 +2016,10 @@
     "369761": {
       "full": "Miguel ALMIRON",
       "last": "ALMIRÓN"
+    },
+    "371345": {
+      "full": "Odiljon XAMROBEKOV",
+      "last": "XAMROBEKOV"
     },
     "371609": {
       "full": "Franck KESSIE",

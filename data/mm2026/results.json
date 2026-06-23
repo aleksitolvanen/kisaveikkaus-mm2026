@@ -1943,6 +1943,12 @@
           "id": "371345",
           "team": "UZB",
           "type": "y"
+        },
+        {
+          "min": "68'",
+          "id": "489704",
+          "team": "POR",
+          "type": "y"
         }
       ]
     }
@@ -2715,6 +2721,10 @@
     "489689": {
       "full": "Lucas BERGVALL",
       "last": "BERGVALL"
+    },
+    "489704": {
+      "full": "RENATO VEIGA",
+      "last": "RENATO VEIGA"
     },
     "492315": {
       "full": "LEE Gihyuk",

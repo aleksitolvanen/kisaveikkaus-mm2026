@@ -1884,6 +1884,12 @@
           "id": "433679",
           "team": "ALG",
           "type": "y"
+        },
+        {
+          "min": "64'",
+          "id": "489550",
+          "team": "JOR",
+          "type": "y"
         }
       ]
     }
@@ -2624,6 +2630,10 @@
     "489520": {
       "full": "Nikola KATIC",
       "last": "KATIĆ"
+    },
+    "489550": {
+      "full": "HUSAM ABUDAHAB",
+      "last": "ABU DAHAB"
     },
     "489688": {
       "full": "Yasin AYARI",

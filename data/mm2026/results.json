@@ -1878,7 +1878,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "44'",
+          "id": "433679",
+          "team": "ALG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2365,6 +2372,10 @@
     "433668": {
       "full": "Michal SADILEK",
       "last": "SADÍLEK"
+    },
+    "433679": {
+      "full": "Ramiz ZERROUKI",
+      "last": "ZERROUKI"
     },
     "433795": {
       "full": "Mattias SVANBERG",

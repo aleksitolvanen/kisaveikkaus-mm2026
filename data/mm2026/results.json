@@ -143,7 +143,7 @@
     "522846": 1
   },
   "live": {
-    "I4": "2-0"
+    "I4": "2-1"
   },
   "timelines": {
     "A1": {
@@ -1844,6 +1844,12 @@
           "id": "419652",
           "team": "NOR",
           "pen": false
+        },
+        {
+          "min": "53'",
+          "id": "401889",
+          "team": "SEN",
+          "pen": false
         }
       ],
       "cards": []
@@ -2065,6 +2071,10 @@
     "401470": {
       "full": "Marcus RASHFORD",
       "last": "RASHFORD"
+    },
+    "401889": {
+      "full": "Ismaila SARR",
+      "last": "ISMAÏLA"
     },
     "402817": {
       "full": "PAIK Seungho",

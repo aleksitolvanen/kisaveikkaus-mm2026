@@ -141,7 +141,7 @@
     "522846": 1
   },
   "live": {
-    "I3": "2-0",
+    "I3": "3-0",
     "I4": "0-0"
   },
   "timelines": {
@@ -1816,7 +1816,7 @@
         },
         {
           "min": "66'",
-          "id": null,
+          "id": "398680",
           "team": "FRA",
           "pen": false
         }
@@ -2031,6 +2031,10 @@
     "398509": {
       "full": "Nico ELVEDI",
       "last": "ELVEDI"
+    },
+    "398680": {
+      "full": "Ousmane DEMBELE",
+      "last": "DEMBELE"
     },
     "401334": {
       "full": "John McGinn",

@@ -1970,6 +1970,12 @@
           "id": "433097",
           "team": "ENG",
           "type": "y"
+        },
+        {
+          "min": "60'",
+          "id": "411376",
+          "team": "GHA",
+          "type": "y"
         }
       ]
     }
@@ -2278,6 +2284,10 @@
     "411367": {
       "full": "Kai HAVERTZ",
       "last": "HAVERTZ"
+    },
+    "411376": {
+      "full": "Inaki WILLIAMS",
+      "last": "WILLIAMS"
     },
     "411443": {
       "full": "Timothy CASTAGNE",

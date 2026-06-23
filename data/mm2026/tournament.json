@@ -659,7 +659,8 @@
       "matchNumber": 43,
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021494",
+      "attendance": "70649"
     },
     {
       "id": "I3",
@@ -671,7 +672,8 @@
       "matchNumber": 42,
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021492"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021492",
+      "attendance": "68324"
     },
     {
       "id": "I4",
@@ -683,7 +685,8 @@
       "matchNumber": 41,
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021491"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021491",
+      "attendance": "80663"
     },
     {
       "id": "J4",
@@ -695,7 +698,8 @@
       "matchNumber": 44,
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021499"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021499",
+      "attendance": "68371"
     },
     {
       "id": "K3",
@@ -1423,7 +1427,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1J",
+      "home": "ARG",
       "away": "2H",
       "real": false,
       "score": null,

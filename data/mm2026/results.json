@@ -146,7 +146,7 @@
     "522846": 1
   },
   "live": {
-    "J4": "1-1"
+    "J4": "1-2"
   },
   "timelines": {
     "A1": {
@@ -1882,6 +1882,12 @@
           "id": "520071",
           "team": "ALG",
           "pen": false
+        },
+        {
+          "min": "82'",
+          "id": "405877",
+          "team": "ALG",
+          "pen": false
         }
       ],
       "cards": [
@@ -2172,6 +2178,10 @@
     "405755": {
       "full": "Jaminton CAMPAZ",
       "last": "Jaminton CAMPAZ"
+    },
+    "405877": {
+      "full": "Amine GOUIRI",
+      "last": "GOUIRI"
     },
     "406231": {
       "full": "Yunus AKGUN",

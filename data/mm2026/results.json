@@ -1964,7 +1964,14 @@
     },
     "L3": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "41'",
+          "id": "433097",
+          "team": "ENG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2447,6 +2454,10 @@
     "433074": {
       "full": "AMIR ALAMMARI",
       "last": "AL-AMMARI"
+    },
+    "433097": {
+      "full": "Declan RICE",
+      "last": "RICE"
     },
     "433195": {
       "full": "NUNO MENDES",

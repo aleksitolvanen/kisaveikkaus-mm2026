@@ -1931,7 +1931,7 @@
         },
         {
           "min": "60'",
-          "id": "464924",
+          "id": "479110",
           "team": "UZB",
           "pen": false,
           "og": true
@@ -2629,6 +2629,10 @@
     "479086": {
       "full": "Azizjon GANIEV",
       "last": "GANIEV"
+    },
+    "479110": {
+      "full": "Abduvohid NEMATOV",
+      "last": "NEMATOV"
     },
     "479601": {
       "full": "Juan Jose CACERES",

@@ -1831,7 +1831,14 @@
       ]
     },
     "I4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "43'",
+          "id": null,
+          "team": "NOR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

@@ -159,7 +159,7 @@
   },
   "live": {
     "B5": "0-0",
-    "B6": "1-0"
+    "B6": "2-0"
   },
   "timelines": {
     "A1": {
@@ -2062,6 +2062,13 @@
           "id": "504990",
           "team": "BIH",
           "pen": false
+        },
+        {
+          "min": "34'",
+          "id": "386387",
+          "team": "QAT",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": []
@@ -2187,6 +2194,10 @@
     "386348": {
       "full": "ASSIM MADIBO",
       "last": "A. MADIBO"
+    },
+    "386387": {
+      "full": "SULTAN ALBRAKE",
+      "last": "SULTAN"
     },
     "386538": {
       "full": "Rodrigo BENTANCUR",

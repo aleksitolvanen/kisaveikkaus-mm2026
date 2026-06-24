@@ -2021,6 +2021,12 @@
           "id": "441622",
           "team": "COL",
           "type": "y"
+        },
+        {
+          "min": "90'+4'",
+          "id": "395550",
+          "team": "COL",
+          "type": "y"
         }
       ]
     }
@@ -2213,6 +2219,10 @@
     "395516": {
       "full": "Cesar MONTES",
       "last": "Cesar MONTES"
+    },
+    "395550": {
+      "full": "Jefferson LERMA",
+      "last": "J. LERMA"
     },
     "395984": {
       "full": "Themba ZWANE",

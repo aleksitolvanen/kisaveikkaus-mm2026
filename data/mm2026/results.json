@@ -2071,6 +2071,12 @@
           "id": "311558",
           "team": "SUI",
           "type": "y"
+        },
+        {
+          "min": "87'",
+          "id": "441259",
+          "team": "CAN",
+          "type": "y"
         }
       ]
     },
@@ -2694,6 +2700,10 @@
     "441257": {
       "full": "Jonathan DAVID",
       "last": "J. DAVID"
+    },
+    "441259": {
+      "full": "Liam MILLAR",
+      "last": "MILLAR"
     },
     "441316": {
       "full": "Yoane WISSA",

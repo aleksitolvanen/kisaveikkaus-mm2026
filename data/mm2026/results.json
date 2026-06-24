@@ -2222,6 +2222,12 @@
           "id": "394993",
           "team": "HAI",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "510757",
+          "team": "HAI",
+          "type": "y"
         }
       ]
     }
@@ -3150,6 +3156,10 @@
     "506279": {
       "full": "Caleb YIRENKYI",
       "last": "YIRENKYI"
+    },
+    "510757": {
+      "full": "Josue CASIMIR",
+      "last": "CASIMIR"
     },
     "511015": {
       "full": "Nathaniel BROWN",

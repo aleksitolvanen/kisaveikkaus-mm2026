@@ -2096,7 +2096,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "78'",
+          "id": "433394",
+          "team": "QAT",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

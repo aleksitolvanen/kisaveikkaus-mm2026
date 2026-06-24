@@ -164,7 +164,7 @@
   },
   "live": {
     "C5": "0-1",
-    "C6": "0-1"
+    "C6": "1-1"
   },
   "timelines": {
     "A1": {
@@ -2147,6 +2147,12 @@
           "team": "MAR",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "39'",
+          "id": "400721",
+          "team": "MAR",
+          "pen": false
         }
       ],
       "cards": []
@@ -2380,6 +2386,10 @@
     "400416": {
       "full": "Edgar Yoel BARCENAS",
       "last": "BÁRCENAS"
+    },
+    "400721": {
+      "full": "Achraf HAKIMI",
+      "last": "HAKIMI"
     },
     "401334": {
       "full": "John McGinn",

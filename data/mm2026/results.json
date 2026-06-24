@@ -2023,6 +2023,12 @@
           "type": "y"
         },
         {
+          "min": "90'+3'",
+          "id": "448128",
+          "team": "COD",
+          "type": "y"
+        },
+        {
           "min": "90'+4'",
           "id": "395550",
           "team": "COL",
@@ -2615,6 +2621,10 @@
     "448014": {
       "full": "Alessandro CIRCATI",
       "last": "CIRCATI"
+    },
+    "448128": {
+      "full": "Charles PICKEL",
+      "last": "PICKEL"
     },
     "448131": {
       "full": "Ruben VARGAS",

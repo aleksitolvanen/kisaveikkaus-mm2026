@@ -2187,7 +2187,7 @@
         },
         {
           "min": "78'",
-          "id": null,
+          "id": "433426",
           "team": "MAR",
           "pen": false
         }
@@ -2731,6 +2731,10 @@
     "433394": {
       "full": "AHMED FATHY",
       "last": "A. FATHY"
+    },
+    "433426": {
+      "full": "Soufiane RAHIMI",
+      "last": "RAHIMI"
     },
     "433469": {
       "full": "MOHANAD LASHIN",

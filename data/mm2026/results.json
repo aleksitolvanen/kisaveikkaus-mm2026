@@ -2196,6 +2196,12 @@
           "id": "433426",
           "team": "MAR",
           "pen": false
+        },
+        {
+          "min": "89'",
+          "id": "505112",
+          "team": "MAR",
+          "pen": false
         }
       ],
       "cards": [
@@ -3126,6 +3132,10 @@
     "504990": {
       "full": "Kerim ALAJBEGOVIC",
       "last": "ALAJBEGOVIĆ"
+    },
+    "505112": {
+      "full": "Gessime YASSINE",
+      "last": "YASSINE"
     },
     "506279": {
       "full": "Caleb YIRENKYI",

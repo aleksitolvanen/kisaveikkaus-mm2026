@@ -2143,12 +2143,6 @@
       "goals": [
         {
           "min": "10'",
-          "id": "485676",
-          "team": "HAI",
-          "pen": false
-        },
-        {
-          "min": "10'",
           "id": "356956",
           "team": "MAR",
           "pen": false,

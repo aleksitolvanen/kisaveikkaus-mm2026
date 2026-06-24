@@ -2192,7 +2192,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "81'",
+          "id": "394993",
+          "team": "HAI",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2375,6 +2382,10 @@
     "394500": {
       "full": "Johan MOJICA",
       "last": "J. MOJICA"
+    },
+    "394993": {
+      "full": "Duckens NAZON",
+      "last": "NAZON"
     },
     "395084": {
       "full": "HWANG Inbeom",

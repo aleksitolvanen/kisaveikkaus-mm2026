@@ -1995,6 +1995,12 @@
           "id": "400416",
           "team": "PAN",
           "type": "y"
+        },
+        {
+          "min": "90'+2'",
+          "id": "485066",
+          "team": "CRO",
+          "type": "y"
         }
       ]
     }
@@ -2755,6 +2761,10 @@
     "484860": {
       "full": "Bradley BARCOLA",
       "last": "BARCOLA"
+    },
+    "485066": {
+      "full": "Petar SUCIC",
+      "last": "P. SUČIĆ"
     },
     "485802": {
       "full": "Alex ARCE",

@@ -2141,6 +2141,12 @@
           "id": "405742",
           "team": "BRA",
           "pen": false
+        },
+        {
+          "min": "60'",
+          "id": null,
+          "team": "BRA",
+          "pen": false
         }
       ],
       "cards": []

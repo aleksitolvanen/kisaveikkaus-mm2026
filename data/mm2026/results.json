@@ -159,7 +159,7 @@
   },
   "live": {
     "B5": "0-0",
-    "B6": "2-0"
+    "B6": "2-1"
   },
   "timelines": {
     "A1": {
@@ -2069,6 +2069,12 @@
           "team": "QAT",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "42'",
+          "id": "284190",
+          "team": "QAT",
+          "pen": false
         }
       ],
       "cards": []
@@ -2082,6 +2088,10 @@
     "229397": {
       "full": "Lionel MESSI",
       "last": "MESSI"
+    },
+    "284190": {
+      "full": "HASSAN ALHAYDOS",
+      "last": "ALHAYDOS"
     },
     "288961": {
       "full": "Ehsan HAJISAFI",

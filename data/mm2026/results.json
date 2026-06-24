@@ -1981,7 +1981,14 @@
       ]
     },
     "L4": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "54'",
+          "id": "430070",
+          "team": "CRO",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2389,6 +2396,10 @@
     "429642": {
       "full": "Jamal MUSIALA",
       "last": "MUSIALA"
+    },
+    "430070": {
+      "full": "Ante BUDIMIR",
+      "last": "BUDIMIR"
     },
     "430150": {
       "full": "Alexander Isak",

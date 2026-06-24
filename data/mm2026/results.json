@@ -159,7 +159,7 @@
   },
   "live": {
     "B5": "0-0",
-    "B6": "0-0"
+    "B6": "1-0"
   },
   "timelines": {
     "A1": {
@@ -2043,7 +2043,14 @@
       "cards": []
     },
     "B6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "29'",
+          "id": "504990",
+          "team": "BIH",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2903,6 +2910,10 @@
     "502727": {
       "full": "Johan MANZAMBI",
       "last": "MANZAMBI"
+    },
+    "504990": {
+      "full": "Kerim ALAJBEGOVIC",
+      "last": "ALAJBEGOVIĆ"
     },
     "506279": {
       "full": "Caleb YIRENKYI",

@@ -2161,6 +2161,12 @@
           "id": "394456",
           "team": "BRA",
           "type": "y"
+        },
+        {
+          "min": "89'",
+          "id": "430097",
+          "team": "SCO",
+          "type": "y"
         }
       ]
     },
@@ -2672,6 +2678,10 @@
     "430070": {
       "full": "Ante BUDIMIR",
       "last": "BUDIMIR"
+    },
+    "430097": {
+      "full": "Ryan Christie",
+      "last": "CHRISTIE"
     },
     "430150": {
       "full": "Alexander Isak",

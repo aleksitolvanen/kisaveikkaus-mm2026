@@ -2008,7 +2008,14 @@
     },
     "K4": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "56'",
+          "id": "441622",
+          "team": "COL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2579,6 +2586,10 @@
     "441316": {
       "full": "Yoane WISSA",
       "last": "Yoane WISSA"
+    },
+    "441622": {
+      "full": "Jhon LUCUMI",
+      "last": "J. LUCUMI"
     },
     "442428": {
       "full": "Aaron HICKEY",

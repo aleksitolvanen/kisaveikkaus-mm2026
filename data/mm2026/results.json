@@ -164,7 +164,7 @@
   },
   "live": {
     "C5": "0-1",
-    "C6": "0-0"
+    "C6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2140,7 +2140,14 @@
       "cards": []
     },
     "C6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "10'",
+          "id": "485676",
+          "team": "HAI",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2928,6 +2935,10 @@
     "485066": {
       "full": "Petar SUCIC",
       "last": "P. SUČIĆ"
+    },
+    "485676": {
+      "full": "Lenny JOSEPH",
+      "last": "JOSEPH"
     },
     "485802": {
       "full": "Alex ARCE",

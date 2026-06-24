@@ -164,7 +164,7 @@
   },
   "live": {
     "C5": "0-1",
-    "C6": "1-1"
+    "C6": "1-2"
   },
   "timelines": {
     "A1": {
@@ -2153,6 +2153,12 @@
           "id": "400721",
           "team": "MAR",
           "pen": false
+        },
+        {
+          "min": "43'",
+          "id": "405879",
+          "team": "HAI",
+          "pen": false
         }
       ],
       "cards": []
@@ -2466,6 +2472,10 @@
     "405877": {
       "full": "Amine GOUIRI",
       "last": "GOUIRI"
+    },
+    "405879": {
+      "full": "Wilson Isidor",
+      "last": "ISIDOR"
     },
     "406231": {
       "full": "Yunus AKGUN",

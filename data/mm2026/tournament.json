@@ -711,7 +711,8 @@
       "matchNumber": 47,
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021503"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021503",
+      "attendance": "68777"
     },
     {
       "id": "L3",
@@ -723,7 +724,8 @@
       "matchNumber": 45,
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021506"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021506",
+      "attendance": "63983"
     },
     {
       "id": "L4",
@@ -735,7 +737,8 @@
       "matchNumber": 46,
       "stadium": "Toronto Stadium",
       "city": "Toronto",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021511"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021511",
+      "attendance": "43036"
     },
     {
       "id": "K4",
@@ -747,7 +750,8 @@
       "matchNumber": 48,
       "stadium": "Guadalajara Stadium",
       "city": "Guadalajara",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021501"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021501",
+      "attendance": "45358"
     },
     {
       "id": "B5",

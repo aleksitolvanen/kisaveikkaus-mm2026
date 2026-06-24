@@ -2149,7 +2149,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "62'",
+          "id": "335656",
+          "team": "BRA",
+          "type": "y"
+        }
+      ]
     },
     "C6": {
       "goals": [
@@ -2218,6 +2225,10 @@
     "332847": {
       "full": "Leandro PAREDES",
       "last": "PAREDES"
+    },
+    "335656": {
+      "full": "DANILO",
+      "last": "DANILO"
     },
     "336098": {
       "full": "Memphis DEPAY",

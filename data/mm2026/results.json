@@ -2155,6 +2155,12 @@
           "id": "335656",
           "team": "BRA",
           "type": "y"
+        },
+        {
+          "min": "82'",
+          "id": "394456",
+          "team": "BRA",
+          "type": "y"
         }
       ]
     },
@@ -2195,6 +2201,12 @@
       "cards": [
         {
           "min": "79'",
+          "id": "295922",
+          "team": "HAI",
+          "type": "y"
+        },
+        {
+          "min": "79'",
           "id": "394993",
           "team": "HAI",
           "type": "y"
@@ -2218,6 +2230,10 @@
     "288961": {
       "full": "Ehsan HAJISAFI",
       "last": "Ehsan HAJISAFI"
+    },
+    "295922": {
+      "full": "Johny Placide",
+      "last": "PLACIDE"
     },
     "299200": {
       "full": "Marko ARNAUTOVIC",
@@ -2378,6 +2394,10 @@
     "393480": {
       "full": "Breel EMBOLO",
       "last": "EMBOLO"
+    },
+    "394456": {
+      "full": "FABINHO",
+      "last": "FABINHO"
     },
     "394500": {
       "full": "Johan MOJICA",

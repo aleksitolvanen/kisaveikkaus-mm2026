@@ -2305,7 +2305,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "34'",
+          "id": "402261",
+          "team": "CIV",
+          "type": "y"
+        }
+      ]
     },
     "E6": {
       "goals": [

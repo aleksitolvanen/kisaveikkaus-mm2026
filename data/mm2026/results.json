@@ -2238,7 +2238,14 @@
       ]
     },
     "A5": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "63'",
+          "id": null,
+          "team": "RSA",
+          "pen": false
+        }
+      ],
       "cards": []
     },
     "A6": {

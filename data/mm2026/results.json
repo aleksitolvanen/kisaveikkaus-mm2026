@@ -175,7 +175,7 @@
   },
   "live": {
     "E5": "0-1",
-    "E6": "0-1"
+    "E6": "1-1"
   },
   "timelines": {
     "A1": {
@@ -2314,6 +2314,12 @@
           "id": "404353",
           "team": "GER",
           "pen": false
+        },
+        {
+          "min": "9'",
+          "id": "448312",
+          "team": "ECU",
+          "pen": false
         }
       ],
       "cards": []
@@ -2995,6 +3001,10 @@
     "448202": {
       "full": "Jude BELLINGHAM",
       "last": "BELLINGHAM"
+    },
+    "448312": {
+      "full": "Nilson ANGULO",
+      "last": "ANGULO"
     },
     "448373": {
       "full": "Maxim DE CUYPER",

@@ -2341,6 +2341,12 @@
           "id": "484849",
           "team": "GER",
           "type": "y"
+        },
+        {
+          "min": "50'",
+          "id": "389784",
+          "team": "ECU",
+          "type": "y"
         }
       ]
     }
@@ -2497,6 +2503,10 @@
     "389754": {
       "full": "Petar Musa",
       "last": "MUSA"
+    },
+    "389784": {
+      "full": "Alan FRANCO",
+      "last": "FRANCO"
     },
     "389867": {
       "full": "Kylian MBAPPE",

@@ -2388,7 +2388,14 @@
     },
     "F5": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "32'",
+          "id": "483312",
+          "team": "SWE",
+          "type": "y"
+        }
+      ]
     },
     "F6": {
       "goals": [
@@ -3241,6 +3248,10 @@
     "483276": {
       "full": "Gabriel GUDMUNDSSON",
       "last": "GUDMUNDSSON"
+    },
+    "483312": {
+      "full": "Isak HIEN",
+      "last": "HIEN"
     },
     "483327": {
       "full": "Viktor GYOKERES",

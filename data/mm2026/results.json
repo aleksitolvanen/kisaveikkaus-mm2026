@@ -174,7 +174,7 @@
     "522846": 2
   },
   "live": {
-    "E5": "0-0",
+    "E5": "0-1",
     "E6": "0-1"
   },
   "timelines": {
@@ -2297,7 +2297,14 @@
       ]
     },
     "E5": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "7'",
+          "id": "402261",
+          "team": "CIV",
+          "pen": false
+        }
+      ],
       "cards": []
     },
     "E6": {
@@ -2588,6 +2595,10 @@
     "401889": {
       "full": "Ismaila SARR",
       "last": "ISMAÏLA"
+    },
+    "402261": {
+      "full": "Nicolas PEPE",
+      "last": "PEPE"
     },
     "402817": {
       "full": "PAIK Seungho",

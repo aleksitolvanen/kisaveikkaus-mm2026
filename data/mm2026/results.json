@@ -2329,7 +2329,20 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "43'",
+          "id": "424031",
+          "team": "ECU",
+          "type": "y"
+        },
+        {
+          "min": "44'",
+          "id": "484849",
+          "team": "GER",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2781,6 +2794,10 @@
       "full": "Nathan SALIBA",
       "last": "SALIBA"
     },
+    "424031": {
+      "full": "Piero HINCAPIE",
+      "last": "HINCAPIE"
+    },
     "424051": {
       "full": "Brian BROBBEY",
       "last": "BROBBEY"
@@ -3172,6 +3189,10 @@
     "484320": {
       "full": "Lamine YAMAL",
       "last": "LAMINE YAMAL"
+    },
+    "484849": {
+      "full": "Aleksandar PAVLOVIC",
+      "last": "PAVLOVIĆ"
     },
     "484851": {
       "full": "Deniz UNDAV",

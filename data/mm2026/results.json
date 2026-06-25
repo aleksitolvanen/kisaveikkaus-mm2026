@@ -181,7 +181,7 @@
   },
   "live": {
     "F5": "0-0",
-    "F6": "0-1"
+    "F6": "0-2"
   },
   "timelines": {
     "A1": {
@@ -2398,6 +2398,12 @@
           "team": "TUN",
           "pen": false,
           "og": true
+        },
+        {
+          "min": "7'",
+          "id": "424051",
+          "team": "NED",
+          "pen": false
         }
       ],
       "cards": []

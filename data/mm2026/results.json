@@ -175,7 +175,7 @@
   },
   "live": {
     "E5": "0-2",
-    "E6": "1-1"
+    "E6": "2-1"
   },
   "timelines": {
     "A1": {
@@ -2339,6 +2339,12 @@
           "id": "448312",
           "team": "ECU",
           "pen": false
+        },
+        {
+          "min": "78'",
+          "id": "419020",
+          "team": "ECU",
+          "pen": false
         }
       ],
       "cards": [
@@ -2767,6 +2773,10 @@
     "419005": {
       "full": "Jordy ALCIVAR",
       "last": "ALCIVAR"
+    },
+    "419020": {
+      "full": "Gonzalo PLATA",
+      "last": "PLATA"
     },
     "419062": {
       "full": "Chris RICHARDS",

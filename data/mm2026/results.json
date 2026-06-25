@@ -169,7 +169,7 @@
     "522846": 2
   },
   "live": {
-    "A5": "0-0",
+    "A5": "1-0",
     "A6": "0-2"
   },
   "timelines": {
@@ -2241,7 +2241,7 @@
       "goals": [
         {
           "min": "63'",
-          "id": null,
+          "id": "463234",
           "team": "RSA",
           "pen": false
         }
@@ -2263,7 +2263,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "63'",
+          "id": "400634",
+          "team": "MEX",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2510,6 +2517,10 @@
     "400416": {
       "full": "Edgar Yoel BARCENAS",
       "last": "BÁRCENAS"
+    },
+    "400634": {
+      "full": "Edson ALVAREZ",
+      "last": "E. ÁLVAREZ"
     },
     "400721": {
       "full": "Achraf HAKIMI",
@@ -2954,6 +2965,10 @@
     "463221": {
       "full": "Nkosinathi SIBISI",
       "last": "SIBISI"
+    },
+    "463234": {
+      "full": "Thapelo MASEKO",
+      "last": "MASEKO"
     },
     "463283": {
       "full": "Romano SCHMID",

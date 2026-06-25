@@ -181,7 +181,7 @@
   },
   "live": {
     "F5": "0-0",
-    "F6": "0-0"
+    "F6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2391,7 +2391,15 @@
       "cards": []
     },
     "F6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "3'",
+          "id": "411658",
+          "team": "TUN",
+          "pen": false,
+          "og": true
+        }
+      ],
       "cards": []
     }
   },
@@ -2771,6 +2779,10 @@
     "411443": {
       "full": "Timothy CASTAGNE",
       "last": "CASTAGNE"
+    },
+    "411658": {
+      "full": "Ellyes SKHIRI",
+      "last": "SKHIRI"
     },
     "416576": {
       "full": "Alvaro FIDALGO",

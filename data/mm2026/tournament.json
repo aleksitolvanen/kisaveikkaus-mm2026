@@ -763,7 +763,8 @@
       "matchNumber": 51,
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021451"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021451",
+      "attendance": "52497"
     },
     {
       "id": "B6",
@@ -775,7 +776,8 @@
       "matchNumber": 52,
       "stadium": "Seattle Stadium",
       "city": "Seattle",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021448"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021448",
+      "attendance": "66925"
     },
     {
       "id": "C5",
@@ -787,7 +789,8 @@
       "matchNumber": 49,
       "stadium": "Miami Stadium",
       "city": "Miami",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021455"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021455",
+      "attendance": "64478"
     },
     {
       "id": "C6",
@@ -799,7 +802,8 @@
       "matchNumber": 50,
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021452"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021452",
+      "attendance": "68239"
     },
     {
       "id": "A5",
@@ -811,7 +815,8 @@
       "matchNumber": 54,
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021445"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021445",
+      "attendance": "51243"
     },
     {
       "id": "A6",
@@ -823,7 +828,8 @@
       "matchNumber": 53,
       "stadium": "Mexico City Stadium",
       "city": "Mexico City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021444"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021444",
+      "attendance": "80824"
     },
     {
       "id": "E5",
@@ -1151,9 +1157,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "2A",
-      "away": "2B",
-      "real": false,
+      "home": "RSA",
+      "away": "CAN",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-28T19:00:00Z",
@@ -1171,7 +1177,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1C",
+      "home": "BRA",
       "away": "2F",
       "real": false,
       "score": null,
@@ -1212,7 +1218,7 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "1F",
-      "away": "2C",
+      "away": "MAR",
       "real": false,
       "score": null,
       "liveScore": null,
@@ -1391,7 +1397,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1B",
+      "home": "SUI",
       "away": "3EFGIJ",
       "real": false,
       "score": null,

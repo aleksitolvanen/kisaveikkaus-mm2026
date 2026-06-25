@@ -2252,6 +2252,12 @@
           "id": "395050",
           "team": "RSA",
           "type": "y"
+        },
+        {
+          "min": "78'",
+          "id": "430387",
+          "team": "KOR",
+          "type": "y"
         }
       ]
     },
@@ -2748,6 +2754,10 @@
     "430150": {
       "full": "Alexander Isak",
       "last": "ISAK"
+    },
+    "430387": {
+      "full": "CHO Guesung",
+      "last": "GUESUNG"
     },
     "430413": {
       "full": "Ayase UEDA",

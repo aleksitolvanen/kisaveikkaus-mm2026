@@ -175,7 +175,7 @@
   },
   "live": {
     "E5": "0-0",
-    "E6": "0-0"
+    "E6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2301,7 +2301,14 @@
       "cards": []
     },
     "E6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "2'",
+          "id": "404353",
+          "team": "GER",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -2609,6 +2616,10 @@
     "403616": {
       "full": "Teboho MOKOENA",
       "last": "MOKOENA"
+    },
+    "404353": {
+      "full": "Leroy SANE",
+      "last": "SANÉ"
     },
     "405175": {
       "full": "Seko Fofana",

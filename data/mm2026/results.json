@@ -170,7 +170,7 @@
   },
   "live": {
     "A5": "0-0",
-    "A6": "0-0"
+    "A6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2242,7 +2242,14 @@
       "cards": []
     },
     "A6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "55'",
+          "id": "500038",
+          "team": "MEX",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -3154,6 +3161,10 @@
     "498458": {
       "full": "MOHAMED MANAI",
       "last": "MANAI"
+    },
+    "500038": {
+      "full": "Mateo CHAVEZ",
+      "last": "M. CHÁVEZ"
     },
     "502727": {
       "full": "Johan MANZAMBI",

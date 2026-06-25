@@ -170,7 +170,7 @@
   },
   "live": {
     "A5": "1-0",
-    "A6": "0-2"
+    "A6": "0-3"
   },
   "timelines": {
     "A1": {
@@ -2277,7 +2277,7 @@
         },
         {
           "min": "90'+4'",
-          "id": null,
+          "id": "416576",
           "team": "MEX",
           "pen": false
         }
@@ -2656,6 +2656,10 @@
     "411443": {
       "full": "Timothy CASTAGNE",
       "last": "CASTAGNE"
+    },
+    "416576": {
+      "full": "Alvaro FIDALGO",
+      "last": "FIDALGO"
     },
     "418490": {
       "full": "LEE Kangin",

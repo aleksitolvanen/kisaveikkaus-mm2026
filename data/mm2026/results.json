@@ -192,7 +192,7 @@
     "522846": 2
   },
   "live": {
-    "I5": "0-2",
+    "I5": "1-2",
     "I6": "1-0"
   },
   "timelines": {
@@ -2536,6 +2536,12 @@
           "id": "398680",
           "team": "FRA",
           "pen": false
+        },
+        {
+          "min": "21'",
+          "id": "494627",
+          "team": "NOR",
+          "pen": false
         }
       ],
       "cards": [
@@ -3576,6 +3582,10 @@
     "494625": {
       "full": "Marcus HOLMGREN PEDERSEN",
       "last": "HOLMGREN"
+    },
+    "494627": {
+      "full": "Thelo AASGAARD",
+      "last": "AASGAARD"
     },
     "494989": {
       "full": "Livano COMENENCIA",

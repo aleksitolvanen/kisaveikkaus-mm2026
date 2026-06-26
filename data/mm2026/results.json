@@ -2550,7 +2550,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "13'",
+          "id": "396158",
+          "team": "IRQ",
+          "type": "r"
+        }
+      ]
     }
   },
   "players": {

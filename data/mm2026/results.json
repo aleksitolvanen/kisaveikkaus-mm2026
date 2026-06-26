@@ -186,7 +186,7 @@
     "522846": 2
   },
   "live": {
-    "D5": "2-2"
+    "D5": "3-2"
   },
   "timelines": {
     "A1": {
@@ -2482,6 +2482,12 @@
           "id": "499912",
           "team": "USA",
           "pen": false
+        },
+        {
+          "min": "90'+8'",
+          "id": "336170",
+          "team": "TUR",
+          "pen": false
         }
       ],
       "cards": [
@@ -2559,6 +2565,10 @@
     "336098": {
       "full": "Memphis DEPAY",
       "last": "MEMPHIS"
+    },
+    "336170": {
+      "full": "Kaan Ayhan",
+      "last": "KAAN"
     },
     "336459": {
       "full": "Rani Khedira",

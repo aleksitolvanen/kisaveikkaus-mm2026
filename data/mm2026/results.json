@@ -2489,7 +2489,14 @@
     },
     "D6": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "46'",
+          "id": "355775",
+          "team": "AUS",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2556,6 +2563,10 @@
     "344654": {
       "full": "MOHAMED SALAH",
       "last": "M. SALAH"
+    },
+    "355775": {
+      "full": "Jackson IRVINE",
+      "last": "IRVINE"
     },
     "356532": {
       "full": "Chancel MBEMBA",

@@ -2538,7 +2538,7 @@
       "goals": [
         {
           "min": "4'",
-          "id": "370171",
+          "id": "486130",
           "team": "SEN",
           "pen": false
         }
@@ -3466,6 +3466,10 @@
     "485802": {
       "full": "Alex ARCE",
       "last": "ARCE"
+    },
+    "486130": {
+      "full": "Habib DIARRA",
+      "last": "H. DIARRA"
     },
     "486306": {
       "full": "Nestory IRANKUNDA",

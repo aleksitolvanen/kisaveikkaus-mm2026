@@ -2411,6 +2411,12 @@
           "id": "424051",
           "team": "NED",
           "pen": false
+        },
+        {
+          "min": "54'",
+          "id": "494374",
+          "team": "TUN",
+          "pen": false
         }
       ],
       "cards": []
@@ -3360,6 +3366,10 @@
     "494248": {
       "full": "Thalente MBATHA",
       "last": "MBATHA"
+    },
+    "494374": {
+      "full": "Hazem MASTOURI",
+      "last": "MASTOURI"
     },
     "494625": {
       "full": "Marcus HOLMGREN PEDERSEN",

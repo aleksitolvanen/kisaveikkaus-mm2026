@@ -2528,7 +2528,14 @@
       "cards": []
     },
     "I6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "4'",
+          "id": null,
+          "team": "SEN",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

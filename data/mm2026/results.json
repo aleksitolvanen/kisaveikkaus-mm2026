@@ -2473,7 +2473,7 @@
         },
         {
           "min": "31'",
-          "id": "433118",
+          "id": "484139",
           "team": "TUR",
           "pen": false
         },
@@ -3381,6 +3381,10 @@
     "484087": {
       "full": "Arda GULER",
       "last": "ARDA GÜLER"
+    },
+    "484139": {
+      "full": "Baris Alper YILMAZ",
+      "last": "BARIŞ"
     },
     "484141": {
       "full": "JOAO NEVES",

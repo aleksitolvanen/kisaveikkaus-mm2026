@@ -185,7 +185,7 @@
     "522846": 2
   },
   "live": {
-    "D5": "1-1",
+    "D5": "2-1",
     "D6": "0-0"
   },
   "timelines": {
@@ -2470,6 +2470,12 @@
           "id": "484087",
           "team": "TUR",
           "pen": false
+        },
+        {
+          "min": "31'",
+          "id": "433118",
+          "team": "TUR",
+          "pen": false
         }
       ],
       "cards": [
@@ -3078,6 +3084,10 @@
     "433097": {
       "full": "Declan RICE",
       "last": "RICE"
+    },
+    "433118": {
+      "full": "Orkun KOKCU",
+      "last": "ORKUN KÖKÇÜ"
     },
     "433195": {
       "full": "NUNO MENDES",

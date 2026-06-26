@@ -193,7 +193,7 @@
   },
   "live": {
     "I5": "0-0",
-    "I6": "0-0"
+    "I6": "1-0"
   },
   "timelines": {
     "A1": {
@@ -2531,7 +2531,7 @@
       "goals": [
         {
           "min": "4'",
-          "id": null,
+          "id": "370171",
           "team": "SEN",
           "pen": false
         }
@@ -2651,6 +2651,10 @@
     "369761": {
       "full": "Miguel ALMIRON",
       "last": "ALMIRÓN"
+    },
+    "370171": {
+      "full": "Abdoulaye Seck",
+      "last": "SECK"
     },
     "371345": {
       "full": "Odiljon XAMROBEKOV",

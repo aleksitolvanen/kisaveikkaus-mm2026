@@ -841,7 +841,8 @@
       "matchNumber": 55,
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021468"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021468",
+      "attendance": "68324"
     },
     {
       "id": "E6",
@@ -853,7 +854,8 @@
       "matchNumber": 56,
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021466"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021466",
+      "attendance": "80663"
     },
     {
       "id": "F5",
@@ -865,7 +867,8 @@
       "matchNumber": 57,
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021471"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021471",
+      "attendance": "70137"
     },
     {
       "id": "F6",
@@ -877,7 +880,8 @@
       "matchNumber": 58,
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021473"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021473",
+      "attendance": "68391"
     },
     {
       "id": "D5",
@@ -901,7 +905,8 @@
       "matchNumber": 60,
       "stadium": "San Francisco Bay Area Stadium",
       "city": "San Francisco Bay Area",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021461",
+      "attendance": "68827"
     },
     {
       "id": "I5",
@@ -1178,8 +1183,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "BRA",
-      "away": "2F",
-      "real": false,
+      "away": "JPN",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-29T17:00:00Z",
@@ -1217,9 +1222,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1F",
+      "home": "NED",
       "away": "MAR",
-      "real": false,
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-30T01:00:00Z",
@@ -1237,7 +1242,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "2E",
+      "home": "CIV",
       "away": "2I",
       "real": false,
       "score": null,
@@ -1338,8 +1343,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "USA",
-      "away": "3BEFIJ",
-      "real": false,
+      "away": "BIH",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-02T00:00:00Z",
@@ -1417,7 +1422,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "2D",
+      "home": "AUS",
       "away": "2G",
       "real": false,
       "score": null,

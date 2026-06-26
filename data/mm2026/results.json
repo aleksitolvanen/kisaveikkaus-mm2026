@@ -185,7 +185,7 @@
     "522846": 2
   },
   "live": {
-    "D5": "0-0",
+    "D5": "0-1",
     "D6": "0-0"
   },
   "timelines": {
@@ -2458,7 +2458,14 @@
       "cards": []
     },
     "D5": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "3'",
+          "id": "390272",
+          "team": "USA",
+          "pen": false
+        }
+      ],
       "cards": []
     },
     "D6": {
@@ -2638,6 +2645,10 @@
     "390238": {
       "full": "Tyler ADAMS",
       "last": "Tyler ADAMS"
+    },
+    "390272": {
+      "full": "Auston TRUSTY",
+      "last": "TRUSTY"
     },
     "390475": {
       "full": "Sphephelo SITHOLE",

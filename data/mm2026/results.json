@@ -185,7 +185,7 @@
     "522846": 2
   },
   "live": {
-    "D5": "0-1",
+    "D5": "1-1",
     "D6": "0-0"
   },
   "timelines": {
@@ -2464,6 +2464,12 @@
           "id": "390272",
           "team": "USA",
           "pen": false
+        },
+        {
+          "min": "10'",
+          "id": "484087",
+          "team": "TUR",
+          "pen": false
         }
       ],
       "cards": []
@@ -3337,6 +3343,10 @@
     "484065": {
       "full": "Eren ELMALI",
       "last": "EREN ELMALI"
+    },
+    "484087": {
+      "full": "Arda GULER",
+      "last": "ARDA GÜLER"
     },
     "484141": {
       "full": "JOAO NEVES",

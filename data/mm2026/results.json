@@ -2407,6 +2407,12 @@
           "id": "483312",
           "team": "SWE",
           "type": "y"
+        },
+        {
+          "min": "77'",
+          "id": "390541",
+          "team": "JPN",
+          "type": "y"
         }
       ]
     },
@@ -2617,6 +2623,10 @@
     "390475": {
       "full": "Sphephelo SITHOLE",
       "last": "SITHOLE"
+    },
+    "390541": {
+      "full": "Shogo TANIGUCHI",
+      "last": "TANIGUCHI"
     },
     "390670": {
       "full": "Cyle LARIN",

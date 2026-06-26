@@ -2393,6 +2393,12 @@
           "id": "430407",
           "team": "JPN",
           "pen": false
+        },
+        {
+          "min": "62'",
+          "id": null,
+          "team": "SWE",
+          "pen": false
         }
       ],
       "cards": [
@@ -2427,7 +2433,7 @@
         },
         {
           "min": "62'",
-          "id": null,
+          "id": "489517",
           "team": "NED",
           "pen": false
         }
@@ -3335,6 +3341,10 @@
     "486614": {
       "full": "ALHASHMI ALHUSSEIN",
       "last": "ALHASHMI"
+    },
+    "489517": {
+      "full": "Jan Paul VAN HECKE",
+      "last": "Jan Paul VAN HECKE"
     },
     "489518": {
       "full": "Crysencio SUMMERVILLE",

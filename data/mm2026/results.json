@@ -180,7 +180,7 @@
     "522846": 2
   },
   "live": {
-    "F5": "0-0",
+    "F5": "1-0",
     "F6": "1-2"
   },
   "timelines": {
@@ -2387,7 +2387,14 @@
       ]
     },
     "F5": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "56'",
+          "id": "430407",
+          "team": "JPN",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "32'",
@@ -2922,6 +2929,10 @@
     "430387": {
       "full": "CHO Guesung",
       "last": "GUESUNG"
+    },
+    "430407": {
+      "full": "Daizen MAEDA",
+      "last": "DAIZEN"
     },
     "430413": {
       "full": "Ayase UEDA",

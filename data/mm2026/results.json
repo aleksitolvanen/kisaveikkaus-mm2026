@@ -2556,6 +2556,12 @@
           "id": "483442",
           "team": "NOR",
           "type": "y"
+        },
+        {
+          "min": "74'",
+          "id": "405893",
+          "team": "FRA",
+          "type": "y"
         }
       ]
     },
@@ -2576,6 +2582,12 @@
         {
           "min": "59'",
           "id": "431788",
+          "team": "SEN",
+          "pen": false
+        },
+        {
+          "min": "71'",
+          "id": null,
           "team": "SEN",
           "pen": false
         }
@@ -2968,6 +2980,10 @@
     "405879": {
       "full": "Wilson Isidor",
       "last": "ISIDOR"
+    },
+    "405893": {
+      "full": "Aurelien TCHOUAMENI",
+      "last": "TCHOUAMENI"
     },
     "406231": {
       "full": "Yunus AKGUN",

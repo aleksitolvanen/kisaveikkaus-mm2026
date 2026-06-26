@@ -2472,7 +2472,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "19'",
+          "id": "499912",
+          "team": "USA",
+          "type": "y"
+        }
+      ]
     },
     "D6": {
       "goals": [],
@@ -3467,6 +3474,10 @@
     "498458": {
       "full": "MOHAMED MANAI",
       "last": "MANAI"
+    },
+    "499912": {
+      "full": "Sebastian BERHALTER",
+      "last": "BERHALTER"
     },
     "500038": {
       "full": "Mateo CHAVEZ",

@@ -193,7 +193,7 @@
   },
   "live": {
     "I5": "1-3",
-    "I6": "2-0"
+    "I6": "3-0"
   },
   "timelines": {
     "A1": {
@@ -2572,6 +2572,12 @@
           "id": "401889",
           "team": "SEN",
           "pen": false
+        },
+        {
+          "min": "59'",
+          "id": "431788",
+          "team": "SEN",
+          "pen": false
         }
       ],
       "cards": [
@@ -3190,6 +3196,10 @@
     "431698": {
       "full": "Jurien GAARI",
       "last": "GAARI"
+    },
+    "431788": {
+      "full": "Pape GUEYE",
+      "last": "GUEYE"
     },
     "433074": {
       "full": "AMIR ALAMMARI",

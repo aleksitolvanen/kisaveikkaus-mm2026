@@ -2670,7 +2670,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "46'",
+          "id": "447860",
+          "team": "ESP",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

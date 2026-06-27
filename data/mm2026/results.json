@@ -200,7 +200,7 @@
   },
   "live": {
     "H5": "0-0",
-    "H6": "0-0"
+    "H6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2662,7 +2662,14 @@
       ]
     },
     "H6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "42'",
+          "id": "447860",
+          "team": "ESP",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -3378,6 +3385,10 @@
     "442428": {
       "full": "Aaron HICKEY",
       "last": "HICKEY"
+    },
+    "447860": {
+      "full": "Alex BAENA",
+      "last": "ALEX B."
     },
     "448014": {
       "full": "Alessandro CIRCATI",

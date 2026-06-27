@@ -2652,6 +2652,12 @@
           "id": "419281",
           "team": "KSA",
           "type": "y"
+        },
+        {
+          "min": "8'",
+          "id": "482783",
+          "team": "CPV",
+          "type": "y"
         }
       ]
     },
@@ -3536,6 +3542,10 @@
     "482774": {
       "full": "Martin BATURINA",
       "last": "BATURINA"
+    },
+    "482783": {
+      "full": "WAGNER PINA",
+      "last": "WAGNER P."
     },
     "482976": {
       "full": "Amar DEDIC",

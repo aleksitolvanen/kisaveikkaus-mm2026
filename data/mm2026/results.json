@@ -2878,7 +2878,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "68'",
+          "id": "359381",
+          "team": "CRO",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -2981,6 +2988,10 @@
     "358241": {
       "full": "Marcel SABITZER",
       "last": "SABITZER"
+    },
+    "359381": {
+      "full": "Ivan PERISIC",
+      "last": "PERIŠIĆ"
     },
     "363863": {
       "full": "TREZEGUET",

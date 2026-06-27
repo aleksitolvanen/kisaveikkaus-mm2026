@@ -202,7 +202,7 @@
     "522846": 2
   },
   "live": {
-    "G5": "0-0",
+    "G5": "1-0",
     "G6": "0-0"
   },
   "timelines": {
@@ -2719,7 +2719,14 @@
       ]
     },
     "G5": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "5'",
+          "id": "483183",
+          "team": "EGY",
+          "pen": false
+        }
+      ],
       "cards": []
     },
     "G6": {
@@ -3639,6 +3646,10 @@
     "483161": {
       "full": "MOSTAFA ZICO",
       "last": "ZICO"
+    },
+    "483183": {
+      "full": "MAHMOUD SABER",
+      "last": "M. SABER"
     },
     "483276": {
       "full": "Gabriel GUDMUNDSSON",

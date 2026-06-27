@@ -2682,6 +2682,12 @@
           "id": "419134",
           "team": "URU",
           "type": "y"
+        },
+        {
+          "min": "58'",
+          "id": "368660",
+          "team": "URU",
+          "type": "y"
         }
       ]
     }
@@ -2786,6 +2792,10 @@
     "367981": {
       "full": "DOUGLAS SANTOS",
       "last": "DOUGLAS S."
+    },
+    "368660": {
+      "full": "Guillermo VARELA",
+      "last": "G. VARELA"
     },
     "369419": {
       "full": "Harry KANE",

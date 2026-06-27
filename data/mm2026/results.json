@@ -2929,7 +2929,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "21'",
+          "id": "486147",
+          "team": "COD",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -3980,6 +3987,10 @@
     "486130": {
       "full": "Habib DIARRA",
       "last": "H. DIARRA"
+    },
+    "486147": {
+      "full": "Noah SADIKI",
+      "last": "SADIKI"
     },
     "486306": {
       "full": "Nestory IRANKUNDA",

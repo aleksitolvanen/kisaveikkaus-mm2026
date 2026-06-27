@@ -2745,6 +2745,12 @@
           "id": "483183",
           "team": "EGY",
           "type": "y"
+        },
+        {
+          "min": "41'",
+          "id": "369267",
+          "team": "EGY",
+          "type": "y"
         }
       ]
     },
@@ -2864,6 +2870,10 @@
     "368660": {
       "full": "Guillermo VARELA",
       "last": "G. VARELA"
+    },
+    "369267": {
+      "full": "YASSER IBRAHIM",
+      "last": "YASSER"
     },
     "369419": {
       "full": "Harry KANE",

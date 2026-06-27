@@ -202,8 +202,8 @@
     "522846": 2
   },
   "live": {
-    "G5": "1-1",
-    "G6": "1-4"
+    "G5": "1-2",
+    "G6": "1-5"
   },
   "timelines": {
     "A1": {
@@ -2731,6 +2731,12 @@
           "id": "384797",
           "team": "IRN",
           "pen": false
+        },
+        {
+          "min": "90'+3'",
+          "id": "346743",
+          "team": "IRN",
+          "pen": false
         }
       ],
       "cards": [
@@ -2762,6 +2768,12 @@
           "min": "79'",
           "id": "371736",
           "team": "IRN",
+          "type": "y"
+        },
+        {
+          "min": "90'+2'",
+          "id": "433469",
+          "team": "EGY",
           "type": "y"
         }
       ]
@@ -2795,6 +2807,12 @@
         {
           "min": "86'",
           "id": "358112",
+          "team": "BEL",
+          "pen": false
+        },
+        {
+          "min": "90'+4'",
+          "id": "433092",
           "team": "BEL",
           "pen": false
         }
@@ -2883,6 +2901,10 @@
     "344654": {
       "full": "MOHAMED SALAH",
       "last": "M. SALAH"
+    },
+    "346743": {
+      "full": "Shoja KHALILZADEH",
+      "last": "SHOJA"
     },
     "355775": {
       "full": "Jackson IRVINE",
@@ -3467,6 +3489,10 @@
     "433074": {
       "full": "AMIR ALAMMARI",
       "last": "AL-AMMARI"
+    },
+    "433092": {
+      "full": "Alexis SAELEMAEKERS",
+      "last": "SAELEMAEKERS"
     },
     "433097": {
       "full": "Declan RICE",

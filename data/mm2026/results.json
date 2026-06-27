@@ -2866,6 +2866,12 @@
           "id": "463809",
           "team": "ENG",
           "type": "y"
+        },
+        {
+          "min": "83'",
+          "id": "441240",
+          "team": "PAN",
+          "type": "y"
         }
       ]
     },
@@ -3626,6 +3632,10 @@
     "441170": {
       "full": "Ladislav KREJCI",
       "last": "KREJČÍ"
+    },
+    "441240": {
+      "full": "Andres ANDRADE",
+      "last": "ANDRADE"
     },
     "441242": {
       "full": "Cesar BLACKMAN",

@@ -2646,7 +2646,14 @@
     },
     "H5": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "4'",
+          "id": "419281",
+          "team": "KSA",
+          "type": "y"
+        }
+      ]
     },
     "H6": {
       "goals": [],
@@ -3105,6 +3112,10 @@
     "419100": {
       "full": "Maxi ARAUJO",
       "last": "Maxi ARAUJO"
+    },
+    "419281": {
+      "full": "SAUD ABDULHAMID",
+      "last": "SAUD"
     },
     "419441": {
       "full": "HOMAM AHMED",

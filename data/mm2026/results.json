@@ -2841,7 +2841,14 @@
     },
     "L5": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "53'",
+          "id": "411174",
+          "team": "PAN",
+          "type": "y"
+        }
+      ]
     },
     "L6": {
       "goals": [
@@ -3275,6 +3282,10 @@
     "409241": {
       "full": "DINEY BORGES",
       "last": "BORGES"
+    },
+    "411174": {
+      "full": "Jose FAJARDO",
+      "last": "FAJARDO"
     },
     "411367": {
       "full": "Kai HAVERTZ",

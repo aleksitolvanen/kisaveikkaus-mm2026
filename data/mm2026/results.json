@@ -2658,6 +2658,12 @@
           "id": "482783",
           "team": "CPV",
           "type": "y"
+        },
+        {
+          "min": "67'",
+          "id": "403319",
+          "team": "KSA",
+          "type": "y"
         }
       ]
     },
@@ -3024,6 +3030,10 @@
     "403312": {
       "full": "Abdulelah ALAMRI",
       "last": "ALAMRI"
+    },
+    "403319": {
+      "full": "NASSER ALDAWSARI",
+      "last": "NASSER"
     },
     "403335": {
       "full": "HASSAN ALTAMBAKTI",

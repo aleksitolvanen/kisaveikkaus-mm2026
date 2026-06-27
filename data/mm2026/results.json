@@ -210,7 +210,7 @@
   },
   "live": {
     "L5": "0-2",
-    "L6": "1-0"
+    "L6": "1-1"
   },
   "timelines": {
     "A1": {
@@ -2876,6 +2876,12 @@
           "id": "485066",
           "team": "CRO",
           "pen": false
+        },
+        {
+          "min": "73'",
+          "id": "520037",
+          "team": "GHA",
+          "pen": false
         }
       ],
       "cards": [
@@ -4056,6 +4062,10 @@
     "519954": {
       "full": "Jovo LUKIC",
       "last": "LUKIĆ"
+    },
+    "520037": {
+      "full": "Derrick LUCKASSEN",
+      "last": "LUCKASSEN"
     },
     "520071": {
       "full": "Nadhir BENBOUALI",

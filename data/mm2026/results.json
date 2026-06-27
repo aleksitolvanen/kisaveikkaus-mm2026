@@ -2902,6 +2902,12 @@
           "id": "359381",
           "team": "CRO",
           "type": "y"
+        },
+        {
+          "min": "90'+4'",
+          "id": "511022",
+          "team": "GHA",
+          "type": "y"
         }
       ]
     }
@@ -4074,6 +4080,10 @@
     "511015": {
       "full": "Nathaniel BROWN",
       "last": "BROWN"
+    },
+    "511022": {
+      "full": "Kojo Peprah OPPONG",
+      "last": "OPPONG"
     },
     "514166": {
       "full": "Nathan NGOY",

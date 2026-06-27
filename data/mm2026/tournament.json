@@ -893,7 +893,8 @@
       "matchNumber": 59,
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021459"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021459",
+      "attendance": "70492"
     },
     {
       "id": "D6",
@@ -918,7 +919,8 @@
       "matchNumber": 61,
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021489"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021489",
+      "attendance": "64146"
     },
     {
       "id": "I6",
@@ -930,7 +932,8 @@
       "matchNumber": 62,
       "stadium": "Toronto Stadium",
       "city": "Toronto",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021493"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021493",
+      "attendance": "43036"
     },
     {
       "id": "H5",
@@ -942,7 +945,8 @@
       "matchNumber": 65,
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021485"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021485",
+      "attendance": "68278"
     },
     {
       "id": "H6",
@@ -954,7 +958,8 @@
       "matchNumber": 66,
       "stadium": "Guadalajara Stadium",
       "city": "Guadalajara",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021484"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021484",
+      "attendance": "45065"
     },
     {
       "id": "G5",
@@ -966,7 +971,8 @@
       "matchNumber": 63,
       "stadium": "Seattle Stadium",
       "city": "Seattle",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021479"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021479",
+      "attendance": "66925"
     },
     {
       "id": "G6",
@@ -978,7 +984,8 @@
       "matchNumber": 64,
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021481"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021481",
+      "attendance": "52497"
     },
     {
       "id": "L5",
@@ -1203,8 +1210,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "GER",
-      "away": "3ABCDF",
-      "real": false,
+      "away": "PAR",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-29T20:30:00Z",
@@ -1243,8 +1250,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "CIV",
-      "away": "2I",
-      "real": false,
+      "away": "NOR",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-30T17:00:00Z",
@@ -1262,9 +1269,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1I",
-      "away": "3CDFGH",
-      "real": false,
+      "home": "FRA",
+      "away": "SWE",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-06-30T21:00:00Z",
@@ -1322,7 +1329,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1G",
+      "home": "BEL",
       "away": "3AEHIJ",
       "real": false,
       "score": null,
@@ -1362,7 +1369,7 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1H",
+      "home": "ESP",
       "away": "2J",
       "real": false,
       "score": null,
@@ -1423,8 +1430,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "AUS",
-      "away": "2G",
-      "real": false,
+      "away": "EGY",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-03T18:00:00Z",
@@ -1443,8 +1450,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "ARG",
-      "away": "2H",
-      "real": false,
+      "away": "CPV",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-03T22:00:00Z",

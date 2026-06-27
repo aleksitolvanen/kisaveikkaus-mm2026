@@ -210,7 +210,7 @@
   },
   "live": {
     "L5": "0-2",
-    "L6": "1-1"
+    "L6": "2-1"
   },
   "timelines": {
     "A1": {
@@ -2888,6 +2888,12 @@
           "id": "520037",
           "team": "GHA",
           "pen": false
+        },
+        {
+          "min": "83'",
+          "id": "409191",
+          "team": "CRO",
+          "pen": false
         }
       ],
       "cards": [
@@ -3320,6 +3326,10 @@
     "408950": {
       "full": "MOHAMED HANY",
       "last": "M.HANY"
+    },
+    "409191": {
+      "full": "Nikola VLASIC",
+      "last": "VLAŠIĆ"
     },
     "409241": {
       "full": "DINEY BORGES",

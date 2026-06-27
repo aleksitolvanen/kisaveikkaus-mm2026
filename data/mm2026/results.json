@@ -215,7 +215,7 @@
   },
   "live": {
     "K5": "0-0",
-    "K6": "0-0"
+    "K6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2921,7 +2921,14 @@
       "cards": []
     },
     "K6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "10'",
+          "id": "385475",
+          "team": "UZB",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -3089,6 +3096,10 @@
     "385259": {
       "full": "Konrad LAIMER",
       "last": "LAIMER"
+    },
+    "385475": {
+      "full": "Eldor SHOMURODOV",
+      "last": "SHOMURODOV"
     },
     "386348": {
       "full": "ASSIM MADIBO",

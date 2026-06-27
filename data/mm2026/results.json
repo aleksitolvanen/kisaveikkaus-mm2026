@@ -2847,6 +2847,12 @@
           "id": "411174",
           "team": "PAN",
           "type": "y"
+        },
+        {
+          "min": "61'",
+          "id": "463809",
+          "team": "ENG",
+          "type": "y"
         }
       ]
     },
@@ -3710,6 +3716,10 @@
     "463580": {
       "full": "Finn SURMAN",
       "last": "SURMAN"
+    },
+    "463809": {
+      "full": "Jarell QUANSAH",
+      "last": "QUANSAH"
     },
     "464114": {
       "full": "Desire DOUE",

@@ -2769,7 +2769,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "46'",
+          "id": "423595",
+          "team": "NZL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -3284,6 +3291,10 @@
     "423522": {
       "full": "Jordan BOS",
       "last": "BOS"
+    },
+    "423595": {
+      "full": "Marko STAMENIC",
+      "last": "STAMENIC"
     },
     "423646": {
       "full": "PEDRI",

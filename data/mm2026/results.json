@@ -2664,6 +2664,12 @@
           "id": "403319",
           "team": "KSA",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "419291",
+          "team": "KSA",
+          "type": "y"
         }
       ]
     },
@@ -2692,6 +2698,12 @@
         {
           "min": "58'",
           "id": "368660",
+          "team": "URU",
+          "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "402898",
           "team": "URU",
           "type": "y"
         }
@@ -3023,6 +3035,10 @@
       "full": "Mathias OLIVERA",
       "last": "M. OLIVERA"
     },
+    "402898": {
+      "full": "Nicolas DE LA CRUZ",
+      "last": "N. DE LA CRUZ"
+    },
     "403083": {
       "full": "Issa Diop",
       "last": "ISSA"
@@ -3166,6 +3182,10 @@
     "419281": {
       "full": "SAUD ABDULHAMID",
       "last": "SAUD"
+    },
+    "419291": {
+      "full": "FERAS ALBRIKAN",
+      "last": "FERAS"
     },
     "419441": {
       "full": "HOMAM AHMED",

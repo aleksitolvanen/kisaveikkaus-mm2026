@@ -203,7 +203,7 @@
   },
   "live": {
     "G5": "1-1",
-    "G6": "0-2"
+    "G6": "0-3"
   },
   "timelines": {
     "A1": {
@@ -2773,6 +2773,12 @@
           "id": "448355",
           "team": "BEL",
           "pen": false
+        },
+        {
+          "min": "66'",
+          "id": "358120",
+          "team": "BEL",
+          "pen": false
         }
       ],
       "cards": [
@@ -2879,6 +2885,10 @@
     "358112": {
       "full": "Romelu LUKAKU",
       "last": "R. LUKAKU"
+    },
+    "358120": {
+      "full": "Kevin DE BRUYNE",
+      "last": "DE BRUYNE"
     },
     "358241": {
       "full": "Marcel SABITZER",

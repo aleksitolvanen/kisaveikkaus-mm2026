@@ -2751,6 +2751,12 @@
           "id": "369267",
           "team": "EGY",
           "type": "y"
+        },
+        {
+          "min": "43'",
+          "id": "489603",
+          "team": "IRN",
+          "type": "y"
         }
       ]
     },
@@ -3794,6 +3800,10 @@
     "489550": {
       "full": "HUSAM ABUDAHAB",
       "last": "ABU DAHAB"
+    },
+    "489603": {
+      "full": "Ali NEMATI",
+      "last": "ALI"
     },
     "489688": {
       "full": "Yasin AYARI",

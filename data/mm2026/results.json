@@ -2676,6 +2676,12 @@
           "id": "447860",
           "team": "ESP",
           "type": "y"
+        },
+        {
+          "min": "54'",
+          "id": "419134",
+          "team": "URU",
+          "type": "y"
         }
       ]
     }
@@ -3132,6 +3138,10 @@
     "419100": {
       "full": "Maxi ARAUJO",
       "last": "Maxi ARAUJO"
+    },
+    "419134": {
+      "full": "Juan Manuel SANABRIA",
+      "last": "J.M. SANABRIA"
     },
     "419281": {
       "full": "SAUD ABDULHAMID",

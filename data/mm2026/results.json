@@ -2733,7 +2733,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "18'",
+          "id": "390534",
+          "team": "IRN",
+          "type": "y"
+        }
+      ]
     },
     "G6": {
       "goals": [],
@@ -2936,6 +2943,10 @@
     "390475": {
       "full": "Sphephelo SITHOLE",
       "last": "SITHOLE"
+    },
+    "390534": {
+      "full": "Hossein KANANI",
+      "last": "KANANI"
     },
     "390541": {
       "full": "Shogo TANIGUCHI",

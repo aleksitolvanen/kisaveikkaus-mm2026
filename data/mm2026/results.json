@@ -215,7 +215,7 @@
   },
   "live": {
     "K5": "0-0",
-    "K6": "0-1"
+    "K6": "1-1"
   },
   "timelines": {
     "A1": {
@@ -2927,6 +2927,12 @@
           "id": "385475",
           "team": "UZB",
           "pen": false
+        },
+        {
+          "min": "17'",
+          "id": "424119",
+          "team": "COD",
+          "pen": false
         }
       ],
       "cards": []
@@ -3488,6 +3494,10 @@
     "424051": {
       "full": "Brian BROBBEY",
       "last": "BROBBEY"
+    },
+    "424119": {
+      "full": "Nathanael MBUKU",
+      "last": "MBUKU"
     },
     "424422": {
       "full": "Matias GALARZA",

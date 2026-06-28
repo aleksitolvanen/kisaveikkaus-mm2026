@@ -3097,7 +3097,14 @@
       ]
     },
     "KO73": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "90'+2'",
+          "id": null,
+          "team": "CAN",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "54'",

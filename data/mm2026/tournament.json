@@ -1179,7 +1179,7 @@
       "away": "CAN",
       "real": true,
       "score": null,
-      "liveScore": null,
+      "liveScore": "0-0",
       "kickoff": "2026-06-28T19:00:00Z",
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",

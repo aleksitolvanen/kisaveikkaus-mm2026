@@ -997,7 +997,8 @@
       "matchNumber": 67,
       "stadium": "New York/New Jersey Stadium",
       "city": "New Jersey",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021508"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021508",
+      "attendance": "80663"
     },
     {
       "id": "L6",
@@ -1009,7 +1010,8 @@
       "matchNumber": 68,
       "stadium": "Philadelphia Stadium",
       "city": "Philadelphia",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021509"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021509",
+      "attendance": "68324"
     },
     {
       "id": "K5",
@@ -1021,7 +1023,8 @@
       "matchNumber": 71,
       "stadium": "Miami Stadium",
       "city": "Miami",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021505"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021505",
+      "attendance": "64478"
     },
     {
       "id": "K6",
@@ -1033,7 +1036,8 @@
       "matchNumber": 72,
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021500"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021500",
+      "attendance": "68239"
     },
     {
       "id": "J5",
@@ -1045,7 +1049,8 @@
       "matchNumber": 69,
       "stadium": "Kansas City Stadium",
       "city": "Kansas City",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021497"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021497",
+      "attendance": "69045"
     },
     {
       "id": "J6",
@@ -1057,7 +1062,8 @@
       "matchNumber": 70,
       "stadium": "Dallas Stadium",
       "city": "Dallas",
-      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021495"
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289273/400021495",
+      "attendance": "70649"
     }
   ],
   "cupRounds": [
@@ -1290,8 +1296,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "MEX",
-      "away": "3CEFHI",
-      "real": false,
+      "away": "ECU",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-01T01:00:00Z",
@@ -1309,9 +1315,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1L",
-      "away": "3EHIJK",
-      "real": false,
+      "home": "ENG",
+      "away": "COD",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-01T16:00:00Z",
@@ -1330,8 +1336,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "BEL",
-      "away": "3AEHIJ",
-      "real": false,
+      "away": "SEN",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-01T20:00:00Z",
@@ -1370,8 +1376,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "ESP",
-      "away": "2J",
-      "real": false,
+      "away": "AUT",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-02T19:00:00Z",
@@ -1389,9 +1395,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "2K",
-      "away": "2L",
-      "real": false,
+      "home": "POR",
+      "away": "CRO",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-02T23:00:00Z",
@@ -1410,8 +1416,8 @@
       "roundLabel": "1/16-finaali",
       "order": 1,
       "home": "SUI",
-      "away": "3EFGIJ",
-      "real": false,
+      "away": "ALG",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-03T03:00:00Z",
@@ -1469,9 +1475,9 @@
       "round": "r32",
       "roundLabel": "1/16-finaali",
       "order": 1,
-      "home": "1K",
-      "away": "3DEIJL",
-      "real": false,
+      "home": "COL",
+      "away": "GHA",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-04T01:30:00Z",

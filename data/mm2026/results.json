@@ -2918,7 +2918,14 @@
     },
     "K5": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "86'",
+          "id": "463902",
+          "team": "COL",
+          "type": "y"
+        }
+      ]
     },
     "K6": {
       "goals": [
@@ -3851,6 +3858,10 @@
     "463809": {
       "full": "Jarell QUANSAH",
       "last": "QUANSAH"
+    },
+    "463902": {
+      "full": "Gustavo PUERTA",
+      "last": "PUERTA"
     },
     "464114": {
       "full": "Desire DOUE",

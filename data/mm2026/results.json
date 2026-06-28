@@ -219,7 +219,7 @@
   },
   "live": {
     "J5": "0-1",
-    "J6": "0-1"
+    "J6": "0-2"
   },
   "timelines": {
     "A1": {
@@ -2998,6 +2998,12 @@
           "id": "395414",
           "team": "ARG",
           "pen": false
+        },
+        {
+          "min": "31'",
+          "id": "402920",
+          "team": "ARG",
+          "pen": true
         }
       ],
       "cards": [
@@ -3384,6 +3390,10 @@
     "402898": {
       "full": "Nicolas DE LA CRUZ",
       "last": "N. DE LA CRUZ"
+    },
+    "402920": {
+      "full": "Lautaro MARTINEZ",
+      "last": "L. MARTINEZ"
     },
     "403083": {
       "full": "Issa Diop",

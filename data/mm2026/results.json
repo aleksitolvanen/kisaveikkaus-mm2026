@@ -219,7 +219,7 @@
   },
   "live": {
     "J5": "0-0",
-    "J6": "0-0"
+    "J6": "0-1"
   },
   "timelines": {
     "A1": {
@@ -2992,7 +2992,14 @@
       ]
     },
     "J6": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "19'",
+          "id": "395414",
+          "team": "ARG",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "17'",
@@ -3282,6 +3289,10 @@
     "395321": {
       "full": "Junya ITO",
       "last": "ITO"
+    },
+    "395414": {
+      "full": "Giovani Lo Celso",
+      "last": "LO CELSO"
     },
     "395516": {
       "full": "Cesar MONTES",

@@ -2997,7 +2997,14 @@
     },
     "J5": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "11'",
+          "id": "358241",
+          "team": "AUT",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

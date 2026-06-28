@@ -2993,7 +2993,14 @@
     },
     "J6": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "17'",
+          "id": "479389",
+          "team": "JOR",
+          "type": "y"
+        }
+      ]
     },
     "J5": {
       "goals": [],
@@ -3967,6 +3974,10 @@
     "479110": {
       "full": "Abduvohid NEMATOV",
       "last": "NEMATOV"
+    },
+    "479389": {
+      "full": "MOHANNAD ABUTAHA",
+      "last": "ABU TAHA"
     },
     "479601": {
       "full": "Juan Jose CACERES",

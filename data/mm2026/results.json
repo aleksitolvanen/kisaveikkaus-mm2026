@@ -2953,6 +2953,12 @@
           "id": "479075",
           "team": "UZB",
           "type": "y"
+        },
+        {
+          "min": "62'",
+          "id": "433076",
+          "team": "COD",
+          "type": "y"
         }
       ]
     }
@@ -3633,6 +3639,10 @@
     "433074": {
       "full": "AMIR ALAMMARI",
       "last": "AL-AMMARI"
+    },
+    "433076": {
+      "full": "Samuel Moutoussamy",
+      "last": "MOUTOUSSAMY"
     },
     "433092": {
       "full": "Alexis SAELEMAEKERS",

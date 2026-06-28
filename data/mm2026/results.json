@@ -218,7 +218,7 @@
     "522846": 2
   },
   "live": {
-    "J5": "1-2",
+    "J5": "2-2",
     "J6": "1-2"
   },
   "timelines": {
@@ -3040,6 +3040,12 @@
           "id": "358241",
           "team": "AUT",
           "pen": false
+        },
+        {
+          "min": "60'",
+          "id": "379942",
+          "team": "ALG",
+          "pen": false
         }
       ],
       "cards": [
@@ -3204,6 +3210,10 @@
     "371958": {
       "full": "Derek CORNELIUS",
       "last": "CORNELIUS"
+    },
+    "379942": {
+      "full": "Riyad Mahrez",
+      "last": "MAHREZ"
     },
     "382312": {
       "full": "Cameron BURGESS",

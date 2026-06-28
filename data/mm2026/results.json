@@ -3098,7 +3098,14 @@
     },
     "KO73": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "54'",
+          "id": "423941",
+          "team": "CAN",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

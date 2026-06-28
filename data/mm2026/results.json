@@ -218,8 +218,8 @@
     "522846": 2
   },
   "live": {
-    "J5": "1-1",
-    "J6": "0-2"
+    "J5": "1-2",
+    "J6": "1-2"
   },
   "timelines": {
     "A1": {
@@ -3004,6 +3004,12 @@
           "id": "402920",
           "team": "ARG",
           "pen": true
+        },
+        {
+          "min": "55'",
+          "id": "431211",
+          "team": "JOR",
+          "pen": false
         }
       ],
       "cards": [
@@ -3027,6 +3033,12 @@
           "min": "45'",
           "id": "511009",
           "team": "ALG",
+          "pen": false
+        },
+        {
+          "min": "55'",
+          "id": "358241",
+          "team": "AUT",
           "pen": false
         }
       ],
@@ -3700,6 +3712,10 @@
     "431200": {
       "full": "Daniel MUNOZ",
       "last": "D. MUÑOZ"
+    },
+    "431211": {
+      "full": "MOUSA ALTAMARI",
+      "last": "ALTAMARI"
     },
     "431212": {
       "full": "ALI OLWAN",

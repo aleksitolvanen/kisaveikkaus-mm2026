@@ -3100,7 +3100,7 @@
       "goals": [
         {
           "min": "90'+2'",
-          "id": null,
+          "id": "433635",
           "team": "CAN",
           "pen": false
         }
@@ -3861,6 +3861,10 @@
     "433534": {
       "full": "NIZAR ALRASHDAN",
       "last": "NIZAR"
+    },
+    "433635": {
+      "full": "Stephen EUSTAQUIO",
+      "last": "EUSTÁQUIO"
     },
     "433668": {
       "full": "Michal SADILEK",

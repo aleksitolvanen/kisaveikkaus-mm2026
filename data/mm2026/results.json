@@ -2947,6 +2947,12 @@
           "id": "424119",
           "team": "COD",
           "type": "y"
+        },
+        {
+          "min": "47'",
+          "id": "479075",
+          "team": "UZB",
+          "type": "y"
         }
       ]
     }
@@ -3887,6 +3893,10 @@
     "479072": {
       "full": "MERCHAS DOSKI",
       "last": "DOSKI"
+    },
+    "479075": {
+      "full": "Sherzod NASRULLAEV",
+      "last": "NASRULLAEV"
     },
     "479086": {
       "full": "Azizjon GANIEV",

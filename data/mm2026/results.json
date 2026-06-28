@@ -3104,6 +3104,12 @@
           "id": "423941",
           "team": "CAN",
           "type": "y"
+        },
+        {
+          "min": "67'",
+          "id": "485064",
+          "team": "CAN",
+          "type": "y"
         }
       ]
     }
@@ -4184,6 +4190,10 @@
     "484860": {
       "full": "Bradley BARCOLA",
       "last": "BARCOLA"
+    },
+    "485064": {
+      "full": "Niko SIGUR",
+      "last": "SIGUR"
     },
     "485066": {
       "full": "Petar SUCIC",

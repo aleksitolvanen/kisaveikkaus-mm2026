@@ -3022,6 +3022,12 @@
           "id": "299200",
           "team": "AUT",
           "pen": false
+        },
+        {
+          "min": "45'",
+          "id": "511009",
+          "team": "ALG",
+          "pen": false
         }
       ],
       "cards": [
@@ -4238,6 +4244,10 @@
     "510757": {
       "full": "Josue CASIMIR",
       "last": "CASIMIR"
+    },
+    "511009": {
+      "full": "Rafik BELGHALI",
+      "last": "BELGHALI"
     },
     "511015": {
       "full": "Nathaniel BROWN",

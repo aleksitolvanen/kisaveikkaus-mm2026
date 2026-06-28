@@ -2933,6 +2933,12 @@
           "id": "441316",
           "team": "COD",
           "pen": true
+        },
+        {
+          "min": "78'",
+          "id": "477859",
+          "team": "COD",
+          "pen": false
         }
       ],
       "cards": [
@@ -3905,6 +3911,10 @@
     "477852": {
       "full": "KEVIN PINA",
       "last": "KEVIN L."
+    },
+    "477859": {
+      "full": "Fiston MAYELE",
+      "last": "MAYELE"
     },
     "479072": {
       "full": "MERCHAS DOSKI",

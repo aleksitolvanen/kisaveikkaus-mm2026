@@ -3179,7 +3179,14 @@
       ]
     },
     "KO74": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "42'",
+          "id": null,
+          "team": "PAR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

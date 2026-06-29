@@ -1183,7 +1183,7 @@
       "kickoff": "2026-06-28T19:00:00Z",
       "stadium": "Los Angeles Stadium",
       "city": "Los Angeles",
-      "attendance": null,
+      "attendance": "69237",
       "fifaId": "400021518",
       "matchNumber": 73,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021518"
@@ -1495,7 +1495,7 @@
       "round": "r16",
       "roundLabel": "1/8-finaali",
       "order": 2,
-      "home": "W73",
+      "home": "CAN",
       "away": "W75",
       "real": false,
       "score": null,

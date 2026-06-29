@@ -3191,6 +3191,12 @@
           "id": "411367",
           "team": "GER",
           "pen": false
+        },
+        {
+          "min": "102'",
+          "id": "401378",
+          "team": "GER",
+          "pen": false
         }
       ],
       "cards": [
@@ -3535,6 +3541,10 @@
     "401339": {
       "full": "Andy ROBERTSON",
       "last": "ROBERTSON"
+    },
+    "401378": {
+      "full": "Jonathan TAH",
+      "last": "TAH"
     },
     "401448": {
       "full": "Denis ZAKARIA",

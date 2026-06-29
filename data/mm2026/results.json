@@ -3160,6 +3160,12 @@
           "id": "335656",
           "team": "BRA",
           "type": "y"
+        },
+        {
+          "min": "84'",
+          "id": "498455",
+          "team": "JPN",
+          "type": "y"
         }
       ]
     }
@@ -4364,6 +4370,10 @@
     "496358": {
       "full": "Ibrahim MBAYE",
       "last": "MBAYE"
+    },
+    "498455": {
+      "full": "Junnosuke SUZUKI",
+      "last": "J. SUZUKI"
     },
     "498458": {
       "full": "MOHAMED MANAI",

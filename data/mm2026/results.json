@@ -3123,7 +3123,14 @@
     },
     "KO76": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "12'",
+          "id": "479294",
+          "team": "JPN",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4114,6 +4121,10 @@
     "479110": {
       "full": "Abduvohid NEMATOV",
       "last": "NEMATOV"
+    },
+    "479294": {
+      "full": "Kaishu SANO",
+      "last": "SANO"
     },
     "479389": {
       "full": "MOHANNAD ABUTAHA",

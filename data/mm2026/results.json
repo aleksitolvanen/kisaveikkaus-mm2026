@@ -3185,6 +3185,12 @@
           "id": "441234",
           "team": "PAR",
           "pen": false
+        },
+        {
+          "min": "54'",
+          "id": null,
+          "team": "GER",
+          "pen": false
         }
       ],
       "cards": []

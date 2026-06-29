@@ -3191,18 +3191,18 @@
           "id": "411367",
           "team": "GER",
           "pen": false
-        },
-        {
-          "min": "102'",
-          "id": "401378",
-          "team": "GER",
-          "pen": false
         }
       ],
       "cards": [
         {
           "min": "65'",
           "id": "385306",
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "105'",
+          "id": null,
           "team": "PAR",
           "type": "y"
         }

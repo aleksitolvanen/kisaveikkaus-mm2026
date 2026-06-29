@@ -3191,6 +3191,13 @@
           "id": "411367",
           "team": "GER",
           "pen": false
+        },
+        {
+          "min": null,
+          "id": "495046",
+          "team": "PAR",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [

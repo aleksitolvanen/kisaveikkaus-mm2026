@@ -3182,7 +3182,7 @@
       "goals": [
         {
           "min": "42'",
-          "id": null,
+          "id": "441234",
           "team": "PAR",
           "pen": false
         }
@@ -3970,6 +3970,10 @@
     "441170": {
       "full": "Ladislav KREJCI",
       "last": "KREJČÍ"
+    },
+    "441234": {
+      "full": "Julio ENCISO",
+      "last": "ENCISO"
     },
     "441240": {
       "full": "Andres ANDRADE",

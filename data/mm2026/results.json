@@ -3134,6 +3134,12 @@
           "id": "308386",
           "team": "BRA",
           "pen": false
+        },
+        {
+          "min": "90'+5'",
+          "id": "430597",
+          "team": "BRA",
+          "pen": false
         }
       ],
       "cards": [
@@ -3810,6 +3816,10 @@
     "430594": {
       "full": "ROGER IBANEZ",
       "last": "ROGER IBANEZ"
+    },
+    "430597": {
+      "full": "GABRIEL MARTINELLI",
+      "last": "MARTINELLI"
     },
     "430609": {
       "full": "MATHEUS CUNHA",

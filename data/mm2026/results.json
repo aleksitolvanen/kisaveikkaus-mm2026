@@ -3223,6 +3223,24 @@
           "id": "429642",
           "team": "GER",
           "type": "y"
+        },
+        {
+          "min": "116'",
+          "id": null,
+          "team": "GER",
+          "type": "y"
+        },
+        {
+          "min": "117'",
+          "id": null,
+          "team": "PAR",
+          "type": "y"
+        },
+        {
+          "min": "117'",
+          "id": "424422",
+          "team": "PAR",
+          "type": "y"
         }
       ]
     }

@@ -3198,6 +3198,20 @@
           "team": "PAR",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "386413",
+          "team": "GER",
+          "pen": true,
+          "so": true
+        },
+        {
+          "min": null,
+          "id": "369744",
+          "team": "PAR",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -3377,6 +3391,10 @@
       "full": "Harry KANE",
       "last": "KANE"
     },
+    "369744": {
+      "full": "Gustavo GOMEZ",
+      "last": "G. GÓMEZ"
+    },
     "369749": {
       "full": "Junior ALONSO",
       "last": "ALONSO"
@@ -3436,6 +3454,10 @@
     "386387": {
       "full": "SULTAN ALBRAKE",
       "last": "SULTAN"
+    },
+    "386413": {
+      "full": "Joshua KIMMICH",
+      "last": "KIMMICH"
     },
     "386538": {
       "full": "Rodrigo BENTANCUR",

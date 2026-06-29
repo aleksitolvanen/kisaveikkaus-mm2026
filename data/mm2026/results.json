@@ -3193,7 +3193,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "65'",
+          "id": "385306",
+          "team": "PAR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -3364,6 +3371,10 @@
     "385259": {
       "full": "Konrad LAIMER",
       "last": "LAIMER"
+    },
+    "385306": {
+      "full": "Andres CUBAS",
+      "last": "CUBAS"
     },
     "385475": {
       "full": "Eldor SHOMURODOV",

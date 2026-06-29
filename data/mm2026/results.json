@@ -3226,6 +3226,13 @@
           "team": "PAR",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "395471",
+          "team": "GER",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -3568,6 +3575,10 @@
     "395414": {
       "full": "Giovani Lo Celso",
       "last": "LO CELSO"
+    },
+    "395471": {
+      "full": "Nadiem Amiri",
+      "last": "AMIRI"
     },
     "395516": {
       "full": "Cesar MONTES",

@@ -3443,7 +3443,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "45'+1'",
+          "id": "483448",
+          "team": "NOR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

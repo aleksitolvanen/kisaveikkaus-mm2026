@@ -3354,6 +3354,14 @@
           "team": "NED",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "485740",
+          "team": "MAR",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [
@@ -4502,6 +4510,10 @@
     "485676": {
       "full": "Lenny JOSEPH",
       "last": "JOSEPH"
+    },
+    "485740": {
+      "full": "Neil EL AYNAOUI",
+      "last": "EL AYNAOUI"
     },
     "485802": {
       "full": "Alex ARCE",

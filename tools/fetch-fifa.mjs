@@ -125,9 +125,12 @@ export function updateKnockout(fifa, tournament) {
 // --- Timeline-faktat per ottelu: maalit + kortit RAAKANA (pisteytys tehdään
 // UI:ssa/scoring.mjs:ssä, ei tässä). Käytetyt FIFA Event-tyypit: 0 = maali,
 // 41 = rankkarimaali, 34 = oma maali (og:true), 2 = keltainen, 3 = suora punainen,
-// 4 = toisesta keltaisesta tullut punainen. (Koko tyyppilegenda: AGENTS.md.)
+// 4 = toisesta keltaisesta tullut punainen, 51 = rankkari ohi / 60 = torjuttu.
+// (Koko tyyppilegenda: AGENTS.md.)
 // FIFA Period (paritont = peliosa): 3=1. puoliaika, 5=2., 7/9=jatkoaika,
 // 11=RANKKARIKISA → näiden maalit merkitään so:true (eivät maalintekijäpisteisiin).
+// Rankkarikisan ohi/torjutut potkut (51/60, vain Period 11) talletetaan so:true +
+// miss:"ohi"|"torjuttu" → näytetään rankkariosiossa, eivät vaikuta pisteytykseen.
 const SHOOTOUT_PERIOD = 11;
 function parseTimeline(f) {
   const url = `${FIFA.base}/timelines/${FIFA.idCompetition}/${FIFA.idSeason}/${f.IdStage}/${f.IdMatch}?language=en`;
@@ -136,14 +139,16 @@ function parseTimeline(f) {
   const home = { id: String(f.Home?.IdTeam), code: f.Home?.Abbreviation };
   const away = { id: String(f.Away?.IdTeam), code: f.Away?.Abbreviation };
   const codeOf = (id) => String(id) === home.id ? home.code : String(id) === away.id ? away.code : null;
+  const soMiss = (e) => (e.Type === 51 || e.Type === 60) && e.Period === SHOOTOUT_PERIOD;
   // Vain faktat: minuutti + pelaaja-id + joukkue. Nimi EI talletu tähän — se
   // luetaan results.players[id]:stä (kokoonpanoista), ettei nimiä monisteta.
   // min = ottelutilanteen minuutti (esim. "45'+5'"), käytetään myös aikajanaan.
-  const goals = ev.filter((e) => e.Type === 0 || e.Type === 41 || e.Type === 34)
+  const goals = ev.filter((e) => e.Type === 0 || e.Type === 41 || e.Type === 34 || soMiss(e))
     .map((e) => {
       const g = { min: e.MatchMinute || null, id: e.IdPlayer || null, team: codeOf(e.IdTeam), pen: e.Type === 41 };
       if (e.Type === 34) g.og = true;                  // oma maali: näytetään aikajanalla, EI maalintekijäpisteisiin
-      if (e.Period === SHOOTOUT_PERIOD) g.so = true;   // rankkarikisamaali ei ole maalintekijämaali
+      if (e.Period === SHOOTOUT_PERIOD) g.so = true;   // rankkarikisapotku ei ole maalintekijämaali
+      if (soMiss(e)) g.miss = e.Type === 60 ? "torjuttu" : "ohi";   // ei mennyt maaliin
       return g;
     });
   const cards = ev.filter((e) => [2, 3, 4].includes(e.Type))

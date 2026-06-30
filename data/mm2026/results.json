@@ -3195,6 +3195,14 @@
         },
         {
           "min": null,
+          "id": "411367",
+          "team": "GER",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
           "id": "495046",
           "team": "PAR",
           "pen": true,
@@ -3230,10 +3238,42 @@
         },
         {
           "min": null,
+          "id": "498416",
+          "team": "GER",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "369768",
+          "team": "PAR",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
           "id": "395471",
           "team": "GER",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "394829",
+          "team": "PAR",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "401378",
+          "team": "GER",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         },
         {
           "min": null,
@@ -3432,6 +3472,10 @@
       "full": "Miguel ALMIRON",
       "last": "ALMIRÓN"
     },
+    "369768": {
+      "full": "Antonio SANABRIA",
+      "last": "SANABRIA"
+    },
     "370171": {
       "full": "Abdoulaye Seck",
       "last": "SECK"
@@ -3551,6 +3595,10 @@
     "394500": {
       "full": "Johan MOJICA",
       "last": "J. MOJICA"
+    },
+    "394829": {
+      "full": "Fabian BALBUENA",
+      "last": "BALBUENA"
     },
     "394993": {
       "full": "Duckens NAZON",
@@ -4523,6 +4571,10 @@
     "496358": {
       "full": "Ibrahim MBAYE",
       "last": "MBAYE"
+    },
+    "498416": {
+      "full": "Nick WOLTEMADE",
+      "last": "WOLTEMADE"
     },
     "498455": {
       "full": "Junnosuke SUZUKI",

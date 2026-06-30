@@ -1203,7 +1203,7 @@
       "kickoff": "2026-06-29T17:00:00Z",
       "stadium": "Houston Stadium",
       "city": "Houston",
-      "attendance": null,
+      "attendance": "68777",
       "fifaId": "400021516",
       "matchNumber": 76,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021516"
@@ -1223,7 +1223,7 @@
       "kickoff": "2026-06-29T20:30:00Z",
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "attendance": null,
+      "attendance": "63945",
       "fifaId": "400021513",
       "matchNumber": 74,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021513"
@@ -1243,7 +1243,7 @@
       "kickoff": "2026-06-30T01:00:00Z",
       "stadium": "Monterrey Stadium",
       "city": "Monterrey",
-      "attendance": null,
+      "attendance": "51243",
       "fifaId": "400021522",
       "matchNumber": 75,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289287/400021522"
@@ -1496,8 +1496,8 @@
       "roundLabel": "1/8-finaali",
       "order": 2,
       "home": "CAN",
-      "away": "W75",
-      "real": false,
+      "away": "MAR",
+      "real": true,
       "score": null,
       "liveScore": null,
       "kickoff": "2026-07-04T17:00:00Z",

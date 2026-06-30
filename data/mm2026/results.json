@@ -3377,6 +3377,20 @@
           "team": "MAR",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "448159",
+          "team": "NED",
+          "pen": true,
+          "so": true
+        },
+        {
+          "min": null,
+          "id": "494293",
+          "team": "MAR",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4266,6 +4280,10 @@
       "full": "Cody GAKPO",
       "last": "GAKPO"
     },
+    "448159": {
+      "full": "Wout WEGHORST",
+      "last": "WEGHORST"
+    },
     "448202": {
       "full": "Jude BELLINGHAM",
       "last": "BELLINGHAM"
@@ -4613,6 +4631,10 @@
     "494248": {
       "full": "Thalente MBATHA",
       "last": "MBATHA"
+    },
+    "494293": {
+      "full": "Chemsdine TALBI",
+      "last": "TALBI"
     },
     "494374": {
       "full": "Hazem MASTOURI",

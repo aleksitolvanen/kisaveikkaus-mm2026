@@ -3391,6 +3391,22 @@
           "team": "MAR",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "484859",
+          "team": "NED",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "400721",
+          "team": "MAR",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [
@@ -4531,6 +4547,10 @@
     "484851": {
       "full": "Deniz UNDAV",
       "last": "UNDAV"
+    },
+    "484859": {
+      "full": "Quinten TIMBER",
+      "last": "Q. TIMBER"
     },
     "484860": {
       "full": "Bradley BARCOLA",

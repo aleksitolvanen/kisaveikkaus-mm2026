@@ -3335,7 +3335,14 @@
       ]
     },
     "KO75": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "72'",
+          "id": null,
+          "team": "NED",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "47'",

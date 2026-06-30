@@ -3336,7 +3336,14 @@
     },
     "KO75": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "47'",
+          "id": "403083",
+          "team": "MAR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

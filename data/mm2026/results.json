@@ -3407,6 +3407,14 @@
           "pen": false,
           "so": true,
           "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "489518",
+          "team": "NED",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [

@@ -3435,7 +3435,14 @@
       ]
     },
     "KO78": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "39'",
+          "id": null,
+          "team": "NOR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

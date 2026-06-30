@@ -3362,6 +3362,21 @@
           "pen": false,
           "so": true,
           "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "478364",
+          "team": "NED",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "433426",
+          "team": "MAR",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4386,6 +4401,10 @@
     "477859": {
       "full": "Fiston MAYELE",
       "last": "MAYELE"
+    },
+    "478364": {
+      "full": "Justin KLUIVERT",
+      "last": "KLUIVERT"
     },
     "479072": {
       "full": "MERCHAS DOSKI",

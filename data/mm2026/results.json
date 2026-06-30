@@ -3347,6 +3347,13 @@
           "id": "403083",
           "team": "MAR",
           "pen": false
+        },
+        {
+          "min": null,
+          "id": "448149",
+          "team": "NED",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4227,6 +4234,10 @@
     "448140": {
       "full": "Micky VAN DE VEN",
       "last": "VAN DE VEN"
+    },
+    "448149": {
+      "full": "Teun KOOPMEINERS",
+      "last": "KOOPMEINERS"
     },
     "448152": {
       "full": "Cody GAKPO",

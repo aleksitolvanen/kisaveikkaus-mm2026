@@ -3438,7 +3438,7 @@
       "goals": [
         {
           "min": "39'",
-          "id": null,
+          "id": "483448",
           "team": "NOR",
           "pen": false
         }
@@ -4538,6 +4538,10 @@
     "483442": {
       "full": "Patrick BERG",
       "last": "BERG"
+    },
+    "483448": {
+      "full": "Antonio NUSA",
+      "last": "NUSA"
     },
     "484022": {
       "full": "Tarik MUHAREMOVIC",

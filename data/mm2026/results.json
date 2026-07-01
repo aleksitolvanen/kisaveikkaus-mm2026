@@ -3606,6 +3606,12 @@
           "id": "464842",
           "team": "SEN",
           "type": "y"
+        },
+        {
+          "min": "90'",
+          "id": null,
+          "team": "BEL",
+          "type": "y"
         }
       ]
     }

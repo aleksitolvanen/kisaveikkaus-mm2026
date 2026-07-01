@@ -3539,7 +3539,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "19'",
+          "id": "448202",
+          "team": "ENG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

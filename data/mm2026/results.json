@@ -3588,6 +3588,12 @@
           "id": "448360",
           "team": "BEL",
           "type": "y"
+        },
+        {
+          "min": "67'",
+          "id": "464842",
+          "team": "SEN",
+          "type": "y"
         }
       ]
     }
@@ -4568,6 +4574,10 @@
     "464542": {
       "full": "Alex FREEMAN",
       "last": "FREEMAN"
+    },
+    "464842": {
+      "full": "Lamine CAMARA",
+      "last": "LAMINE"
     },
     "464924": {
       "full": "Abdukodir KHUSANOV",

@@ -3489,7 +3489,14 @@
       "cards": []
     },
     "KO79": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "22'",
+          "id": "429157",
+          "team": "MEX",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

@@ -1319,7 +1319,7 @@
       "away": "COD",
       "real": true,
       "score": null,
-      "liveScore": null,
+      "liveScore": "0-1",
       "kickoff": "2026-07-01T16:00:00Z",
       "stadium": "Atlanta Stadium",
       "city": "Atlanta",

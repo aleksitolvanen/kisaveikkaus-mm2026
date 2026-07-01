@@ -3529,6 +3529,17 @@
           "type": "y"
         }
       ]
+    },
+    "KO80": {
+      "goals": [
+        {
+          "min": "7'",
+          "id": "510989",
+          "team": "COD",
+          "pen": false
+        }
+      ],
+      "cards": []
     }
   },
   "players": {
@@ -4843,6 +4854,10 @@
     "510757": {
       "full": "Josue CASIMIR",
       "last": "CASIMIR"
+    },
+    "510989": {
+      "full": "Brian CIPENGA",
+      "last": "CIPENGA"
     },
     "511009": {
       "full": "Rafik BELGHALI",

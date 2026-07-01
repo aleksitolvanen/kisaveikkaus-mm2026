@@ -3582,7 +3582,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "64'",
+          "id": "448360",
+          "team": "BEL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4481,6 +4488,10 @@
     "448355": {
       "full": "Leandro TROSSARD",
       "last": "TROSSARD"
+    },
+    "448360": {
+      "full": "Brandon MECHELE",
+      "last": "MECHELE"
     },
     "448373": {
       "full": "Maxim DE CUYPER",

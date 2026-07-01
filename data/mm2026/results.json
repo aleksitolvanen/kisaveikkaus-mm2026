@@ -3503,7 +3503,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "45'+1'",
+          "id": "389784",
+          "team": "ECU",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

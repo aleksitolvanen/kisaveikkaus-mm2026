@@ -3592,6 +3592,12 @@
           "id": "401444",
           "team": "BEL",
           "pen": false
+        },
+        {
+          "min": "120'+5'",
+          "id": "401444",
+          "team": "BEL",
+          "pen": true
         }
       ],
       "cards": [

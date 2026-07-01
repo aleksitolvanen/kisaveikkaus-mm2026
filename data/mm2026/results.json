@@ -3509,6 +3509,12 @@
           "id": "389784",
           "team": "ECU",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "463495",
+          "team": "ECU",
+          "type": "y"
         }
       ]
     }
@@ -4453,6 +4459,10 @@
     "463283": {
       "full": "Romano SCHMID",
       "last": "SCHMID"
+    },
+    "463495": {
+      "full": "Kendry PAEZ",
+      "last": "KENDRY"
     },
     "463580": {
       "full": "Finn SURMAN",

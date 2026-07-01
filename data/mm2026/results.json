@@ -3586,6 +3586,12 @@
           "id": "358112",
           "team": "BEL",
           "pen": false
+        },
+        {
+          "min": "89'",
+          "id": "401444",
+          "team": "BEL",
+          "pen": false
         }
       ],
       "cards": [
@@ -3960,6 +3966,10 @@
     "401378": {
       "full": "Jonathan TAH",
       "last": "TAH"
+    },
+    "401444": {
+      "full": "Youri TIELEMANS",
+      "last": "TIELEMANS"
     },
     "401448": {
       "full": "Denis ZAKARIA",

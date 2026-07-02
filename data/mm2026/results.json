@@ -3692,7 +3692,14 @@
     },
     "KO83": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "17'",
+          "id": "384752",
+          "team": "POR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -3863,6 +3870,10 @@
     "382312": {
       "full": "Cameron BURGESS",
       "last": "BURGESS"
+    },
+    "384752": {
+      "full": "RUBEN DIAS",
+      "last": "RÚBEN DIAS"
     },
     "384797": {
       "full": "Ramin REZAEIAN",

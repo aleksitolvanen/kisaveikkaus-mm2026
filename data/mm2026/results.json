@@ -3629,6 +3629,12 @@
           "id": "466624",
           "team": "USA",
           "pen": false
+        },
+        {
+          "min": "82'",
+          "id": "448214",
+          "team": "USA",
+          "pen": false
         }
       ],
       "cards": [
@@ -4545,6 +4551,10 @@
     "448202": {
       "full": "Jude BELLINGHAM",
       "last": "BELLINGHAM"
+    },
+    "448214": {
+      "full": "Malik TILLMAN",
+      "last": "TILLMAN"
     },
     "448312": {
       "full": "Nilson ANGULO",

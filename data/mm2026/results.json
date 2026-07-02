@@ -3666,6 +3666,12 @@
           "id": "430751",
           "team": "ESP",
           "pen": false
+        },
+        {
+          "min": "66'",
+          "id": "430144",
+          "team": "ESP",
+          "pen": false
         }
       ],
       "cards": []
@@ -4307,6 +4313,10 @@
     "430100": {
       "full": "Sasa KALAJDZIC",
       "last": "KALAJDZIC"
+    },
+    "430144": {
+      "full": "Pedro PORRO",
+      "last": "PEDRO PORRO"
     },
     "430150": {
       "full": "Alexander Isak",

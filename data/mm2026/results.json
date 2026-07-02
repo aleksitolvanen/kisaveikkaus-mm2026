@@ -3637,6 +3637,12 @@
           "id": "466624",
           "team": "USA",
           "type": "r"
+        },
+        {
+          "min": "80'",
+          "id": null,
+          "team": "BIH",
+          "type": "y"
         }
       ]
     }

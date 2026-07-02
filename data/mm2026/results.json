@@ -3631,7 +3631,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "64'",
+          "id": "466624",
+          "team": "USA",
+          "type": "r"
+        }
+      ]
     }
   },
   "players": {

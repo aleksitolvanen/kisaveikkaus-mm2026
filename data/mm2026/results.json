@@ -3674,7 +3674,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "83'",
+          "id": "441067",
+          "team": "AUT",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

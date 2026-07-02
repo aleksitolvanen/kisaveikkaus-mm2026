@@ -3643,6 +3643,12 @@
           "id": null,
           "team": "BIH",
           "type": "y"
+        },
+        {
+          "min": "80'",
+          "id": "489521",
+          "team": "BIH",
+          "type": "y"
         }
       ]
     }
@@ -4859,6 +4865,10 @@
     "489520": {
       "full": "Nikola KATIC",
       "last": "KATIĆ"
+    },
+    "489521": {
+      "full": "Stjepan RADELJIC",
+      "last": "RADELJIĆ"
     },
     "489550": {
       "full": "HUSAM ABUDAHAB",

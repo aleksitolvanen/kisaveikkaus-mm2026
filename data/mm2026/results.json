@@ -3703,6 +3703,12 @@
           "id": "201200",
           "team": "POR",
           "pen": true
+        },
+        {
+          "min": "90'+4'",
+          "id": "448081",
+          "team": "POR",
+          "pen": false
         }
       ],
       "cards": [
@@ -4597,6 +4603,10 @@
     "448014": {
       "full": "Alessandro CIRCATI",
       "last": "CIRCATI"
+    },
+    "448081": {
+      "full": "GONCALO RAMOS",
+      "last": "G. RAMOS"
     },
     "448128": {
       "full": "Charles PICKEL",

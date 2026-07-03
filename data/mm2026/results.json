@@ -3755,6 +3755,12 @@
           "id": "477795",
           "team": "ALG",
           "type": "y"
+        },
+        {
+          "min": "72'",
+          "id": "441350",
+          "team": "ALG",
+          "type": "y"
         }
       ]
     }
@@ -4619,6 +4625,10 @@
     "441316": {
       "full": "Yoane WISSA",
       "last": "Yoane WISSA"
+    },
+    "441350": {
+      "full": "Hicham BOUDAOUI",
+      "last": "BOUDAOUI"
     },
     "441622": {
       "full": "Jhon LUCUMI",

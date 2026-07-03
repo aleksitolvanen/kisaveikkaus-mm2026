@@ -1845,5 +1845,6 @@
       "team": "ESP",
       "name": "Yamal"
     }
-  }
+  },
+  "dataUrl": "https://raw.githubusercontent.com/aleksitolvanen/kisaveikkaus-mm2026/main/data.json"
 }

@@ -3808,6 +3808,20 @@
           "team": "EGY",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "406606",
+          "team": "AUS",
+          "pen": true,
+          "so": true
+        },
+        {
+          "min": null,
+          "id": "344654",
+          "team": "EGY",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4304,6 +4318,10 @@
     "406231": {
       "full": "Yunus AKGUN",
       "last": "YUNUS"
+    },
+    "406606": {
+      "full": "Awer MABIL",
+      "last": "MABIL"
     },
     "407993": {
       "full": "MOHAMED KANNO",

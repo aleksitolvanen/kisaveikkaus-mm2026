@@ -3705,6 +3705,12 @@
           "id": "384752",
           "team": "POR",
           "type": "y"
+        },
+        {
+          "min": "59'",
+          "id": "241559",
+          "team": "CRO",
+          "type": "y"
         }
       ]
     }
@@ -3717,6 +3723,10 @@
     "229397": {
       "full": "Lionel MESSI",
       "last": "MESSI"
+    },
+    "241559": {
+      "full": "Luka MODRIC",
+      "last": "MODRIĆ"
     },
     "284190": {
       "full": "HASSAN ALHAYDOS",

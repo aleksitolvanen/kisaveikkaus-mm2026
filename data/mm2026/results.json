@@ -3822,6 +3822,14 @@
           "team": "EGY",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "504931",
+          "team": "AUS",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [
@@ -5202,6 +5210,10 @@
     "502727": {
       "full": "Johan MANZAMBI",
       "last": "MANZAMBI"
+    },
+    "504931": {
+      "full": "Lucas HERRINGTON",
+      "last": "HERRINGTON"
     },
     "504990": {
       "full": "Kerim ALAJBEGOVIC",

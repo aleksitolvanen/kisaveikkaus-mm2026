@@ -3779,6 +3779,14 @@
           "team": "EGY",
           "pen": false,
           "og": true
+        },
+        {
+          "min": null,
+          "id": "430442",
+          "team": "AUS",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [

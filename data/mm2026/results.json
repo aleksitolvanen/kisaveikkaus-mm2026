@@ -3735,7 +3735,14 @@
       ]
     },
     "KO85": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "11'",
+          "id": null,
+          "team": "SUI",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

@@ -3741,6 +3741,12 @@
           "id": "393480",
           "team": "SUI",
           "pen": false
+        },
+        {
+          "min": "46'",
+          "id": "448114",
+          "team": "SUI",
+          "pen": false
         }
       ],
       "cards": [
@@ -4633,6 +4639,10 @@
     "448081": {
       "full": "GONCALO RAMOS",
       "last": "G. RAMOS"
+    },
+    "448114": {
+      "full": "Dan NDOYE",
+      "last": "NDOYE"
     },
     "448128": {
       "full": "Charles PICKEL",

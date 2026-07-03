@@ -3700,9 +3700,9 @@
         },
         {
           "min": "68'",
-          "id": null,
+          "id": "201200",
           "team": "POR",
-          "pen": false
+          "pen": true
         }
       ],
       "cards": [

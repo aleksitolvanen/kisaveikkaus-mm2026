@@ -3787,6 +3787,12 @@
           "id": null,
           "team": "EGY",
           "type": "y"
+        },
+        {
+          "min": "105'",
+          "id": "424106",
+          "team": "EGY",
+          "type": "y"
         }
       ]
     }
@@ -4399,6 +4405,10 @@
     "424051": {
       "full": "Brian BROBBEY",
       "last": "BROBBEY"
+    },
+    "424106": {
+      "full": "Haissem HASSAN",
+      "last": "H. HASSAN"
     },
     "424119": {
       "full": "Nathanael MBUKU",

@@ -155,7 +155,7 @@
     "430407": 1,
     "430413": 2,
     "430452": 1,
-    "430482": 1,
+    "430482": 2,
     "430597": 1,
     "430609": 3,
     "430667": 1,
@@ -3830,6 +3830,13 @@
           "pen": false,
           "so": true,
           "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "483182",
+          "team": "EGY",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4991,6 +4998,10 @@
       "full": "MOSTAFA ZICO",
       "last": "ZICO"
     },
+    "483182": {
+      "full": "HOSSAM ABDELMAGUID",
+      "last": "HOSSAM"
+    },
     "483183": {
       "full": "MAHMOUD SABER",
       "last": "M. SABER"
@@ -5361,6 +5372,7 @@
     "KO81": true,
     "KO84": true,
     "KO83": true,
-    "KO85": true
+    "KO85": true,
+    "KO88": true
   }
 }

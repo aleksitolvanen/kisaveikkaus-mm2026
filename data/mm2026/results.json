@@ -3801,6 +3801,13 @@
           "team": "AUS",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "344661",
+          "team": "EGY",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -3897,6 +3904,10 @@
     "344654": {
       "full": "MOHAMED SALAH",
       "last": "M. SALAH"
+    },
+    "344661": {
+      "full": "RAMY RABIA",
+      "last": "R. RABIA"
     },
     "346743": {
       "full": "Shoja KHALILZADEH",

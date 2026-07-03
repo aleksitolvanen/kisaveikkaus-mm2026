@@ -3781,7 +3781,14 @@
           "og": true
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "91'",
+          "id": null,
+          "team": "EGY",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

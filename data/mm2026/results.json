@@ -3861,7 +3861,14 @@
       ]
     },
     "KO86": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "29'",
+          "id": null,
+          "team": "ARG",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

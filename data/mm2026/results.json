@@ -3867,6 +3867,12 @@
           "id": "229397",
           "team": "ARG",
           "pen": false
+        },
+        {
+          "min": "59'",
+          "id": "477827",
+          "team": "CPV",
+          "pen": false
         }
       ],
       "cards": []
@@ -4936,6 +4942,10 @@
     "477795": {
       "full": "Fares CHAIBI",
       "last": "CHAIBI"
+    },
+    "477827": {
+      "full": "DEROY DUARTE",
+      "last": "D. DUARTE"
     },
     "477832": {
       "full": "SIDNY LOPES CABRAL",

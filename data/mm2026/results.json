@@ -3787,6 +3787,20 @@
           "pen": false,
           "so": true,
           "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "483183",
+          "team": "EGY",
+          "pen": true,
+          "so": true
+        },
+        {
+          "min": null,
+          "id": "355775",
+          "team": "AUS",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [

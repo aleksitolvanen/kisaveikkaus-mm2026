@@ -7,10 +7,39 @@
 //
 // Lähteet:  api.fifa.com/api/v3 · idCompetition=17 · idSeason=285023 (MM 2026).
 // HTTP-kuljetus curl-lapsiprosessina (kuten finnkino).
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile, writeFile, rename } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+
+// Atominen JSON-kirjoitus: temp + rename samaan hakemistoon. Keskeytynyt ajo ei
+// koskaan jätä puolikasta tiedostoa — puolikas results.json oli juuri se joka
+// laukaisi alla olevan luvun virhepolun ja hävitti kertyneen tilan.
+export async function writeJson(p, obj) {
+  const tmp = p + ".tmp";
+  await writeFile(tmp, JSON.stringify(obj, null, 2) + "\n", "utf-8");
+  await rename(tmp, p);
+}
+
+// results.json:n luku: puuttuva tiedosto → tyhjä runko; RIKKINÄINEN tiedosto →
+// kova virhe. (Aiemmin mikä tahansa lukuvirhe nollasi koko tilan hiljaa ja
+// seuraava kirjoitus tuhosi peruuttamattomasti myös käsin-overridet
+// goalsManual/dirtiestTeamsManual.) Puuttuvat alikentät täydennetään, joten
+// käsin "tyhjennetty" {} kelpaa eikä kaada ajoa.
+export async function readResults(rPath) {
+  let results;
+  try { results = JSON.parse(await readFile(rPath, "utf-8")); }
+  catch (e) {
+    if (e.code === "ENOENT") results = {};
+    else throw new Error(`${rPath} ei jäsenny (${e.message}) — EI nollata automaattisesti: korjaa tai poista tiedosto käsin`);
+  }
+  results.matches = results.matches || {};
+  results.live = results.live || {};
+  results.dirtiestTeams = results.dirtiestTeams || [];
+  results.rounds = results.rounds || {};
+  results.goals = results.goals || {};
+  return results;
+}
 
 const tid = process.argv.find((a, i) => i >= 2 && !a.startsWith("--")) || "mm2026";
 const mode = (process.argv.find((a) => a.startsWith("--mode=")) || "--mode=all").split("=")[1];
@@ -99,6 +128,12 @@ export function applyResults(byPair, tournament, results) {
 }
 
 // Päivittää olemassa olevat pudotuspeli-entryt (parit + tulokset) FIFA-datasta. Palauttaa muuttuiko.
+// API-välähdyksen suoja kuten applyResultsissa: kirjattu lopputulos tai tunnettu
+// joukkuepari poistetaan vain kun FIFA sanoo EKSPLISIITTISESTI ettei ottelu ole
+// päättynyt (1=ei alkanut, 3=käynnissä, 12=esiottelu). Hetkellinen outo status tai
+// puuttuva kenttä ei nollaa päättynyttä puolivälierää (→ cup-pisteet ja johdetut
+// kierrokset katoaisivat julkisesta tilanteesta seuraavaan onnistuneeseen hakuun asti).
+const EXPLICIT_NOT_FINISHED = ["1", "3", "12"];
 export function updateKnockout(fifa, tournament) {
   if (!tournament.knockout) return false;
   const byId = {};
@@ -108,13 +143,16 @@ export function updateKnockout(fifa, tournament) {
     if (!KO_ROUNDS[fm.StageName?.[0]?.Description]) continue;
     const e = byId[fm.IdMatch];
     if (!e) continue;
-    const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
-    const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
-    const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
-    const finished = hasScore && String(fm.MatchStatus) === "0";
-    const score = finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
+    const st = String(fm.MatchStatus);
+    let home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
+    let away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
+    let real = !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation);
+    if (e.real && !real) { home = e.home; away = e.away; real = true; }   // tunnettu pari ei palaa placeholderiksi
+    const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && st !== "1";
+    const finished = hasScore && st === "0";
+    let score = finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
+    if (score == null && e.score != null && !EXPLICIT_NOT_FINISHED.includes(st)) score = e.score;   // välähdys ei pyyhi lopputulosta
     const liveScore = hasScore && !finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
-    const real = !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation);
     if (e.home !== home || e.away !== away || e.score !== score || e.liveScore !== liveScore || e.real !== real) {
       e.home = home; e.away = away; e.real = real; e.score = score; e.liveScore = liveScore; changed = true;
     }
@@ -319,24 +357,26 @@ async function runLive(tournament, tPath) {
     // Ikkunan ulkopuolella: jos live-kentässä tai pudotuspeleissä on jäänteitä
     // (ottelu päättyi ikkunan reunalla ilman uutta hakua), tee YKSI selvityshaku
     // joka finalisoi ne FIFA:n totuudella — ei sokeaa tyhjennystä.
-    try {
-      const rPath = path.join(dir, "results.json");
-      const results = JSON.parse(await readFile(rPath, "utf-8"));
-      const koLive = (tournament.knockout || []).some((e) => e.liveScore);
-      if ((results.live && Object.keys(results.live).length) || koLive) {
+    // Rikkinäinen results.json kaataa ajon ÄÄNEEN (readResults) — verkkovirhe
+    // selvityshaussa sen sijaan vain lokitetaan ja yritetään seuraavalla syklillä.
+    const rPath = path.join(dir, "results.json");
+    const results = await readResults(rPath);
+    const koLive = (tournament.knockout || []).some((e) => e.liveScore);
+    if (Object.keys(results.live).length || koLive) {
+      try {
         const fifa = fetchFifaMatches(dayFloor(now - 36 * 3600000), dayFloor(now + 86400000));
         const byPair = indexFifa(fifa);
         const n = applyResults(byPair, tournament, results);
         const koChanged = updateKnockout(fifa, tournament);
         const tlN = updateTimelines(byPair, fifa, tournament, results);
         const dN = updateDerived(tournament, results);
-        if (n || tlN || dN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
-        if (koChanged) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
+        if (n || tlN || dN) await writeJson(rPath, results);
+        if (koChanged) await writeJson(tPath, tournament);
         console.log(`Selvityshaku ikkunan ulkopuolella: ${n} muutosta, ${tlN} timeline` +
           (koChanged ? ", pudotuspelit päivitetty" : "") + ".");
         return;
-      }
-    } catch {}
+      } catch (e) { console.error("Selvityshaku epäonnistui:", e.message); }
+    }
     console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return;
   }
 
@@ -347,9 +387,7 @@ async function runLive(tournament, tPath) {
   const fifa = fetchFifaMatches(fromIso, toIso);
 
   const rPath = path.join(dir, "results.json");
-  let results;
-  try { results = JSON.parse(await readFile(rPath, "utf-8")); }
-  catch { results = { matches: {}, live: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
+  const results = await readResults(rPath);
 
   const byPair = indexFifa(fifa);
   const n = applyResults(byPair, tournament, results);
@@ -357,8 +395,8 @@ async function runLive(tournament, tPath) {
   const tlN = updateTimelines(byPair, fifa, tournament, results);
   const dN = updateDerived(tournament, results);
 
-  if (n || tlN || dN) await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
-  if (koChanged) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
+  if (n || tlN || dN) await writeJson(rPath, results);
+  if (koChanged) await writeJson(tPath, tournament);
   console.log(`Live (${fifa.length} ottelua ikkunassa): ${n} lohkotulosta, ${tlN} timeline, ${dN ? "johdetut päivitetty" : "ei johdettujen muutosta"}` +
     (koChanged ? ", pudotuspelit päivitetty" : "") + ".");
 }
@@ -411,17 +449,25 @@ async function main() {
     for (const fm of fifa) {
       const rd = KO_ROUNDS[fm.StageName?.[0]?.Description];
       if (!rd) continue;
-      const home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
-      const away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
-      const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && String(fm.MatchStatus) !== "1";
-      const finished = hasScore && String(fm.MatchStatus) === "0";
+      const st = String(fm.MatchStatus);
       const old = oldByNum[fm.MatchNumber];
+      // Sama API-välähdyksen suoja kuin updateKnockoutissa: tunnettu pari ja
+      // kirjattu lopputulos säilyvät vanhasta entrystä ellei FIFA eksplisiittisesti
+      // sano ettei ottelu ole päättynyt.
+      let home = fm.Home?.Abbreviation || fm.PlaceHolderA || "?";
+      let away = fm.Away?.Abbreviation || fm.PlaceHolderB || "?";
+      let real = !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation);
+      if (old?.real && !real) { home = old.home; away = old.away; real = true; }
+      const hasScore = fm.HomeTeamScore != null && fm.AwayTeamScore != null && st !== "1";
+      const finished = hasScore && st === "0";
+      let score = finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null;
+      if (score == null && old?.score != null && !EXPLICIT_NOT_FINISHED.includes(st)) score = old.score;
       knockout.push({
         feedA: W(fm.PlaceHolderA) ?? old?.feedA ?? null,
         feedB: W(fm.PlaceHolderB) ?? old?.feedB ?? null,
         id: "KO" + fm.MatchNumber, round: rd.key, roundLabel: rd.label, order: rd.order,
-        home, away, real: !!(fm.Home?.Abbreviation && fm.Away?.Abbreviation),
-        score: finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
+        home, away, real,
+        score,
         liveScore: hasScore && !finished ? `${fm.HomeTeamScore}-${fm.AwayTeamScore}` : null,
         kickoff: fm.Date, stadium: fm.Stadium?.Name?.[0]?.Description || null,
         city: fm.Stadium?.CityName?.[0]?.Description || null,
@@ -431,22 +477,20 @@ async function main() {
     }
     knockout.sort((a, b) => a.order - b.order || (a.kickoff || "").localeCompare(b.kickoff || ""));
     tournament.knockout = knockout;
-    await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
+    await writeJson(tPath, tournament);
     console.log(`Otteluohjelma päivitetty: ${schedUpdated}/${tournament.matches.length} ottelua` +
       (unmatched.length ? `, EI löytynyt: ${unmatched.join(", ")}` : ""));
   }
 
   if (mode === "results" || mode === "all") {
     const rPath = path.join(dir, "results.json");
-    let results;
-    try { results = JSON.parse(await readFile(rPath, "utf-8")); }
-    catch { results = { matches: {}, live: {}, dirtiestTeams: [], rounds: {}, goals: {} }; }
+    const results = await readResults(rPath);
     const resWritten = applyResults(byPair, tournament, results);
     const tlWritten = updateTimelines(byPair, fifa, tournament, results);   // backfill: valmiit ottelut joilta timeline puuttuu
     updateDerived(tournament, results);   // maalintekijä + sikajengi (käsin-override säilyy)
-    await writeFile(rPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
+    await writeJson(rPath, results);
     if (mode === "results") { // all-tilassa knockout päivittyy jo schedule-blokissa
-      if (updateKnockout(fifa, tournament)) await writeFile(tPath, JSON.stringify(tournament, null, 2) + "\n", "utf-8");
+      if (updateKnockout(fifa, tournament)) await writeJson(tPath, tournament);
     }
     console.log(`Tulokset päivitetty: ${resWritten} lohkotulosta, ${tlWritten} timeline (maalit+kortit). Maalintekijä+sikajengi automaattisesti; cup-jatkoonpääsijät syötetään käsin.`);
   }

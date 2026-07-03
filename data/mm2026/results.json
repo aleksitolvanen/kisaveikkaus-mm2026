@@ -3743,7 +3743,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "36'",
+          "id": "477795",
+          "team": "ALG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4786,6 +4793,10 @@
     "476348": {
       "full": "Damian BOBADILLA",
       "last": "BOBADILLA"
+    },
+    "477795": {
+      "full": "Fares CHAIBI",
+      "last": "CHAIBI"
     },
     "477832": {
       "full": "SIDNY LOPES CABRAL",

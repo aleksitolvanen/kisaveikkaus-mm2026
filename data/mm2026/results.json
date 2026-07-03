@@ -3875,7 +3875,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "68'",
+          "id": "477852",
+          "team": "CPV",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

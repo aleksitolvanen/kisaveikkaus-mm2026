@@ -3772,6 +3772,13 @@
           "id": "430482",
           "team": "EGY",
           "pen": false
+        },
+        {
+          "min": "55'",
+          "id": "408950",
+          "team": "EGY",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": []

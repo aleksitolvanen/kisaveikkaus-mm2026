@@ -3876,7 +3876,7 @@
         },
         {
           "min": "92'",
-          "id": null,
+          "id": "402921",
           "team": "ARG",
           "pen": false
         }
@@ -4299,6 +4299,10 @@
     "402920": {
       "full": "Lautaro MARTINEZ",
       "last": "L. MARTINEZ"
+    },
+    "402921": {
+      "full": "Lisandro MARTINEZ",
+      "last": "MARTÍNEZ"
     },
     "403083": {
       "full": "Issa Diop",

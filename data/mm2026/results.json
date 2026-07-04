@@ -3899,6 +3899,12 @@
           "id": "477852",
           "team": "CPV",
           "type": "y"
+        },
+        {
+          "min": "115'",
+          "id": "402926",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -4315,6 +4321,10 @@
     "402921": {
       "full": "Lisandro MARTINEZ",
       "last": "MARTÍNEZ"
+    },
+    "402926": {
+      "full": "Gonzalo MONTIEL",
+      "last": "MONTIEL"
     },
     "403083": {
       "full": "Issa Diop",

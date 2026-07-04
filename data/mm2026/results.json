@@ -3885,6 +3885,12 @@
           "id": "477832",
           "team": "CPV",
           "pen": false
+        },
+        {
+          "min": "111'",
+          "id": "431196",
+          "team": "ARG",
+          "pen": false
         }
       ],
       "cards": [
@@ -4629,6 +4635,10 @@
     "430822": {
       "full": "Amad DIALLO",
       "last": "Amad DIALLO"
+    },
+    "431196": {
+      "full": "Cristian ROMERO",
+      "last": "ROMERO"
     },
     "431200": {
       "full": "Daniel MUNOZ",

@@ -3939,6 +3939,12 @@
           "id": "441342",
           "team": "GHA",
           "type": "y"
+        },
+        {
+          "min": "76'",
+          "id": "448522",
+          "team": "GHA",
+          "type": "y"
         }
       ]
     }
@@ -4915,6 +4921,10 @@
     "448497": {
       "full": "Mohammad MOHEBBI",
       "last": "M.MOHEBBI"
+    },
+    "448522": {
+      "full": "Alidu SEIDU",
+      "last": "ALIDU SEIDU"
     },
     "448557": {
       "full": "Daichi KAMADA",

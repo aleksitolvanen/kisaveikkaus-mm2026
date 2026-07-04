@@ -3945,6 +3945,12 @@
           "id": "448522",
           "team": "GHA",
           "type": "y"
+        },
+        {
+          "min": "78'",
+          "id": "473050",
+          "team": "COL",
+          "type": "y"
         }
       ]
     }
@@ -5029,6 +5035,10 @@
     "470760": {
       "full": "Jhon ARIAS",
       "last": "J. ARIAS"
+    },
+    "473050": {
+      "full": "Richard RIOS",
+      "last": "RICHARD RIOS"
     },
     "476348": {
       "full": "Damian BOBADILLA",

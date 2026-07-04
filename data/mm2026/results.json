@@ -4049,6 +4049,12 @@
           "id": "485677",
           "team": "FRA",
           "type": "y"
+        },
+        {
+          "min": "90'+7'",
+          "id": "485655",
+          "team": "FRA",
+          "type": "y"
         }
       ]
     }
@@ -5313,6 +5319,10 @@
     "485066": {
       "full": "Petar SUCIC",
       "last": "P. SUČIĆ"
+    },
+    "485655": {
+      "full": "Michael OLISE",
+      "last": "OLISE"
     },
     "485676": {
       "full": "Lenny JOSEPH",

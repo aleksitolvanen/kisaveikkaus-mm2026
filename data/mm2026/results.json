@@ -3891,6 +3891,13 @@
           "id": "431196",
           "team": "ARG",
           "pen": false
+        },
+        {
+          "min": "111'",
+          "id": "409241",
+          "team": "CPV",
+          "pen": false,
+          "og": true
         }
       ],
       "cards": [

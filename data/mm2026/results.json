@@ -3914,7 +3914,14 @@
     },
     "KO87": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "12'",
+          "id": "470760",
+          "team": "COL",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4985,6 +4992,10 @@
     "466838": {
       "full": "Danley JEAN JACQUES",
       "last": "JEAN-JACQUES"
+    },
+    "470760": {
+      "full": "Jhon ARIAS",
+      "last": "J. ARIAS"
     },
     "476348": {
       "full": "Damian BOBADILLA",

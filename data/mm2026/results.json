@@ -3969,6 +3969,12 @@
           "id": "400721",
           "team": "MAR",
           "type": "y"
+        },
+        {
+          "min": "40'",
+          "id": "431696",
+          "team": "CAN",
+          "type": "y"
         }
       ]
     }
@@ -4737,6 +4743,10 @@
     "431693": {
       "full": "Frantzdy Pierrot",
       "last": "PIERROT"
+    },
+    "431696": {
+      "full": "Richie LARYEA",
+      "last": "LARYEA"
     },
     "431698": {
       "full": "Jurien GAARI",

@@ -3957,7 +3957,14 @@
     },
     "KO90": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "20'",
+          "id": "485767",
+          "team": "MAR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -5216,6 +5223,10 @@
     "485740": {
       "full": "Neil EL AYNAOUI",
       "last": "EL AYNAOUI"
+    },
+    "485767": {
+      "full": "Redouane HALHAL",
+      "last": "HALHAL"
     },
     "485802": {
       "full": "Alex ARCE",

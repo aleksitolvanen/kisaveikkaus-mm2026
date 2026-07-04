@@ -3933,6 +3933,12 @@
           "id": "506279",
           "team": "GHA",
           "type": "y"
+        },
+        {
+          "min": "66'",
+          "id": "441342",
+          "team": "GHA",
+          "type": "y"
         }
       ]
     }
@@ -4821,6 +4827,10 @@
     "441316": {
       "full": "Yoane WISSA",
       "last": "Yoane WISSA"
+    },
+    "441342": {
+      "full": "Abdul FATAWU",
+      "last": "Abdul FATAWU"
     },
     "441350": {
       "full": "Hicham BOUDAOUI",

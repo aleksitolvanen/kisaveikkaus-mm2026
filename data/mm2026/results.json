@@ -4043,6 +4043,12 @@
           "id": "484860",
           "team": "FRA",
           "type": "y"
+        },
+        {
+          "min": "81'",
+          "id": "485677",
+          "team": "FRA",
+          "type": "y"
         }
       ]
     }
@@ -5311,6 +5317,10 @@
     "485676": {
       "full": "Lenny JOSEPH",
       "last": "JOSEPH"
+    },
+    "485677": {
+      "full": "Manu KONE",
+      "last": "KONE"
     },
     "485740": {
       "full": "Neil EL AYNAOUI",

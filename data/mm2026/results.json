@@ -3987,6 +3987,12 @@
           "id": "441307",
           "team": "MAR",
           "type": "y"
+        },
+        {
+          "min": "45'+6'",
+          "id": "448612",
+          "team": "MAR",
+          "type": "y"
         }
       ]
     }
@@ -4987,6 +4993,10 @@
     "448598": {
       "full": "Ismael SAIBARI",
       "last": "SAIBARI"
+    },
+    "448612": {
+      "full": "Bilal EL KHANNOUSS",
+      "last": "EL KHANNOUSS"
     },
     "448815": {
       "full": "Iliman NDIAYE",

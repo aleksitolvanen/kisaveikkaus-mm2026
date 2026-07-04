@@ -4030,7 +4030,14 @@
     },
     "KO89": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "19'",
+          "id": "484860",
+          "team": "FRA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

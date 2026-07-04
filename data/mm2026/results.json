@@ -3981,6 +3981,12 @@
           "id": "441257",
           "team": "CAN",
           "type": "y"
+        },
+        {
+          "min": "45'",
+          "id": "441307",
+          "team": "MAR",
+          "type": "y"
         }
       ]
     }
@@ -4869,6 +4875,10 @@
     "441259": {
       "full": "Liam MILLAR",
       "last": "MILLAR"
+    },
+    "441307": {
+      "full": "Azzedine OUNAHI",
+      "last": "OUNAHI"
     },
     "441316": {
       "full": "Yoane WISSA",

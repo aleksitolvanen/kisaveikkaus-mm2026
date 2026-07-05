@@ -4073,7 +4073,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "90'+6'",
+          "id": "314197",
+          "team": "BRA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4116,6 +4123,10 @@
     "311558": {
       "full": "Granit XHAKA",
       "last": "XHAKA"
+    },
+    "314197": {
+      "full": "NEYMAR JR",
+      "last": "NEYMAR JR"
     },
     "332847": {
       "full": "Leandro PAREDES",

@@ -4140,6 +4140,18 @@
           "id": "405841",
           "team": "ENG",
           "type": "y"
+        },
+        {
+          "min": "71'",
+          "id": "403596",
+          "team": "MEX",
+          "type": "y"
+        },
+        {
+          "min": "72'",
+          "id": "463780",
+          "team": "ENG",
+          "type": "y"
         }
       ]
     }
@@ -4580,6 +4592,10 @@
     "403335": {
       "full": "HASSAN ALTAMBAKTI",
       "last": "ALTAMBAKTI"
+    },
+    "403596": {
+      "full": "Jorge SANCHEZ",
+      "last": "J. SÁNCHEZ"
     },
     "403616": {
       "full": "Teboho MOKOENA",
@@ -5184,6 +5200,10 @@
     "463580": {
       "full": "Finn SURMAN",
       "last": "SURMAN"
+    },
+    "463780": {
+      "full": "Nico OREILLY",
+      "last": "O'REILLY"
     },
     "463809": {
       "full": "Jarell QUANSAH",

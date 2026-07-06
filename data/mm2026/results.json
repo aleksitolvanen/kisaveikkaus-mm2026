@@ -4091,7 +4091,14 @@
     },
     "KO92": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "1'",
+          "id": "433097",
+          "team": "ENG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

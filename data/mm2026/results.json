@@ -4168,7 +4168,14 @@
       ]
     },
     "KO93": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "90'+1'",
+          "id": "430733",
+          "team": "ESP",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "89'",
@@ -4923,6 +4930,10 @@
     "430697": {
       "full": "Jean-Ricner Bellegarde",
       "last": "BELLEGARDE"
+    },
+    "430733": {
+      "full": "Mikel MERINO",
+      "last": "MERINO"
     },
     "430751": {
       "full": "Mikel OYARZABAL",

@@ -4108,6 +4108,12 @@
           "id": "429157",
           "team": "MEX",
           "pen": false
+        },
+        {
+          "min": "60'",
+          "id": "369419",
+          "team": "ENG",
+          "pen": true
         }
       ],
       "cards": [

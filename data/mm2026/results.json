@@ -4114,6 +4114,12 @@
           "id": "369419",
           "team": "ENG",
           "pen": true
+        },
+        {
+          "min": "69'",
+          "id": "356731",
+          "team": "MEX",
+          "pen": true
         }
       ],
       "cards": [
@@ -4128,6 +4134,12 @@
           "id": "463809",
           "team": "ENG",
           "type": "r"
+        },
+        {
+          "min": "68'",
+          "id": "405841",
+          "team": "ENG",
+          "type": "y"
         }
       ]
     }
@@ -4600,6 +4612,10 @@
     "405755": {
       "full": "Jaminton CAMPAZ",
       "last": "Jaminton CAMPAZ"
+    },
+    "405841": {
+      "full": "Marc GUEHI",
+      "last": "GUÉHI"
     },
     "405877": {
       "full": "Amine GOUIRI",

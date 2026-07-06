@@ -4152,6 +4152,12 @@
           "id": "463780",
           "team": "ENG",
           "type": "y"
+        },
+        {
+          "min": "90'+8'",
+          "id": "425701",
+          "team": "MEX",
+          "type": "y"
         }
       ]
     }
@@ -4804,6 +4810,10 @@
     "424422": {
       "full": "Matias GALARZA",
       "last": "GALARZA"
+    },
+    "425701": {
+      "full": "Johan VASQUEZ",
+      "last": "J. VÁSQUEZ"
     },
     "428885": {
       "full": "Moises CAICEDO",

@@ -4169,7 +4169,14 @@
     },
     "KO93": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "89'",
+          "id": "395205",
+          "team": "POR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

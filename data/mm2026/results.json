@@ -4338,6 +4338,21 @@
           "team": "SUI",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "386013",
+          "team": "COL",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "448112",
+          "team": "SUI",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -5348,6 +5363,10 @@
     "448081": {
       "full": "GONCALO RAMOS",
       "last": "G. RAMOS"
+    },
+    "448112": {
+      "full": "Zeki AMDOUNI",
+      "last": "AMDOUNI"
     },
     "448114": {
       "full": "Dan NDOYE",

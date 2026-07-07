@@ -4355,6 +4355,12 @@
           "id": null,
           "team": "COL",
           "type": "y"
+        },
+        {
+          "min": "105'",
+          "id": "493221",
+          "team": "SUI",
+          "type": "y"
         }
       ]
     }

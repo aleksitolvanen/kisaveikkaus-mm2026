@@ -4247,6 +4247,30 @@
           "type": "y"
         }
       ]
+    },
+    "KO95": {
+      "goals": [
+        {
+          "min": "15'",
+          "id": "369267",
+          "team": "EGY",
+          "pen": false
+        }
+      ],
+      "cards": [
+        {
+          "min": "21'",
+          "id": null,
+          "team": "EGY",
+          "type": "y"
+        },
+        {
+          "min": "61'",
+          "id": "483161",
+          "team": "EGY",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

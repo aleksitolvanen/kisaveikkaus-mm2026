@@ -1639,7 +1639,7 @@
       "away": "COL",
       "real": true,
       "score": null,
-      "liveScore": null,
+      "liveScore": "0-0",
       "kickoff": "2026-07-07T20:00:00Z",
       "stadium": "BC Place Vancouver",
       "city": "Vancouver",

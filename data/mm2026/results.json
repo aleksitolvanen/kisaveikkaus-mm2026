@@ -4199,7 +4199,14 @@
       ]
     },
     "KO94": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "9'",
+          "id": "448362",
+          "team": "BEL",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -5195,6 +5202,10 @@
     "448360": {
       "full": "Brandon MECHELE",
       "last": "MECHELE"
+    },
+    "448362": {
+      "full": "Charles DE KETELAERE",
+      "last": "DE KETELAERE"
     },
     "448373": {
       "full": "Maxim DE CUYPER",

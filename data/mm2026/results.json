@@ -4273,6 +4273,12 @@
           "id": "229397",
           "team": "ARG",
           "pen": false
+        },
+        {
+          "min": "90'+2'",
+          "id": "448252",
+          "team": "ARG",
+          "pen": false
         }
       ],
       "cards": [
@@ -5269,6 +5275,10 @@
     "448214": {
       "full": "Malik TILLMAN",
       "last": "TILLMAN"
+    },
+    "448252": {
+      "full": "Enzo FERNANDEZ",
+      "last": "E. FERNANDEZ"
     },
     "448312": {
       "full": "Nilson ANGULO",

@@ -4217,6 +4217,12 @@
           "id": "448362",
           "team": "BEL",
           "pen": false
+        },
+        {
+          "min": "57'",
+          "id": "448343",
+          "team": "BEL",
+          "pen": false
         }
       ],
       "cards": [
@@ -5217,6 +5223,10 @@
     "448312": {
       "full": "Nilson ANGULO",
       "last": "ANGULO"
+    },
+    "448343": {
+      "full": "Hans VANAKEN",
+      "last": "VANAKEN"
     },
     "448355": {
       "full": "Leandro TROSSARD",

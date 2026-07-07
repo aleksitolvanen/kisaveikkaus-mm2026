@@ -4390,6 +4390,13 @@
           "team": "COL",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "448131",
+          "team": "SUI",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -6089,6 +6096,7 @@
     "KO92": true,
     "KO93": true,
     "KO94": true,
-    "KO95": true
+    "KO95": true,
+    "KO96": true
   }
 }

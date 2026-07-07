@@ -1599,7 +1599,7 @@
       "away": "BEL",
       "real": true,
       "score": null,
-      "liveScore": null,
+      "liveScore": "0-0",
       "kickoff": "2026-07-07T00:00:00Z",
       "stadium": "Seattle Stadium",
       "city": "Seattle",

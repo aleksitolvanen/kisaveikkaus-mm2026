@@ -4324,7 +4324,15 @@
       ]
     },
     "KO96": {
-      "goals": [],
+      "goals": [
+        {
+          "min": null,
+          "id": "356704",
+          "team": "COL",
+          "pen": true,
+          "so": true
+        }
+      ],
       "cards": [
         {
           "min": "51'",
@@ -4461,6 +4469,10 @@
     "356532": {
       "full": "Chancel MBEMBA",
       "last": "MBEMBA"
+    },
+    "356704": {
+      "full": "Juan QUINTERO",
+      "last": "QUINTERO"
     },
     "356731": {
       "full": "Raul JIMENEZ",

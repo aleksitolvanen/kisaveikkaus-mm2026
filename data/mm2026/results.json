@@ -4331,6 +4331,13 @@
           "team": "COL",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "311558",
+          "team": "SUI",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [

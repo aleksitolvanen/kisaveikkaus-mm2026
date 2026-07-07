@@ -4368,6 +4368,28 @@
           "pen": false,
           "so": true,
           "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "418881",
+          "team": "COL",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
+        },
+        {
+          "min": null,
+          "id": "448104",
+          "team": "SUI",
+          "pen": true,
+          "so": true
+        },
+        {
+          "min": null,
+          "id": "428886",
+          "team": "COL",
+          "pen": true,
+          "so": true
         }
       ],
       "cards": [
@@ -4983,6 +5005,10 @@
       "full": "Carlos HARVEY",
       "last": "HARVEY"
     },
+    "418881": {
+      "full": "Cucho HERNANDEZ",
+      "last": "C. HERNANDEZ"
+    },
     "418963": {
       "full": "Facundo MEDINA",
       "last": "MEDINA"
@@ -5382,6 +5408,10 @@
     "448081": {
       "full": "GONCALO RAMOS",
       "last": "G. RAMOS"
+    },
+    "448104": {
+      "full": "Cedric ITTEN",
+      "last": "ITTEN"
     },
     "448112": {
       "full": "Zeki AMDOUNI",

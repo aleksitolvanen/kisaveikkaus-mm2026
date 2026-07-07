@@ -4337,6 +4337,12 @@
           "id": "401448",
           "team": "SUI",
           "type": "y"
+        },
+        {
+          "min": "60'",
+          "id": "428905",
+          "team": "COL",
+          "type": "y"
         }
       ]
     }
@@ -5013,6 +5019,10 @@
     "428886": {
       "full": "Luis DIAZ",
       "last": "LUIS DIAZ"
+    },
+    "428905": {
+      "full": "Luis SUAREZ",
+      "last": "SUAREZ"
     },
     "429095": {
       "full": "HAMDY FATHY",

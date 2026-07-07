@@ -4343,6 +4343,12 @@
           "id": "428905",
           "team": "COL",
           "type": "y"
+        },
+        {
+          "min": "94'",
+          "id": "386013",
+          "team": "COL",
+          "type": "y"
         }
       ]
     }
@@ -4551,6 +4557,10 @@
     "385475": {
       "full": "Eldor SHOMURODOV",
       "last": "SHOMURODOV"
+    },
+    "386013": {
+      "full": "Davinson SANCHEZ",
+      "last": "SANCHEZ"
     },
     "386348": {
       "full": "ASSIM MADIBO",

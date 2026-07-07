@@ -4349,6 +4349,12 @@
           "id": "386013",
           "team": "COL",
           "type": "y"
+        },
+        {
+          "min": "95'",
+          "id": null,
+          "team": "COL",
+          "type": "y"
         }
       ]
     }

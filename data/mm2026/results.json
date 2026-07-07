@@ -4287,6 +4287,24 @@
           "id": null,
           "team": "EGY",
           "type": "y"
+        },
+        {
+          "min": "90'+4'",
+          "id": "429095",
+          "team": "EGY",
+          "type": "y"
+        },
+        {
+          "min": "90'+4'",
+          "id": null,
+          "team": "EGY",
+          "type": "r"
+        },
+        {
+          "min": "90'+5'",
+          "id": "416906",
+          "team": "EGY",
+          "type": "y"
         }
       ]
     }
@@ -4836,6 +4854,10 @@
       "full": "Alvaro FIDALGO",
       "last": "FIDALGO"
     },
+    "416906": {
+      "full": "MOSTAFA SHOUBIR",
+      "last": "SHOUBIR"
+    },
     "418490": {
       "full": "LEE Kangin",
       "last": "LEE KANG IN"
@@ -4959,6 +4981,10 @@
     "428886": {
       "full": "Luis DIAZ",
       "last": "LUIS DIAZ"
+    },
+    "429095": {
+      "full": "HAMDY FATHY",
+      "last": "H. FATHY"
     },
     "429157": {
       "full": "Julian QUINONES",

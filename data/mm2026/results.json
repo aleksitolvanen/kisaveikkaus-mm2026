@@ -4219,7 +4219,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "35'",
+          "id": "390259",
+          "team": "USA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -4470,6 +4477,10 @@
     "390238": {
       "full": "Tyler ADAMS",
       "last": "Tyler ADAMS"
+    },
+    "390259": {
+      "full": "Weston McKENNIE",
+      "last": "MCKENNIE"
     },
     "390272": {
       "full": "Auston TRUSTY",

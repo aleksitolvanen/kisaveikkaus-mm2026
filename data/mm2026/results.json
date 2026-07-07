@@ -4360,6 +4360,14 @@
           "team": "COL",
           "pen": true,
           "so": true
+        },
+        {
+          "min": null,
+          "id": "405178",
+          "team": "SUI",
+          "pen": false,
+          "so": true,
+          "miss": "torjuttu"
         }
       ],
       "cards": [
@@ -4870,6 +4878,10 @@
     "405175": {
       "full": "Seko Fofana",
       "last": "FOFANA"
+    },
+    "405178": {
+      "full": "Manuel AKANJI",
+      "last": "AKANJI"
     },
     "405454": {
       "full": "Elijah JUST",

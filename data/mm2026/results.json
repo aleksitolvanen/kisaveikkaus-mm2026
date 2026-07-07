@@ -4325,7 +4325,14 @@
     },
     "KO96": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "51'",
+          "id": "311558",
+          "team": "SUI",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

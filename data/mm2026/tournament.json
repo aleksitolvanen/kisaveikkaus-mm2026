@@ -1663,7 +1663,7 @@
       "kickoff": "2026-07-09T20:00:00Z",
       "stadium": "Boston Stadium",
       "city": "Boston",
-      "attendance": null,
+      "attendance": "63811",
       "fifaId": "400021536",
       "matchNumber": 97,
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289289/400021536"
@@ -1735,7 +1735,7 @@
       "round": "sf",
       "roundLabel": "Välierä",
       "order": 4,
-      "home": "W97",
+      "home": "FRA",
       "away": "W98",
       "real": false,
       "score": null,

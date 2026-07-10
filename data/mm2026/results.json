@@ -4463,7 +4463,14 @@
       ]
     },
     "KO98": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "30'",
+          "id": "430718",
+          "team": "ESP",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -5243,6 +5250,10 @@
     "430697": {
       "full": "Jean-Ricner Bellegarde",
       "last": "BELLEGARDE"
+    },
+    "430718": {
+      "full": "Fabian RUIZ",
+      "last": "FABIÁN"
     },
     "430733": {
       "full": "Mikel MERINO",

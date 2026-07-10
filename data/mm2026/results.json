@@ -4477,7 +4477,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "43'",
+          "id": "474973",
+          "team": "ESP",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -5660,6 +5667,10 @@
     "473050": {
       "full": "Richard RIOS",
       "last": "RICHARD RIOS"
+    },
+    "474973": {
+      "full": "Pau CUBARSI",
+      "last": "CUBARSÍ"
     },
     "476348": {
       "full": "Damian BOBADILLA",

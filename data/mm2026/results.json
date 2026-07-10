@@ -4495,6 +4495,12 @@
           "id": "358120",
           "team": "BEL",
           "type": "y"
+        },
+        {
+          "min": "90'+3'",
+          "id": "335999",
+          "team": "ESP",
+          "type": "y"
         }
       ]
     }
@@ -4551,6 +4557,10 @@
     "335656": {
       "full": "DANILO",
       "last": "DANILO"
+    },
+    "335999": {
+      "full": "Aymeric LAPORTE",
+      "last": "LAPORTE"
     },
     "336098": {
       "full": "Memphis DEPAY",

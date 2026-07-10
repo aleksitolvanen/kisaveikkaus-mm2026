@@ -4469,6 +4469,12 @@
           "id": "430718",
           "team": "ESP",
           "pen": false
+        },
+        {
+          "min": "41'",
+          "id": null,
+          "team": "BEL",
+          "pen": false
         }
       ],
       "cards": []

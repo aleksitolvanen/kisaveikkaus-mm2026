@@ -4524,6 +4524,12 @@
           "id": "448202",
           "team": "ENG",
           "pen": false
+        },
+        {
+          "min": "55'",
+          "id": "491244",
+          "team": "NOR",
+          "pen": false
         }
       ],
       "cards": []
@@ -5965,6 +5971,10 @@
     "489704": {
       "full": "RENATO VEIGA",
       "last": "RENATO VEIGA"
+    },
+    "491244": {
+      "full": "Torbjorn HEGGEM",
+      "last": "HEGGEM"
     },
     "492315": {
       "full": "LEE Gihyuk",

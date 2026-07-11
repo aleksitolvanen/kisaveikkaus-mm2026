@@ -4512,7 +4512,14 @@
       ]
     },
     "KO99": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "36'",
+          "id": "494626",
+          "team": "NOR",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },
@@ -5988,6 +5995,10 @@
     "494625": {
       "full": "Marcus HOLMGREN PEDERSEN",
       "last": "HOLMGREN"
+    },
+    "494626": {
+      "full": "Andreas SCHJELDERUP",
+      "last": "SCHJELDERUP"
     },
     "494627": {
       "full": "Thelo AASGAARD",

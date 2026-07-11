@@ -4532,7 +4532,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "117'",
+          "id": "483516",
+          "team": "NOR",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -5839,6 +5846,10 @@
     "483448": {
       "full": "Antonio NUSA",
       "last": "NUSA"
+    },
+    "483516": {
+      "full": "Kristoffer AJER",
+      "last": "VASSBAKK AJER"
     },
     "484022": {
       "full": "Tarik MUHAREMOVIC",

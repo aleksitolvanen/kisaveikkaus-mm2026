@@ -4587,6 +4587,12 @@
           "id": "402920",
           "team": "ARG",
           "type": "y"
+        },
+        {
+          "min": "114'",
+          "id": "495054",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -6099,6 +6105,10 @@
     "495046": {
       "full": "MAURICIO",
       "last": "MAURICIO"
+    },
+    "495054": {
+      "full": "Jose Manuel LOPEZ",
+      "last": "LOPEZ"
     },
     "496358": {
       "full": "Ibrahim MBAYE",

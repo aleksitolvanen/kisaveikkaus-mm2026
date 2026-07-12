@@ -4569,6 +4569,12 @@
           "id": "393480",
           "team": "SUI",
           "type": "r2"
+        },
+        {
+          "min": "97'",
+          "id": "418975",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -5161,6 +5167,10 @@
     "418963": {
       "full": "Facundo MEDINA",
       "last": "MEDINA"
+    },
+    "418975": {
+      "full": "Thiago ALMADA",
+      "last": "ALMADA"
     },
     "419003": {
       "full": "Jackson POROZO",

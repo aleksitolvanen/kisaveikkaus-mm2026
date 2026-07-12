@@ -340,10 +340,6 @@ export function updateDerived(tournament, results) {
   return before === JSON.stringify([results.goals, results.dirtiestTeams]) ? 0 : 1;
 }
 
-// FIFA:n from/to hyväksyy vain tasarajat (millisekunnit -> "Invalid parameter",
-// alle tunnin tarkkuus -> null) -> päivärajat.
-const dayFloor = (t) => new Date(t).toISOString().slice(0, 10) + "T00:00:00Z";
-
 // Live-tila: hakee ja päivittää vain jos ottelu on parhaillaan käynnissä (kickoff…+200 min).
 const LIVE_WINDOW_MIN = 200; // kattaa pitkätkin lisäajat + rankkarit reilulla marginaalilla
 async function runLive(tournament, tPath) {
@@ -364,7 +360,7 @@ async function runLive(tournament, tPath) {
     const koLive = (tournament.knockout || []).some((e) => e.liveScore);
     if (Object.keys(results.live).length || koLive) {
       try {
-        const fifa = fetchFifaMatches(dayFloor(now - 36 * 3600000), dayFloor(now + 86400000));
+        const fifa = fetchFifaMatches();
         const byPair = indexFifa(fifa);
         const n = applyResults(byPair, tournament, results);
         const koChanged = updateKnockout(fifa, tournament);
@@ -380,11 +376,14 @@ async function runLive(tournament, tPath) {
     console.log("Ei käynnissä olevia otteluita – ei API-kutsua."); return;
   }
 
-  // Päivärajatut ikkunat: ikkunan alun päivä -> seuraava päivä, jolloin
-  // keskiyön yli menevät matsit pysyvät mukana.
-  const fromIso = dayFloor(now - LIVE_WINDOW_MIN * 60000);
-  const toIso = dayFloor(now + 5 * 60000 + 86400000);
-  const fifa = fetchFifaMatches(fromIso, toIso);
+  // KOKO turnauksen kalenteri (yksi kutsu, count=104) — ei päivärajattua ikkunaa.
+  // Aiemmin haettiin vain tämä + seuraava päivä, jolloin updateKnockout ei nähnyt
+  // kauempana olevia otteluita: puolivälierän ratkettua FIFA täytti välierän parin
+  // heti, mutta se oli ikkunan ulkopuolella (3 pv päässä) → pari päivittyi vasta
+  // kerran vuorokaudessa ajettavassa all-moodissa ja sivulla luki "W99 – W100".
+  // Leveä ikkuna ei maksa lisäkutsuja: päättyneiden timelinet ovat jo lopullisia
+  // (timelinesFinal) eikä niitä haeta uudelleen.
+  const fifa = fetchFifaMatches();
 
   const rPath = path.join(dir, "results.json");
   const results = await readResults(rPath);

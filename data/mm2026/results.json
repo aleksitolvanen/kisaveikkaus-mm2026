@@ -4546,7 +4546,7 @@
       "goals": [
         {
           "min": "10'",
-          "id": null,
+          "id": "430628",
           "team": "ARG",
           "pen": false
         }
@@ -5330,6 +5330,10 @@
     "430609": {
       "full": "MATHEUS CUNHA",
       "last": "CUNHA"
+    },
+    "430628": {
+      "full": "Alexis MAC ALLISTER",
+      "last": "MAC ALLISTER"
     },
     "430667": {
       "full": "Nico SCHLOTTERBECK",

@@ -4551,7 +4551,14 @@
           "pen": false
         }
       ],
-      "cards": []
+      "cards": [
+        {
+          "min": "44'",
+          "id": "393480",
+          "team": "SUI",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

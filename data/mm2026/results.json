@@ -4543,7 +4543,14 @@
       ]
     },
     "KO100": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "10'",
+          "id": null,
+          "team": "ARG",
+          "pen": false
+        }
+      ],
       "cards": []
     }
   },

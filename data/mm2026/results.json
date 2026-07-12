@@ -4555,6 +4555,12 @@
           "id": "448114",
           "team": "SUI",
           "pen": false
+        },
+        {
+          "min": "112'",
+          "id": "416081",
+          "team": "ARG",
+          "pen": false
         }
       ],
       "cards": [
@@ -5145,6 +5151,10 @@
     "411658": {
       "full": "Ellyes SKHIRI",
       "last": "SKHIRI"
+    },
+    "416081": {
+      "full": "Julian ALVAREZ",
+      "last": "J. ALVAREZ"
     },
     "416576": {
       "full": "Alvaro FIDALGO",

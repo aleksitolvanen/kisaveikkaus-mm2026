@@ -4606,7 +4606,14 @@
     },
     "KO101": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "8'",
+          "id": "402047",
+          "team": "FRA",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -5021,6 +5028,10 @@
     "401889": {
       "full": "Ismaila SARR",
       "last": "ISMAÏLA"
+    },
+    "402047": {
+      "full": "Adrien RABIOT",
+      "last": "RABIOT"
     },
     "402261": {
       "full": "Nicolas PEPE",

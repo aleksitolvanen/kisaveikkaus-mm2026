@@ -4611,6 +4611,12 @@
           "id": "430751",
           "team": "ESP",
           "pen": true
+        },
+        {
+          "min": "58'",
+          "id": "430144",
+          "team": "ESP",
+          "pen": false
         }
       ],
       "cards": [

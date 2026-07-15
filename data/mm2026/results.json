@@ -4679,6 +4679,12 @@
           "id": "431196",
           "team": "ARG",
           "type": "y"
+        },
+        {
+          "min": "90'+4'",
+          "id": "428882",
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }
@@ -5383,6 +5389,10 @@
     "425701": {
       "full": "Johan VASQUEZ",
       "last": "J. VÁSQUEZ"
+    },
+    "428882": {
+      "full": "Rodrigo DE PAUL",
+      "last": "DE PAUL"
     },
     "428885": {
       "full": "Moises CAICEDO",

@@ -4642,7 +4642,14 @@
     },
     "KO102": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "37'",
+          "id": "481610",
+          "team": "ENG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {
@@ -5921,6 +5928,10 @@
     "480322": {
       "full": "Luc DE FOUGEROLLES",
       "last": "DE FOUGEROLLES"
+    },
+    "481610": {
+      "full": "Elliot ANDERSON",
+      "last": "ANDERSON"
     },
     "482670": {
       "full": "Mohammad GHORBANI",

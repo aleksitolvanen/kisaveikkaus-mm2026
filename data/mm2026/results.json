@@ -4641,7 +4641,14 @@
       ]
     },
     "KO102": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "55'",
+          "id": "448189",
+          "team": "ENG",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "37'",
@@ -5708,6 +5715,10 @@
     "448159": {
       "full": "Wout WEGHORST",
       "last": "WEGHORST"
+    },
+    "448189": {
+      "full": "Anthony GORDON",
+      "last": "GORDON"
     },
     "448202": {
       "full": "Jude BELLINGHAM",

@@ -52,15 +52,33 @@ const FIFA = {
   from: "2026-06-11T00:00:00Z",
   to: "2026-07-20T00:00:00Z", // koko turnaus (finaali 19.7)
 };
-// Pudotuspelikierrokset (StageName -> avain/label/järjestys)
+// Pudotuspelikierrokset (StageName -> avain/label/järjestys).
+// HUOM: MM2026:n API kutsuu pronssiottelua nimellä "Bronze final"; molemmat
+// muodot pidetään kartassa, koska nimi on vaihdellut turnauksittain. Tuntematon
+// StageName pudottaisi ottelun HILJAA pois knockoutista -> warnUnknownStages.
 const KO_ROUNDS = {
   "Round of 32": { key: "r32", label: "1/16-finaali", order: 1 },
   "Round of 16": { key: "r16", label: "1/8-finaali", order: 2 },
   "Quarter-final": { key: "qf", label: "Puolivälierä", order: 3 },
   "Semi-final": { key: "sf", label: "Välierä", order: 4 },
+  "Bronze final": { key: "bronze", label: "Pronssiottelu", order: 5 },
   "Play-off for third place": { key: "bronze", label: "Pronssiottelu", order: 5 },
   "Final": { key: "final", label: "Finaali", order: 6 },
 };
+// Lohkovaiheen lavannimi(t): nämä EIVÄT kuulu knockoutiin (ottelut tunnistetaan
+// pareittain), joten niitä ei varoiteta.
+const GROUP_STAGES = new Set(["First Stage", "Group Stage"]);
+// Kaadu äänekkäästi jos FIFA nimeää lavan tavalla jota kartta ei tunne: muuten
+// koko ottelu katoaa knockoutista ilman merkkiä (näin kävi pronssiottelulle).
+export function warnUnknownStages(fifa) {
+  const unknown = [...new Set(fifa.map((m) => m.StageName?.[0]?.Description).filter(Boolean))]
+    .filter((s) => !KO_ROUNDS[s] && !GROUP_STAGES.has(s));
+  if (unknown.length) {
+    console.warn(`VAROITUS: tuntematon StageName -> ottelut jäävät pois knockoutista: ${unknown.map((s) => `"${s}"`).join(", ")}`);
+    console.warn("  Lisää nimi KO_ROUNDS- tai GROUP_STAGES-karttaan (tools/fetch-fifa.mjs).");
+  }
+  return unknown;
+}
 // Oikea julkinen matsisivu: match-centre/match/{kilpailu}/{kausi}/{vaihe}/{ottelu}
 const matchUrl = (idStage, idMatch) =>
   `https://www.fifa.com/en/match-centre/match/${FIFA.idCompetition}/${FIFA.idSeason}/${idStage}/${idMatch}`;
@@ -136,6 +154,7 @@ export function applyResults(byPair, tournament, results) {
 const EXPLICIT_NOT_FINISHED = ["1", "3", "12"];
 export function updateKnockout(fifa, tournament) {
   if (!tournament.knockout) return false;
+  warnUnknownStages(fifa);
   const byId = {};
   for (const e of tournament.knockout) byId[e.fifaId] = e;
   let changed = false;
@@ -442,6 +461,7 @@ async function main() {
     // otteluiden numerot ("W74"-placeholderista) — kaavion puu, joka säilytetään
     // vanhasta datasta jos FIFA ei enää tarjoa placeholderia.
     const W = (s) => { const m = /^W(\d+)$/.exec(String(s || "")); return m ? Number(m[1]) : null; };
+    warnUnknownStages(fifa);
     const oldByNum = {};
     for (const e of tournament.knockout || []) oldByNum[e.matchNumber] = e;
     const knockout = [];
@@ -472,6 +492,9 @@ async function main() {
         city: fm.Stadium?.CityName?.[0]?.Description || null,
         attendance: fm.Attendance || old?.attendance || null,
         fifaId: fm.IdMatch, matchNumber: fm.MatchNumber, url: matchUrl(fm.IdStage, fm.IdMatch),
+        // channels on käsin ylläpidettyä dataa (site.mjs leipoo sen sivulle) eikä
+        // tule FIFA:lta -> kanna se vanhasta entrystä, muutoin rebuild pyyhkii sen.
+        ...(old?.channels ? { channels: old.channels } : {}),
       });
     }
     knockout.sort((a, b) => a.order - b.order || (a.kickoff || "").localeCompare(b.kickoff || ""));

@@ -1769,6 +1769,26 @@
       "url": "https://www.fifa.com/en/match-centre/match/17/285023/289290/400021540"
     },
     {
+      "feedA": null,
+      "feedB": null,
+      "id": "KO103",
+      "round": "bronze",
+      "roundLabel": "Pronssiottelu",
+      "order": 5,
+      "home": "FRA",
+      "away": "ENG",
+      "real": true,
+      "score": null,
+      "liveScore": null,
+      "kickoff": "2026-07-18T21:00:00Z",
+      "stadium": "Miami Stadium",
+      "city": "Miami",
+      "attendance": null,
+      "fifaId": "400021542",
+      "matchNumber": 103,
+      "url": "https://www.fifa.com/en/match-centre/match/17/285023/289291/400021542"
+    },
+    {
       "feedA": 101,
       "feedB": 102,
       "id": "KO104",

@@ -4702,6 +4702,12 @@
           "id": "403049",
           "team": "ENG",
           "pen": false
+        },
+        {
+          "min": "37'",
+          "id": "448196",
+          "team": "ENG",
+          "pen": false
         }
       ],
       "cards": []
@@ -5763,6 +5769,10 @@
     "448189": {
       "full": "Anthony GORDON",
       "last": "GORDON"
+    },
+    "448196": {
+      "full": "Bukayo SAKA",
+      "last": "SAKA"
     },
     "448202": {
       "full": "Jude BELLINGHAM",

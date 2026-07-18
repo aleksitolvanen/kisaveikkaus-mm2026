@@ -4738,6 +4738,12 @@
           "id": "448196",
           "team": "ENG",
           "pen": true
+        },
+        {
+          "min": "90'+6'",
+          "id": "398680",
+          "team": "FRA",
+          "pen": false
         }
       ],
       "cards": []

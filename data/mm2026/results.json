@@ -4792,7 +4792,7 @@
         },
         {
           "min": "105'",
-          "id": null,
+          "id": "485595",
           "team": "ARG",
           "type": "y"
         }
@@ -6199,6 +6199,10 @@
     "485066": {
       "full": "Petar SUCIC",
       "last": "P. SUČIĆ"
+    },
+    "485595": {
+      "full": "Giuliano SIMEONE",
+      "last": "SIMEONE"
     },
     "485655": {
       "full": "Michael OLISE",

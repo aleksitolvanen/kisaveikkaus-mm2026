@@ -4758,7 +4758,14 @@
       "cards": []
     },
     "KO104": {
-      "goals": [],
+      "goals": [
+        {
+          "min": "106'",
+          "id": "405545",
+          "team": "ESP",
+          "pen": false
+        }
+      ],
       "cards": [
         {
           "min": "41'",

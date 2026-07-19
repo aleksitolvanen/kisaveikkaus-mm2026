@@ -4789,6 +4789,12 @@
           "id": "448252",
           "team": "ARG",
           "type": "r2"
+        },
+        {
+          "min": "105'",
+          "id": null,
+          "team": "ARG",
+          "type": "y"
         }
       ]
     }

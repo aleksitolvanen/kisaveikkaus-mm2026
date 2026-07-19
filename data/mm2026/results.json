@@ -4759,7 +4759,14 @@
     },
     "KO104": {
       "goals": [],
-      "cards": []
+      "cards": [
+        {
+          "min": "41'",
+          "id": "402921",
+          "team": "ARG",
+          "type": "y"
+        }
+      ]
     }
   },
   "players": {

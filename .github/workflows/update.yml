@@ -14,12 +14,14 @@ name: Päivitä mm2026-data
 # kierroksella, joten käsin pushatut muutokset eivät jää alle.
 
 on:
-  schedule:
-    # Loop-käynnistimet 2×/h matsi-ikkunoiden aikana (kickoffit UTC 16-04).
-    # Best-effort riittää: looppi kattaa kaiken kunhan yksi näistä laukeaa / ~4 h.
-    - cron: "23,53 0-4,15-23 * * *"
-    # Otteluohjelman päivätuoreutus hiljaisena tuntina (pois live-ikkunoista)
-    - cron: "17 9 * * *"
+  # MM2026 päättyi 19.7.2026 (mestari ESP) ja sivu arkistoitiin 20.7.2026 (site-repon
+  # tag mm2026-final; sivu ei enää pollaa data.json:ää). Ajastus poistettu käytöstä —
+  # ei enää turhia FIFA-hakuja. Manuaaliajo onnistuu yhä workflow_dispatchilla, jos
+  # dataa tarvitsee vielä korjata. Kun EM2028-hakukerros on valmis, tehdään sille
+  # oma workflow (UEFA ≠ FIFA-API) eikä herätetä tätä.
+  # schedule:
+  #   - cron: "23,53 0-4,15-23 * * *"   # loop-käynnistimet matsi-ikkunoina
+  #   - cron: "17 9 * * *"              # otteluohjelman päivätuoreutus
   workflow_dispatch:
     inputs:
       mode:
